@@ -1,4 +1,4 @@
-# MYH7 relative ensemble force
+# Predicting Hypertrophic Cardiomyopathy gene MYH7 relative ensemble force in 30+ variants
 
 This project estimates how much ensemble force HCM-linked MYH7 variants may
 change in the heart muscle motor, relative to normal MYH7. It does that by
