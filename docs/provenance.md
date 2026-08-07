@@ -1,9 +1,10 @@
 # Provenance
 
-How this public repository cites evidence. Vault evidence is **cite, do not
-contain**: literature PDFs, full-text extracts, restricted supplements, and
-raw working data stay in the encrypted private data vault. Public materials
-point at scrubbed identifiers, checksums, and freeze metadata only.
+How this public repository cites evidence. Vault evidence is
+**cite, do not contain**: literature PDFs, full-text extracts, restricted
+supplements, and raw working data stay in the encrypted private data vault.
+Public materials point at scrubbed identifiers, checksums, and freeze
+metadata only.
 
 ## Status (S0)
 
