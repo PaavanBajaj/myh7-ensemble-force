@@ -1,0 +1,73 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+**/site-packages/
+
+# Python caches / build
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+.tox/
+.nox/
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+credentials
+credentials.*
+*.pem
+*.key
+secrets/
+.secrets/
+
+# IDE / editor
+.idea/
+.vscode/
+.continue/
+*.swp
+.DS_Store
+
+# Literature and vault-class evidence (never commit)
+*.pdf
+*.PDF
+Raw-PDF/
+Raw-MD/
+tmp_papers/
+.tmp_papers/
+*.pdb
+*.pdb.gz
+*.cif
+*.fastq
+*.fastq.gz
+*.bam
+*.sam
+
+# Large / regenerable bulk
+*.npy
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.pth
+*.pt
+*.onnx
+
+# Node / misc caches if tooling appears
+node_modules/
+.npm/
+.yarn/

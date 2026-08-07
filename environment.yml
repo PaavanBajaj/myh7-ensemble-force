@@ -1,0 +1,8 @@
+# Env pin stub for myh7-ensemble-force (S0).
+# Pin concrete versions before shipping any workflows/*/results/ pack.
+name: myh7-ensemble-force
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.11
+  # Add runtime deps when the first live pipeline lands.
