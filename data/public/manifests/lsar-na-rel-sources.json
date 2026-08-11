@@ -65,13 +65,16 @@
       "citation": "Adhikari AS et al. Nature Communications. 2019;10:2685.",
       "doi": "10.1038/s41467-019-10555-9",
       "stable_urls": [
-        "https://doi.org/10.1038/s41467-019-10555-9"
+        "https://doi.org/10.1038/s41467-019-10555-9",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6582153/"
       ],
       "locations": [
         "Supplementary Table 1",
         "Figures 3b, 4b, 4d, 5b, 5d, 6b, and 7d"
       ],
-      "construct_family": "25-hep long / 2-hep short HMM"
+      "construct_family": "25-hep long / 2-hep short HMM",
+      "pmid": "31213605",
+      "pmc": "PMC6582153"
     },
     {
       "id": "lee2024",
@@ -129,13 +132,16 @@
       "doi": "10.7554/eLife.76805",
       "stable_urls": [
         "https://doi.org/10.7554/eLife.76805",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9242648/",
         "https://cdn.elifesciences.org/articles/76805/elife-76805-supp1-v1.pptx"
       ],
       "locations": [
         "Supplementary file 1 slide 1",
         "Results and Figures 3 and 6"
       ],
-      "construct_family": "25-hep long / 2-hep short HMM"
+      "construct_family": "25-hep long / 2-hep short HMM",
+      "pmid": "35767336",
+      "pmc": "PMC9242648"
     },
     {
       "id": "pathak2026",
@@ -157,40 +163,49 @@
       "citation": "Adhikari AS et al. Cell Reports. 2016;17:2857-2864.",
       "doi": "10.1016/j.celrep.2016.11.040",
       "stable_urls": [
-        "https://doi.org/10.1016/j.celrep.2016.11.040"
+        "https://doi.org/10.1016/j.celrep.2016.11.040",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11088367/"
       ],
-      "role": "Confirms D239N study used sS1 and did not perform paired LSAR."
+      "role": "Confirms D239N study used sS1 and did not perform paired LSAR.",
+      "pmid": "27974200",
+      "pmc": "PMC11088367"
     },
     {
       "id": "sommese2013",
       "citation": "Sommese RF et al. Proceedings of the National Academy of Sciences. 2013;110:12607-12612.",
       "doi": "10.1073/pnas.1309493110",
       "stable_urls": [
-        "https://doi.org/10.1073/pnas.1309493110"
+        "https://doi.org/10.1073/pnas.1309493110",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3732973/"
       ],
-      "role": "Confirms R453C study used S1 and did not perform paired LSAR."
+      "role": "Confirms R453C study used S1 and did not perform paired LSAR.",
+      "pmid": "23798412",
+      "pmc": "PMC3732973"
     },
     {
       "id": "kawana2017",
       "citation": "Kawana M et al. Science Advances. 2017;3:e1601959.",
       "doi": "10.1126/sciadv.1601959",
       "stable_urls": [
-        "https://doi.org/10.1126/sciadv.1601959"
+        "https://doi.org/10.1126/sciadv.1601959",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5302870/"
       ],
-      "role": "Confirms G741R study used sS1 and did not perform paired LSAR."
+      "role": "Confirms G741R study used sS1 and did not perform paired LSAR.",
+      "pmid": "28246639",
+      "pmc": "PMC5302870"
     }
   ],
   "public_derivatives": {
     "directory": "data/public/lsar-na-rel",
     "files": {
       "schema.json": {
-        "sha256": "7c063a83a57370bfec644421dd19361dc183fecc3c62e6a69ccca4b32f7cbda3"
+        "sha256": "a502071c7af1849a3f3ad02007b943b8ad0e2f1c8c0ab5919e5ebf407e626289"
       },
       "measurements.csv": {
         "sha256": "fc51a7ae262f2d9877509f4d2892cdd9b1b0a30f82d861a471efddebedcfda79"
       },
       "labels.csv": {
-        "sha256": "67aa2dbcd54e77563cd689a128fd884b72434e469a7d46f715b0878e83c5166a"
+        "sha256": "3d026ecd80614cc9d37d687d8fbb59d982034bec1bacbab52662453c8873cf48"
       },
       "exclusions.csv": {
         "sha256": "367755cc818c6bdee88ad931582ebbd3fa99c8c2a19503ef627fb9aca06f46f5"

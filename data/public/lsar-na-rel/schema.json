@@ -20,7 +20,7 @@
       "ln(Na_rel)"
     ],
     "row_count": 16,
-    "note": "Primary dataset for the lsar_na pipeline: 13 Primary + 3 Risky allowed within-study Na_rel labels. G256E excluded."
+    "note": "Primary modeling table for the future lsar_na workflow (S1 data only; not an S2 runnable regeneration pipeline). 13 Primary + 3 Risky allowed within-study Na_rel labels. G256E excluded."
   },
   "derived_quantities": {
     "na_rel": {
@@ -61,7 +61,7 @@
     "note": "Error types remain as reported (SEM, SE of fit, or unspecified) and are not re-labeled as a common SEM."
   },
   "files": {
-    "na-rel-primary.csv": "Primary lsar_na pipeline dataset: variant, LSAR_mut, LSAR_WT, Na_rel, ln(Na_rel).",
+    "na-rel-primary.csv": "Primary lsar_na modeling table (S1 data artifact, not a regeneration pipeline): variant, LSAR_mut, LSAR_WT, Na_rel, ln(Na_rel).",
     "measurements.csv": "Source-level and biological-replicate evidence rows. Replicates live only here.",
     "labels.csv": "One canonical row per Table 1 variant, including within-study Na_rel uncertainties and audit transforms.",
     "exclusions.csv": "Approximate, unresolved, assay-absent, and unresolved-prior-epoch records that are not modeling-ready.",

@@ -11,7 +11,7 @@ Research use only. Not a diagnostic test. Not clinical advice.
 
 | File | Role |
 | --- | --- |
-| `na-rel-primary.csv` | **Primary lsar_na pipeline dataset** (`variant`, `LSAR_mut`, `LSAR_WT`, `Na_rel`, `ln(Na_rel)`) |
+| `na-rel-primary.csv` | **Primary lsar_na modeling table** (S1 data artifact; not an S2 regeneration pipeline): `variant`, `LSAR_mut`, `LSAR_WT`, `Na_rel`, `ln(Na_rel)` |
 | `schema.json` | Field definitions, formulas, and eligibility vocabulary |
 | `measurements.csv` | Source-level / biological-replicate evidence |
 | `labels.csv` | One canonical row per variant (uncertainties + audit transforms) |
