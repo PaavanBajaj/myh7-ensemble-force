@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "release_id": "lsar-na-rel",
+  "stage": "S1",
+  "generated_at": "2026-08-10",
+  "gene": "MYH7",
+  "label_definition": {
+    "name": "LSAR",
+    "description": "Long-tail/short-tail actin-activated ATPase kcat ratio for paired two-headed HMM constructs.",
+    "formula": "LSAR = kcat_long_tail / kcat_short_tail",
+    "units": "dimensionless ratio of rates in s^-1"
+  },
+  "derived_quantities": {
+    "spudich_additional_na_percent": {
+      "formula": "100 * (LSAR - 0.57) / 0.43",
+      "baseline": "cross-study WT LSAR = 0.57",
+      "note": "Compilation display may appear capped at 100 and near-WT negatives at 0; raw LSAR and uncapped transform are preserved separately."
+    },
+    "na_rel": {
+      "formula": "LSAR / 0.57",
+      "baseline": "cross-study WT LSAR = 0.57",
+      "note": "Force-facing relative available-heads term; owned in detail by later ensemble-force method."
+    },
+    "study_normalization_percent": {
+      "formula": "100 * (LSAR_mut - LSAR_WT_study) / (1 - LSAR_WT_study)",
+      "note": "Within-study normalization using matched study WT LSAR; must not be conflated with Spudich global transform."
+    },
+    "table1_implied_lsar_audit_only": {
+      "formula": "0.57 + 0.43 * (table1_na_percent / 100)",
+      "note": "Reverse-calculated from rounded Table 1 percent; audit-only; never a training label."
+    }
+  },
+  "files": {
+    "measurements.csv": "Source-level and biological-replicate evidence rows. Replicates live only here.",
+    "labels.csv": "One canonical row per Table 1 variant.",
+    "exclusions.csv": "Approximate, unresolved, assay-absent, and unresolved-prior-epoch records that are not modeling-ready.",
+    "SHA256SUMS": "SHA-256 digests of the public derivative files in this directory.",
+    "README.md": "Human-readable release notes and licensing limitation."
+  },
+  "modeling_eligibility_values": {
+    "candidate_exact": "Exact primary evidence candidate for continuous LSAR after pooling review.",
+    "review_low_n": "Exact primary evidence with low biological replication; retained but not auto modeling-ready.",
+    "candidate_exact_mismatch_review": "Exact primary evidence with magnitude mismatch versus Table 1 display; retained for review.",
+    "candidate_later_epoch_review": "Exact later-epoch evidence that does not recover an earlier unpublished compilation value.",
+    "exclude_approximate": "Approximate/relative-only; not exact-label modeling-ready.",
+    "exclude_unresolved": "Unpublished/unrecovered primary pair; not modeling-ready.",
+    "exclude_blank": "Assay absent; blank is not zero; not modeling-ready.",
+    "exclude_unresolved_prior_epoch": "Earlier unpublished evidence epoch unresolved; separate from a later published epoch."
+  },
+  "policies": {
+    "cite_not_contain": true,
+    "cap_raw_lsar": false,
+    "cap_within_study_normalization": false,
+    "reported_vs_recomputed": "Preserve reported LSAR separately from recomputed long/short.",
+    "preprint_final_dedup": "Preprint and final versions of the same summary are one evidence identity.",
+    "stage_claim": "S1 provenance-ready; not S2 (no pinned runnable regeneration pipeline in this release)."
+  }
+}

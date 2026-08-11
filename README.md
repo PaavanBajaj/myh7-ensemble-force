@@ -23,15 +23,17 @@ redistribute literature PDFs or other restricted content.
 
 ## Current stage
 
-**S0 Scaffold.** Clone this repo and read the intent. There are no fitted
-models yet, no public label tables, and no results packs.
+**S1 Provenance-ready.** Continuous LSAR scrubbed derivatives and a public
+source manifest are published under `data/public/lsar-na-rel/`. There are still
+no fitted models and no pinned regeneration pipeline (S2).
 
 ## Start here
 
 1. `environment.yml`: env pin stub (fill before any results pack)
 2. `docs/reproducibility.md`: stage ladder and what "reproducible" means
 3. `docs/workflows.md`: index of live workflow trees
-4. `workflows/lsar-na-rel/`: first vertical slice (stubs only at S0)
+4. `data/public/lsar-na-rel/`: first public label pack
+5. `workflows/lsar-na-rel/`: method account for the continuous LSAR slice
 
 ## Documentation map
 
