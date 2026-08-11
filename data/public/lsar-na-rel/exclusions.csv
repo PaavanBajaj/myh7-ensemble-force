@@ -1,0 +1,9 @@
+variant,exclusion_class,modeling_eligibility,source_id,table1_na_percent,table1_cell_state,reason
+Q222K,unresolved_unpublished,exclude_unresolved,spudich2024,100,populated,"Unresolved unpublished primary pair (Kawana et al., unpublished in Spudich Table 1). Table-implied LSAR is audit-only."
+D239N,assay_absent,exclude_blank,adhikari2016,,blank,Assay absent: cited primary study used sS1 only and did not perform paired LSAR. Blank is not zero.
+G256E,approximate,exclude_approximate,lee2024,53,populated,Approximate relative/figure primary evidence (~20% long-tail drop; LSAR ~0.80); no published exact fitted absolute short/long kcat pair. Excluded from exact-label modeling.
+R453C,assay_absent,exclude_blank,sommese2013,,blank,Assay absent: cited primary study used S1 only and did not perform paired LSAR. Blank is not zero.
+E536D,unresolved_unpublished,exclude_unresolved,spudich2024,50,populated,"Unresolved unpublished primary pair (Nandwani et al., unpublished in Spudich Table 1). Table-implied LSAR is audit-only."
+V606M,unresolved_unpublished,exclude_unresolved,spudich2024,77,populated,"Unresolved unpublished primary pair (Nandwani et al., unpublished in Spudich Table 1). Table-implied LSAR is audit-only."
+G741R,assay_absent,exclude_blank,kawana2017,,blank,Assay absent: cited primary study used sS1 only and did not perform paired LSAR. Blank is not zero.
+G768R,unresolved_prior_epoch,exclude_unresolved_prior_epoch,spudich2024,63,populated,Spudich 2024 Table 1 value cites Pathak unpublished results; raw pair not recovered. Kept separate from later Pathak published epoch in labels/measurements.
