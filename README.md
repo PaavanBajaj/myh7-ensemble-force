@@ -23,7 +23,8 @@ redistribute literature PDFs or other restricted content.
 
 ## Current stage
 
-**S1 Provenance-ready.** Continuous LSAR scrubbed derivatives and a public
+**S1 Provenance-ready.** Continuous LSAR scrubbed derivatives, within-study
+\(N_{a,\mathrm{rel}}\) primary labels (`na-rel-primary.csv`), and a public
 source manifest are published under `data/public/lsar-na-rel/`. There are still
 no fitted models and no pinned regeneration pipeline (S2).
 

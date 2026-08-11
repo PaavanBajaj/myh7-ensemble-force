@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "release_id": "lsar-na-rel",
   "stage": "S1",
   "generated_at": "2026-08-10",
@@ -10,29 +10,60 @@
     "formula": "LSAR = kcat_long_tail / kcat_short_tail",
     "units": "dimensionless ratio of rates in s^-1"
   },
+  "pipeline_primary_dataset": {
+    "file": "na-rel-primary.csv",
+    "columns": [
+      "variant",
+      "LSAR_mut",
+      "LSAR_WT",
+      "Na_rel",
+      "ln(Na_rel)"
+    ],
+    "row_count": 16,
+    "note": "Primary dataset for the lsar_na pipeline: 13 Primary + 3 Risky allowed within-study Na_rel labels. G256E excluded."
+  },
   "derived_quantities": {
+    "na_rel": {
+      "formula": "LSAR_mut / LSAR_WT_study",
+      "baseline": "matched study WT LSAR",
+      "note": "WT-relative available-heads label under Spudich's LSAR reading. This is the canonical Na_rel."
+    },
+    "ln_na_rel": {
+      "formula": "ln(Na_rel)",
+      "note": "Intended GPR target y."
+    },
+    "na_rel_global_spudich057": {
+      "formula": "LSAR / 0.57",
+      "baseline": "cross-study WT LSAR = 0.57",
+      "note": "Global Spudich-baseline ratio retained separately; not the pipeline primary Na_rel."
+    },
     "spudich_additional_na_percent": {
       "formula": "100 * (LSAR - 0.57) / 0.43",
       "baseline": "cross-study WT LSAR = 0.57",
       "note": "Compilation display may appear capped at 100 and near-WT negatives at 0; raw LSAR and uncapped transform are preserved separately."
     },
-    "na_rel": {
-      "formula": "LSAR / 0.57",
-      "baseline": "cross-study WT LSAR = 0.57",
-      "note": "Force-facing relative available-heads term; owned in detail by later ensemble-force method."
+    "release_audit_only": {
+      "formula": "(LSAR_mut - LSAR_WT_study) / (1 - LSAR_WT_study)",
+      "note": "Audit reference only; not the Na_rel / GPR target."
     },
     "study_normalization_percent": {
-      "formula": "100 * (LSAR_mut - LSAR_WT_study) / (1 - LSAR_WT_study)",
-      "note": "Within-study normalization using matched study WT LSAR; must not be conflated with Spudich global transform."
+      "formula": "100 * release_audit_only",
+      "note": "Percent form of the release transform; alias retained for continuity."
     },
     "table1_implied_lsar_audit_only": {
       "formula": "0.57 + 0.43 * (table1_na_percent / 100)",
       "note": "Reverse-calculated from rounded Table 1 percent; audit-only; never a training label."
     }
   },
+  "uncertainty_propagation": {
+    "ratio": "sigma_R / R = sqrt((sigma_X/X)^2 + (sigma_Y/Y)^2)",
+    "log": "sigma_lnR = sigma_R / R",
+    "note": "Error types remain as reported (SEM, SE of fit, or unspecified) and are not re-labeled as a common SEM."
+  },
   "files": {
+    "na-rel-primary.csv": "Primary lsar_na pipeline dataset: variant, LSAR_mut, LSAR_WT, Na_rel, ln(Na_rel).",
     "measurements.csv": "Source-level and biological-replicate evidence rows. Replicates live only here.",
-    "labels.csv": "One canonical row per Table 1 variant.",
+    "labels.csv": "One canonical row per Table 1 variant, including within-study Na_rel uncertainties and audit transforms.",
     "exclusions.csv": "Approximate, unresolved, assay-absent, and unresolved-prior-epoch records that are not modeling-ready.",
     "SHA256SUMS": "SHA-256 digests of the public derivative files in this directory.",
     "README.md": "Human-readable release notes and licensing limitation."
@@ -53,6 +84,7 @@
     "cap_within_study_normalization": false,
     "reported_vs_recomputed": "Preserve reported LSAR separately from recomputed long/short.",
     "preprint_final_dedup": "Preprint and final versions of the same summary are one evidence identity.",
+    "na_rel_definition": "Within-study LSAR_mut/LSAR_WT; global LSAR/0.57 kept as na_rel_global_spudich057.",
     "stage_claim": "S1 provenance-ready; not S2 (no pinned runnable regeneration pipeline in this release)."
   }
 }

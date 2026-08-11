@@ -8,12 +8,15 @@ No ADR folder for v1 — updates land here after explicit promotion OK.
 Promoted decisions for the continuous LSAR public pack
 (`data/public/lsar-na-rel/`):
 
-1. Modeled biochemical label is continuous LSAR
-   (\(k_{\mathrm{cat,long}}/k_{\mathrm{cat,short}}\)), not the Spudich display
-   percent and not \(N_{a,\mathrm{rel}}\).
-2. Spudich additional-\(N_a\), \(N_{a,\mathrm{rel}}\), within-study
-   normalization, and Table-implied reverse LSAR are stored as distinct derived
-   fields; reverse LSAR is audit-only.
+1. Modeled biochemical input is continuous LSAR
+   (\(k_{\mathrm{cat,long}}/k_{\mathrm{cat,short}}\)). Canonical
+   \(N_{a,\mathrm{rel}}=\mathrm{LSAR}_{mut}/\mathrm{LSAR}_{WT,\mathrm{study}}\);
+   GPR target is \(y=\ln(N_{a,\mathrm{rel}})\). Primary pipeline table is
+   `data/public/lsar-na-rel/na-rel-primary.csv`.
+2. Spudich additional-\(N_a\), global \(\mathrm{LSAR}/0.57\), release
+   \(a=(\mathrm{LSAR}_{mut}-\mathrm{LSAR}_{WT})/(1-\mathrm{LSAR}_{WT})\),
+   and Table-implied reverse LSAR are stored as distinct derived/audit fields;
+   release and reverse LSAR are not modeling targets.
 3. One canonical label row per variant; replicates belong only in measurements.
 4. Reported LSAR is preserved separately from recomputed long/short; neither is
    silently replaced to force Table 1 agreement.
