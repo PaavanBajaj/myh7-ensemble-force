@@ -1,8 +1,8 @@
-# Public LSAR / \(N_{a,\mathrm{rel}}\) release (`lsar-na-rel`)
+# Public LSAR / $N_{a,\mathrm{rel}}$ release (`lsar-na-rel`)
 
 S3 reproducible derivatives and model inputs for continuous LSAR on the 23 MYH7
-variants compiled in Spudich et al. 2024 Table 1 (pink additional-\(N_a\) by
-LSAR column), plus within-study \(N_{a,\mathrm{rel}}\) labels for the 16 validated
+variants compiled in Spudich et al. 2024 Table 1 (pink additional-$N_a$ by
+LSAR column), plus within-study $N_{a,\mathrm{rel}}$ labels for the 16 validated
 rows.
 
 Research use only. Not a diagnostic test. Not clinical advice.
@@ -24,14 +24,14 @@ Research use only. Not a diagnostic test. Not clinical advice.
 
 ## Scientific summary
 
-- **Modeled biochemical label:** \(\mathrm{LSAR}=k_{\mathrm{cat,long}}/k_{\mathrm{cat,short}}\).
-- **Canonical \(N_{a,\mathrm{rel}}\):** within-study
-  \(\mathrm{LSAR}_{mut}/\mathrm{LSAR}_{WT,\mathrm{study}}\).
-- **GPR target:** \(y=\ln(N_{a,\mathrm{rel}})\).
-- **Kept separate:** Spudich additional-\(N_a\) percent
-  \(100(\mathrm{LSAR}-0.57)/0.43\), global \(\mathrm{LSAR}/0.57\)
+- **Modeled biochemical label:** $\mathrm{LSAR}=k_{\mathrm{cat,long}}/k_{\mathrm{cat,short}}$.
+- **Canonical $N_{a,\mathrm{rel}}$:** within-study
+  $\mathrm{LSAR}_{mut}/\mathrm{LSAR}_{WT,\mathrm{study}}$.
+- **GPR target:** $y=\ln(N_{a,\mathrm{rel}})$.
+- **Kept separate:** Spudich additional-$N_a$ percent
+  $100(\mathrm{LSAR}-0.57)/0.43$, global $\mathrm{LSAR}/0.57$
   (`na_rel_global_spudich057`), and release
-  \(a=(\mathrm{LSAR}_{mut}-\mathrm{LSAR}_{WT})/(1-\mathrm{LSAR}_{WT})\)
+  $a=(\mathrm{LSAR}_{mut}-\mathrm{LSAR}_{WT})/(1-\mathrm{LSAR}_{WT})$
   (audit-only).
 - **Primary pack rows:** 13 Primary + 3 Risky allowed (R403Q, R663H, G768R).
   G256E is excluded from `na-rel-primary.csv`.

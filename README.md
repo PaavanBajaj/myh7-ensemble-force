@@ -24,8 +24,8 @@ redistribute literature PDFs or other restricted content.
 ## Current stage
 
 **S3 Label results shipped.** The continuous LSAR / within-study
-\(N_{a,\mathrm{rel}}\) workflow is runnable from repository-local inputs. It
-includes outcome-free feature generation, 109 tests, an `osx-arm64` explicit
+$N_{a,\mathrm{rel}}$ workflow is runnable from repository-local inputs. It
+includes outcome-free feature generation, 110 tests, an `osx-arm64` explicit
 environment lock, the registered three-run LOSO ladder, and regenerated result
 packs under `workflows/lsar-na-rel/results/`.
 
