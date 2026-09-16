@@ -14,7 +14,9 @@ party can do from the public tree (plus vault evidence they already hold).
 
 ## Current stage
 
-**S1 — Provenance-ready.** Continuous LSAR public derivatives and source
-manifest are published under `data/public/lsar-na-rel/` and
-`data/public/manifests/lsar-na-rel-sources.json`. This is not S2: no pinned,
-runnable regeneration pipeline is shipped in this release.
+**S3 — Label results shipped** for `lsar-na-rel`. The public tree contains
+repository-local inputs and feature provenance, tested feature/model commands,
+direct dependency pins, an exact SHA-256 `osx-arm64` lock, and regenerated
+result packs. Other label and ensemble-force workflows have not started.
+
+The explicit lock is currently released only for `osx-arm64`.

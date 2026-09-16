@@ -1,0 +1,17 @@
+{
+  "run_id": "ladder-2-rsa-ihm",
+  "feature_columns": [
+    "wt_site_rsa_8act_mean_ab",
+    "ihm_interface_flag_8act"
+  ],
+  "seed": 20260811,
+  "n_rows": 16,
+  "n_folds": 6,
+  "splitter_name": "LeaveOneGroupOut",
+  "gpr_mae": 0.13120166676711037,
+  "gpr_rmse": 0.16785061947218147,
+  "baseline_mae": 0.13120166676711023,
+  "baseline_rmse": 0.16785061947218138,
+  "delta_mae_gpr_minus_baseline": 1.3877787807814457e-16,
+  "delta_rmse_gpr_minus_baseline": 8.3266726846886741e-17
+}

@@ -57,6 +57,10 @@ tmp_papers/
 *.bam
 *.sam
 
+# LSAR Na-rel downloaded structure cache (checksum-verified and regenerable)
+workflows/lsar-na-rel/cache/*
+!workflows/lsar-na-rel/cache/.gitkeep
+
 # Large / regenerable bulk
 *.npy
 *.h5

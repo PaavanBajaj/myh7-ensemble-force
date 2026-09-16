@@ -1,0 +1,46 @@
+{
+  "target": "y = log(Na_rel)",
+  "grouping_key": "source_id",
+  "contact_cutoff_angstrom": 4.5,
+  "chain_aggregation": "arithmetic_mean_ab",
+  "seed": 20260811,
+  "profiles": {
+    "talk-v0-foldx": [
+      "foldx_ddg_bh_fh",
+      "wt_site_rsa_8act_mean_ab",
+      "ihm_interface_flag_8act"
+    ],
+    "talk-v0-no-foldx": [
+      "delta_charge",
+      "wt_site_rsa_8act_mean_ab",
+      "ihm_interface_flag_8act"
+    ]
+  },
+  "diagnostic_ladder": {
+    "ladder-1-rsa": ["wt_site_rsa_8act_mean_ab"],
+    "ladder-2-rsa-ihm": ["wt_site_rsa_8act_mean_ab", "ihm_interface_flag_8act"],
+    "ladder-3-nofoldx": ["delta_charge", "wt_site_rsa_8act_mean_ab", "ihm_interface_flag_8act"]
+  },
+  "kernel": {
+    "type": "ConstantKernel * Matern + WhiteKernel",
+    "constant_value": 1.0,
+    "length_scale": 1.0,
+    "nu": 1.5,
+    "noise_level": 1.0,
+    "normalize_y": true,
+    "n_restarts_optimizer": 10,
+    "random_state": 20260811
+  },
+  "output_policy": {
+    "required_artifacts": [
+      "run-manifest.json",
+      "metrics.json",
+      "oof-predictions.csv",
+      "observed-vs-predicted.png",
+      "run.log",
+      "next-steps.md",
+      "SUCCESS"
+    ],
+    "success_marker_last": true
+  }
+}

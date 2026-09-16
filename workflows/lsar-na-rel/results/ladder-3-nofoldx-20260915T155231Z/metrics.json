@@ -1,0 +1,18 @@
+{
+  "run_id": "ladder-3-nofoldx",
+  "feature_columns": [
+    "delta_charge",
+    "wt_site_rsa_8act_mean_ab",
+    "ihm_interface_flag_8act"
+  ],
+  "seed": 20260811,
+  "n_rows": 16,
+  "n_folds": 6,
+  "splitter_name": "LeaveOneGroupOut",
+  "gpr_mae": 0.13088618764022131,
+  "gpr_rmse": 0.16730405908319063,
+  "baseline_mae": 0.13120166676711023,
+  "baseline_rmse": 0.16785061947218138,
+  "delta_mae_gpr_minus_baseline": -0.00031547912688892343,
+  "delta_rmse_gpr_minus_baseline": -0.00054656038899075776
+}

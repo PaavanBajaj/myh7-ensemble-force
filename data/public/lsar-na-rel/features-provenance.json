@@ -1,0 +1,54 @@
+{
+  "assembly_id": "8ACT",
+  "assembly_url": "https://files.rcsb.org/download/8ACT.pdb1.gz",
+  "bh_chain": "A",
+  "config_sha256": "2238bed833bb3ffcbd76b294a9aa45737a4c7d229541da74d5d21f4ca7377893",
+  "contact_cutoff_angstrom": 4.5,
+  "dssp_acc_array": "Sander",
+  "dssp_executable": "mkdssp",
+  "fasta_sha256": "45c96586dd50e0ede770a3bb4fb0aab125d103d53b2bc0b0fed89619e07a16ad",
+  "feature_columns": [
+    "variant",
+    "delta_charge",
+    "wt_site_rsa_8act_a",
+    "wt_site_rsa_8act_b",
+    "wt_site_rsa_8act_mean_ab",
+    "coverage_a",
+    "coverage_b",
+    "wt_site_rsa_8act_bh",
+    "wt_site_rsa_8act_fh",
+    "ihm_contact_bh_fh",
+    "ihm_contact_bh_s2",
+    "ihm_interface_flag_8act"
+  ],
+  "feature_generation_uses_outcomes": false,
+  "features_sha256": "680f1ac9193b375aae3bd76d23d2ccab06382197a6aa7a06999ff5ee9094a2d7",
+  "fh_chain": "B",
+  "gzip_sha256": "84469940f04dd8428a98e76c553ab519c1d45aef2beda176b8813d3b120e797b",
+  "motor_lever_ranges": {
+    "A": [
+      3,
+      837
+    ],
+    "B": [
+      3,
+      837
+    ]
+  },
+  "pdb_sha256": "ef548f824d10986e313fa41910fa10d5d3925bc04ae3350f58214a2639d3d6a9",
+  "primary_sha256": "856182ae22da979e521f8c4ab3aaf8089eba2c28be9b006373f9c5309b2e6682",
+  "proximal_s2_ranges": {
+    "A": [
+      838,
+      906
+    ],
+    "B": [
+      838,
+      898
+    ]
+  },
+  "schema_version": 1,
+  "sequence_accession": "P12883",
+  "sequence_length": 1935,
+  "sequence_refseq": "NP_000248.2"
+}

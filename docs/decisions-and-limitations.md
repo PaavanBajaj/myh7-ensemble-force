@@ -3,7 +3,7 @@
 Living log for promoted major methodology decisions and standing limitations.
 No ADR folder for v1 — updates land here after explicit promotion OK.
 
-## Status (S1)
+## Status (S3 for `lsar-na-rel`)
 
 Promoted decisions for the continuous LSAR public pack
 (`data/public/lsar-na-rel/`):
@@ -34,14 +34,30 @@ Promoted decisions for the continuous LSAR public pack
     expansion screen summarized with this pack.
 13. No separate public data license is declared for the compiled derivative
     beyond the repository MIT license’s ordinary scope (see pack README).
+14. Feature generation reads variant identities, the P12883 sequence, the
+    checksum-pinned 8ACT assembly, and `lsar-na-rel.json`; it never loads target
+    or source-group columns as estimator inputs.
+15. The registered ladder contains exactly three run IDs. Exploratory distance
+    probes are not part of the public runnable workflow.
+16. `ihm_interface_flag_8act` uses a frozen 4.5 Å minimum-heavy-atom cutoff and
+    is positive for D382Y and R403Q only in this snapshot.
+17. Validation is leave-one-`source_id`-out, with training-fold-only scaling and
+    a training-fold mean baseline. The fixed seed is 20260811.
+18. The GPR kernel, optimizer restarts, output artifact contract, run IDs, and
+    feature order are all loaded from one validated configuration.
+19. No FoldX-derived values are present. The registered public model uses
+    `delta_charge` plus checksummed 8ACT features.
+20. Exact environment locking is released for `osx-arm64` only.
 
 ## Limitations (standing)
 
 - Research-use only; not a diagnostic test; not clinical advice.
 - Vault evidence is cite-not-contain — literature PDFs and full-text extracts
   do not live in this repository.
-- S1 is provenance-ready only; regenerating the pack from a pinned public
-  pipeline requires S2.
+- The LSAR result is a small, heterogeneous, 16-row descriptive analysis. Its
+  pooled OOF errors do not establish clinical utility, mechanism, or causality.
+- Scikit-learn may emit optimizer convergence warnings under the frozen setup;
+  they are recorded as expected warnings and do not change the fitted contract.
 - Construct family, assay chemistry, study WT baseline, and low-\(n\) rows
   still need pooling review before any fitted model.
 - Later label trees (`kcat-rel`, `v-rel`, `ensemble-force`) are created only

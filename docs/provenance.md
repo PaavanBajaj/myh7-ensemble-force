@@ -6,13 +6,14 @@ supplements, and raw working data stay in the encrypted private data vault.
 Public materials point at scrubbed identifiers, checksums, and freeze
 metadata only.
 
-## Status (S1)
+## Status (S3 for `lsar-na-rel`)
 
 First public provenance pack for the continuous LSAR slice:
 
 - Derivatives: `data/public/lsar-na-rel/`
 - Source manifest: `data/public/manifests/lsar-na-rel-sources.json`
 - Method account: `workflows/lsar-na-rel/method.md`
+- Feature-generation provenance: `data/public/lsar-na-rel/features-provenance.json`
 
 The manifest cites primary sources by DOI and, where recorded, PMID/PMCID, plus
 SHA-256 digests of the published derivative files themselves.

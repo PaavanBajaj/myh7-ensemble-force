@@ -16,13 +16,11 @@ y = \ln(N_{a,\mathrm{rel}}).
 transform \(a=(\mathrm{LSAR}_{mut}-\mathrm{LSAR}_{WT})/(1-\mathrm{LSAR}_{WT})\)
 are retained only as separate derived/audit fields.
 
-## Status (S1)
+## Status (S3)
 
-Provenance-ready public derivatives are published under
-`data/public/lsar-na-rel/` with source identifiers in
-`data/public/manifests/lsar-na-rel-sources.json`. The primary pipeline table is
-`na-rel-primary.csv`. No fitted model and no pinned regeneration pipeline yet
-(S2+).
+Public derivatives, feature provenance, a pinned `osx-arm64` environment,
+tested generation/model commands, and regenerated results are shipped. See
+`README.md` in this directory for the operator runbook.
 
 ## Inclusion criteria
 
@@ -90,7 +88,16 @@ re-labeled as a common SEM.
   allowed in the primary Na_rel table).
 - Preprint and final versions of the same summary are one evidence identity.
 
-## Construct / assay covariates (pooling review before S2+)
+## Registered model and validation
+
+The public ladder freezes three feature sets: RSA alone; RSA plus the 4.5 Å
+8ACT IHM-interface flag; and those two features plus substitution
+`delta_charge`. No FoldX values or exploratory continuous-distance probes are
+registered. Every run uses training-fold-only scaling, a configured Matérn-3/2
+Gaussian process, seed 20260811, and leave-one-`source_id`-out validation. The
+comparison baseline is the mean of the training target values in each fold.
+
+## Construct / assay covariates
 
 Do not silently pool across:
 

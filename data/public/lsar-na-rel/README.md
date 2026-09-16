@@ -1,6 +1,6 @@
 # Public LSAR / \(N_{a,\mathrm{rel}}\) release (`lsar-na-rel`)
 
-S1 provenance-ready scrubbed derivatives for continuous LSAR on the 23 MYH7
+S3 reproducible derivatives and model inputs for continuous LSAR on the 23 MYH7
 variants compiled in Spudich et al. 2024 Table 1 (pink additional-\(N_a\) by
 LSAR column), plus within-study \(N_{a,\mathrm{rel}}\) labels for the 16 validated
 rows.
@@ -11,11 +11,14 @@ Research use only. Not a diagnostic test. Not clinical advice.
 
 | File | Role |
 | --- | --- |
-| `na-rel-primary.csv` | **Primary lsar_na modeling table** (S1 data artifact; not an S2 regeneration pipeline): `variant`, `LSAR_mut`, `LSAR_WT`, `Na_rel`, `ln(Na_rel)` |
+| `na-rel-primary.csv` | Primary LSAR / Na-rel label table: `variant`, `LSAR_mut`, `LSAR_WT`, `Na_rel`, `ln(Na_rel)` |
 | `schema.json` | Field definitions, formulas, and eligibility vocabulary |
 | `measurements.csv` | Source-level / biological-replicate evidence |
 | `labels.csv` | One canonical row per variant (uncertainties + audit transforms) |
 | `exclusions.csv` | Approximate, unresolved, assay-absent, and unresolved-prior-epoch rows |
+| `features.csv` | Outcome-free chemistry and checksum-pinned 8ACT feature snapshot for the 16 modeled variants |
+| `features-provenance.json` | Feature schema, sequence/structure/config checksums, and frozen structural definitions |
+| `ihm_sparse_flag_*.csv` and `ihm_sparse_flag_debugging_report.md` | IHM contact-distance diagnostics and frozen-cutoff sensitivity records |
 | `SHA256SUMS` | SHA-256 digests of the derivative files above |
 | `../manifests/lsar-na-rel-sources.json` | Public source identifiers (DOI / PMID / PMCID) and derivative checksums |
 
@@ -45,8 +48,9 @@ Research use only. Not a diagnostic test. Not clinical advice.
 
 ## Stage claim
 
-This pack is **S1 (provenance-ready)**. It is not S2: there is no pinned,
-runnable regeneration pipeline in this release.
+This pack is part of the **S3 `lsar-na-rel` release**. Regeneration commands,
+configuration, tests, environment locks, and result packs are under
+`workflows/lsar-na-rel/`, `src/lsar_na_rel/`, and `tests/lsar_na_rel/`.
 
 ## Licensing limitation
 

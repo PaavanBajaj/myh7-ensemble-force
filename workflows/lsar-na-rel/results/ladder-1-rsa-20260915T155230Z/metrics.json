@@ -1,0 +1,16 @@
+{
+  "run_id": "ladder-1-rsa",
+  "feature_columns": [
+    "wt_site_rsa_8act_mean_ab"
+  ],
+  "seed": 20260811,
+  "n_rows": 16,
+  "n_folds": 6,
+  "splitter_name": "LeaveOneGroupOut",
+  "gpr_mae": 0.13120166676711029,
+  "gpr_rmse": 0.16785061947218144,
+  "baseline_mae": 0.13120166676711023,
+  "baseline_rmse": 0.16785061947218138,
+  "delta_mae_gpr_minus_baseline": 5.5511151231257827e-17,
+  "delta_rmse_gpr_minus_baseline": 5.5511151231257827e-17
+}

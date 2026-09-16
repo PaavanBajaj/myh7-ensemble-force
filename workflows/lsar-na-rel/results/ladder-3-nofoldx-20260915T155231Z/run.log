@@ -1,0 +1,6 @@
+start run_id=ladder-3-nofoldx timestamp=20260915T155231Z
+loaded config=workflows/lsar-na-rel/config/lsar-na-rel.json
+matrix rows=16 features=['delta_charge', 'wt_site_rsa_8act_mean_ab', 'ihm_interface_flag_8act']
+validation splitter=LeaveOneGroupOut n_folds=6
+wrote reports
+wrote run-manifest.json

@@ -1,0 +1,31 @@
+{
+  "command": "python -m lsar_na_rel.cli talk-v0 --all-ladder",
+  "fallback_reason": "No FoldX-derived values are present in this release; the registered public result uses delta_charge plus checksummed 8ACT features.",
+  "feature_columns": [
+    "wt_site_rsa_8act_mean_ab",
+    "ihm_interface_flag_8act"
+  ],
+  "features_sha256": "680f1ac9193b375aae3bd76d23d2ccab06382197a6aa7a06999ff5ee9094a2d7",
+  "foldx_gate": "unavailable_no_values",
+  "git_dirty": true,
+  "git_sha": "e764c4b736426e72b60ff775e97a63a240357078",
+  "labels_sha256": "3d026ecd80614cc9d37d687d8fbb59d982034bec1bacbab52662453c8873cf48",
+  "modeling_family": "chemistry_plus_8act_features_csv",
+  "n_folds": 6,
+  "n_rows": 16,
+  "package_versions": {
+    "matplotlib": "3.11.1",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "python": "3.12.13",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.18.0"
+  },
+  "primary_sha256": "856182ae22da979e521f8c4ab3aaf8089eba2c28be9b006373f9c5309b2e6682",
+  "profile": "diagnostic-ladder",
+  "run_id": "ladder-2-rsa-ihm",
+  "seed": 20260811,
+  "splitter_name": "LeaveOneGroupOut",
+  "timestamp": "20260915T155230Z",
+  "workflow_content_sha256": "cb9401b5c364f1dcf0a7cfb5156bb9e7a75b53cb6af0e73e02fbcdc93584371f"
+}

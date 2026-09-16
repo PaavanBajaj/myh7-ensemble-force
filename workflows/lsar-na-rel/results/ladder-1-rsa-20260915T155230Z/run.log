@@ -1,0 +1,6 @@
+start run_id=ladder-1-rsa timestamp=20260915T155230Z
+loaded config=workflows/lsar-na-rel/config/lsar-na-rel.json
+matrix rows=16 features=['wt_site_rsa_8act_mean_ab']
+validation splitter=LeaveOneGroupOut n_folds=6
+wrote reports
+wrote run-manifest.json

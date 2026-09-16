@@ -23,18 +23,19 @@ redistribute literature PDFs or other restricted content.
 
 ## Current stage
 
-**S1 Provenance-ready.** Continuous LSAR scrubbed derivatives, within-study
-\(N_{a,\mathrm{rel}}\) primary labels (`na-rel-primary.csv`), and a public
-source manifest are published under `data/public/lsar-na-rel/`. There are still
-no fitted models and no pinned regeneration pipeline (S2).
+**S3 Label results shipped.** The continuous LSAR / within-study
+\(N_{a,\mathrm{rel}}\) workflow is runnable from repository-local inputs. It
+includes outcome-free feature generation, 109 tests, an `osx-arm64` explicit
+environment lock, the registered three-run LOSO ladder, and regenerated result
+packs under `workflows/lsar-na-rel/results/`.
 
 ## Start here
 
-1. `environment.yml`: env pin stub (fill before any results pack)
+1. `environment.yml` and `environment-osx-arm64.lock`: direct and exact pins
 2. `docs/reproducibility.md`: stage ladder and what "reproducible" means
 3. `docs/workflows.md`: index of live workflow trees
-4. `data/public/lsar-na-rel/`: first public label pack
-5. `workflows/lsar-na-rel/`: method account for the continuous LSAR slice
+4. `data/public/lsar-na-rel/`: labels, generated features, provenance, and audits
+5. `workflows/lsar-na-rel/`: commands, configuration, method, and results
 
 ## Documentation map
 
