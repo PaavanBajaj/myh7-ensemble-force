@@ -9,7 +9,7 @@ import numpy as np
 import pytest
 
 from kcat_rel.reporting import write_diagnostic_artifacts
-from test_reporting_producers import _producer_result
+from .test_reporting_producers import _producer_result
 
 
 def _rejects(tmp_path: Path, result: dict) -> None:

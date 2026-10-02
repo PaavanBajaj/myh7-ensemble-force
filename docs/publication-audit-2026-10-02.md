@@ -37,8 +37,9 @@ result tables remain unchanged.
 
 The three completed workflows now have matching top-level locations: code in
 `src/<workflow>/`, tests in `tests/<workflow>/`, and public tables and manifests
-in `data/public/<workflow>/`. Workflow directories retain their runbooks,
-configuration, ignored download caches, and frozen result records. Moving files
+in `data/public/<workflow>/`. The `results/` directories retain their runbooks, configuration, and frozen
+result records; downloaded structures use ignored repository-level `.cache/`
+directories. Moving files
 changed path-bearing manifests and source-row references, so those manifests
 were rebuilt against the public paths. Frozen diagnostic metrics, correlation
 effects, sensitivity estimates, ranking values, and SVG plots were preserved.

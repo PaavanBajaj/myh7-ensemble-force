@@ -10,7 +10,7 @@ import pytest
 from kcat_rel.reporting import reconstruct_inner_fold_audit, write_diagnostic_artifacts
 
 
-ROOT = Path(__file__).resolve().parents[2] / "workflows/kcat-rel/results" / "diagnostic-v0"
+ROOT = Path(__file__).resolve().parents[2] / "results/kcat-rel/results" / "diagnostic-v0"
 
 
 def _result() -> dict:

@@ -18,12 +18,12 @@ from lsar_na_rel.features import (
 )
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-WORKFLOW_ROOT = REPO_ROOT / "workflows" / "lsar-na-rel"
+WORKFLOW_ROOT = REPO_ROOT / "results" / "lsar-na-rel"
 PUBLIC = REPO_ROOT / "data" / "public" / "lsar-na-rel"
 PRIMARY = PUBLIC / "na-rel-primary.csv"
 CONFIG = WORKFLOW_ROOT / "config" / "lsar-na-rel.json"
 FASTA = REPO_ROOT / "tests" / "lsar_na_rel" / "fixtures" / "P12883.fasta"
-ASSEMBLY = WORKFLOW_ROOT / "cache" / "8ACT-assembly1.pdb"
+ASSEMBLY = REPO_ROOT / ".cache" / "lsar-na-rel" / "8ACT-assembly1.pdb"
 APPROVED = PUBLIC / "features.csv"
 
 

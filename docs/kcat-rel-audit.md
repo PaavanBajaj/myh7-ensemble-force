@@ -16,7 +16,7 @@ Audit date: 2026-09-16
 | Study grouping | PASS | Nine source-study IDs retained for later grouped validation |
 
 The machine-readable gate is `src/kcat_rel/evidence.py`. The retained
-limitations are listed in [`README.md`](README.md); this audit does not approve
+limitations are listed in the [kcat runbook](../results/kcat-rel/README.md); this audit does not approve
 features, fit a diagnostic model, or authorize forward prediction.
 
 ## Frozen fallback-feature diagnostic (2026-09-16)
@@ -33,7 +33,7 @@ features, fit a diagnostic model, or authorize forward prediction.
 The complete deterministic artifact set, including fold-local tuning, OOF
 predictions, a per-split inner-fold audit, secondary uncertainty sensitivities, input hashes, package
 versions, command, fallback reason, and output hashes is in
-[`results/diagnostic-v0`](results/diagnostic-v0). `SUCCESS` was written last to
+[`results/kcat-rel/results/diagnostic-v0`](../results/kcat-rel/results/diagnostic-v0/). `SUCCESS` was written last to
 mark completed reporting, not a positive model decision.
 
 The frozen run's `inner-fold-audit.json` is an artifact-only

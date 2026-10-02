@@ -11,7 +11,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[2]
-WORKFLOW = ROOT / "workflows" / "myh7-correlation-screen"
+WORKFLOW = ROOT / "results" / "myh7-correlation-screen"
 DATA = ROOT / "data/public/myh7-correlation-screen"
 
 
@@ -28,13 +28,13 @@ def test_feature_cli_keeps_deposited_missingness_and_full_8act_coverage(tmp_path
         "--fasta",
         str(ROOT / "tests/lsar_na_rel/fixtures/P12883.fasta"),
         "--assembly-8act",
-        str(ROOT / "workflows/lsar-na-rel/cache/8ACT-assembly1.pdb"),
+        str(ROOT / ".cache/lsar-na-rel/8ACT-assembly1.pdb"),
         "--cif-8efe",
-        str(WORKFLOW / "cache/8EFE.cif"),
+        str(ROOT / ".cache/myh7-correlation-screen/8EFE.cif"),
         "--cif-8efd",
-        str(WORKFLOW / "cache/8EFD.cif"),
+        str(ROOT / ".cache/myh7-correlation-screen/8EFD.cif"),
         "--cif-8efi",
-        str(WORKFLOW / "cache/8EFI.cif"),
+        str(ROOT / ".cache/myh7-correlation-screen/8EFI.cif"),
         "--output-dir",
         str(output),
     ]

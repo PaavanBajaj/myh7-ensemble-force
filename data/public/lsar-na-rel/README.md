@@ -50,7 +50,7 @@ Research use only. Not a diagnostic test. Not clinical advice.
 
 This pack is part of the **S3 `lsar-na-rel` release**. Regeneration commands,
 configuration, tests, environment locks, and result packs are under
-`workflows/lsar-na-rel/`, `src/lsar_na_rel/`, and `tests/lsar_na_rel/`.
+`results/lsar-na-rel/`, `src/lsar_na_rel/`, and `tests/lsar_na_rel/`.
 
 ## Licensing limitation
 

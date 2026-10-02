@@ -4,6 +4,8 @@ This is the public S3 workflow for the fixed 16-row continuous-LSAR cohort. It
 generates outcome-free chemistry and 8ACT features, then evaluates three
 registered Gaussian-process models with leave-one-`source_id`-out validation.
 It is exploratory research software, not a clinical or mechanistic result.
+The [method account](../../docs/lsar-na-rel-method.md) records the cohort and
+label decisions.
 
 ## Supported environment
 
@@ -28,9 +30,9 @@ All default paths are derived from the checkout root:
 - `data/public/lsar-na-rel/features.csv`
 - `data/public/lsar-na-rel/features-provenance.json`
 - `tests/lsar_na_rel/fixtures/P12883.fasta`
-- `workflows/lsar-na-rel/config/lsar-na-rel.json`
-- `workflows/lsar-na-rel/cache/`
-- `workflows/lsar-na-rel/results/`
+- `results/lsar-na-rel/config/lsar-na-rel.json`
+- `.cache/lsar-na-rel/`
+- `results/lsar-na-rel/results/`
 
 No sibling repository or absolute user path is required.
 

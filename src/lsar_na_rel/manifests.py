@@ -51,7 +51,7 @@ def workflow_content_sha256(repo_root: str | Path) -> str:
     candidates = [
         root / "environment.yml",
         root / "environment-osx-arm64.lock",
-        root / "workflows" / "lsar-na-rel" / "config" / "lsar-na-rel.json",
+        root / "results" / "lsar-na-rel" / "config" / "lsar-na-rel.json",
         root / "data" / "public" / "lsar-na-rel" / "na-rel-primary.csv",
         root / "data" / "public" / "lsar-na-rel" / "labels.csv",
         root / "data" / "public" / "lsar-na-rel" / "features.csv",

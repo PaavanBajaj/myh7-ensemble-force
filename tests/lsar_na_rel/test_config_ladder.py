@@ -14,7 +14,7 @@ from lsar_na_rel.config import (
 )
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-CONFIG_PATH = REPO_ROOT / "workflows" / "lsar-na-rel" / "config" / "lsar-na-rel.json"
+CONFIG_PATH = REPO_ROOT / "results" / "lsar-na-rel" / "config" / "lsar-na-rel.json"
 
 
 @pytest.fixture(scope="module")

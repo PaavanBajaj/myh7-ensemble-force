@@ -12,7 +12,7 @@ First public provenance pack for the continuous LSAR slice:
 
 - Derivatives: `data/public/lsar-na-rel/`
 - Source manifest: `data/public/manifests/lsar-na-rel-sources.json`
-- Method account: `workflows/lsar-na-rel/method.md`
+- Method account: `docs/lsar-na-rel-method.md`
 - Feature-generation provenance: `data/public/lsar-na-rel/features-provenance.json`
 
 The manifest cites primary sources by DOI and, where recorded, PMID/PMCID, plus
@@ -20,7 +20,7 @@ SHA-256 digests of the published derivative files themselves.
 
 The [`kcat-rel`](../data/public/kcat-rel/) pack includes canonical labels,
 measurement evidence, feature provenance, and the historical diagnostic
-manifest under [`workflows/kcat-rel/results/diagnostic-v0/`](../workflows/kcat-rel/results/diagnostic-v0/).
+manifest under [`results/kcat-rel/results/diagnostic-v0/`](../results/kcat-rel/results/diagnostic-v0/).
 The [correlation pack](../data/public/myh7-correlation-screen/) includes a
 source manifest, feature and outcome manifests, the locked comparison plan,
 and the analysis manifest alongside all result tables and plots.

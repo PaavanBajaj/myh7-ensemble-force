@@ -14,7 +14,7 @@ from kcat_rel.registry import FROZEN_PRIMARY_VARIANTS
 
 def _complete_result() -> dict:
     """Load the frozen completed run as a realistic cross-artifact fixture."""
-    root = Path(__file__).resolve().parents[2] / "workflows/kcat-rel/results" / "diagnostic-v0"
+    root = Path(__file__).resolve().parents[2] / "results/kcat-rel/results" / "diagnostic-v0"
     return {
         "run_manifest": json.loads((root / "run-manifest.json").read_text()),
         "model_table": pd.read_csv(root / "model-table.csv"),

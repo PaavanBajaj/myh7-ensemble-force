@@ -14,7 +14,7 @@ from lsar_na_rel.config import load_talk_v0_config
 from lsar_na_rel.validation import FoldRecord, OofResult
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-WORKFLOW_ROOT = REPO_ROOT / "workflows" / "lsar-na-rel"
+WORKFLOW_ROOT = REPO_ROOT / "results" / "lsar-na-rel"
 CONFIG = load_talk_v0_config(WORKFLOW_ROOT / "config" / "lsar-na-rel.json")
 
 

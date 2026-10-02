@@ -12,7 +12,7 @@ from kcat_rel import cli
 from kcat_rel.reporting import write_diagnostic_artifacts
 from kcat_rel.sensitivity import PerturbationSummary, SensitivityResult
 from kcat_rel.validation import Metrics
-from test_reporting import _complete_result
+from .test_reporting import _complete_result
 
 
 def _producer_result() -> dict:

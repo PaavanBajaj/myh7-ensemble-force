@@ -29,7 +29,7 @@ _OOF_COLUMNS = ("model_kind", "variant", "source_id", "truth", "model_prediction
 _MODEL_KINDS = ("ridge", "gpr")
 _OOF_ROW_MODEL_KINDS = ("gpr", "ridge")
 _MANIFEST_ARTIFACTS = {"AUDIT.md", "inner-fold-audit.json", "metrics.json", "model-table.csv", "run.log", "sensitivity.json", "study-oof.csv", "tuning-records.csv", "variant-oof.csv"}
-FROZEN_RUN_MANIFEST_SHA256 = "a6f3b0dcadcbe03447ff03b05bc48c149a2e8cf1bbd6b73656a4b1323d1aa399"
+FROZEN_RUN_MANIFEST_SHA256 = "d3a5618710d71c207d4bce2a748deede32a505ca8148912d3d8995b92277535a"
 
 
 @dataclass(frozen=True)

@@ -21,7 +21,7 @@ retained only as separate derived/audit fields.
 
 Public derivatives, feature provenance, a pinned `osx-arm64` environment,
 tested generation/model commands, and regenerated results are shipped. See
-`README.md` in this directory for the operator runbook.
+the [LSAR runbook](../results/lsar-na-rel/README.md) for the operator commands.
 
 ## Inclusion criteria
 

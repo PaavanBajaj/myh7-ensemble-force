@@ -17,7 +17,7 @@ from lsar_na_rel.matrix import (
 )
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-WORKFLOW_ROOT = REPO_ROOT / "workflows" / "lsar-na-rel"
+WORKFLOW_ROOT = REPO_ROOT / "results" / "lsar-na-rel"
 PUBLIC_DIR = REPO_ROOT / "data" / "public" / "lsar-na-rel"
 PRIMARY_CSV = PUBLIC_DIR / "na-rel-primary.csv"
 LABELS_CSV = PUBLIC_DIR / "labels.csv"

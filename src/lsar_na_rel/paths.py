@@ -29,7 +29,7 @@ class RepoPaths:
 
     @property
     def workflow_root(self) -> Path:
-        return self.repo_root / "workflows" / "lsar-na-rel"
+        return self.repo_root / "results" / "lsar-na-rel"
 
     @property
     def public_data(self) -> Path:
@@ -41,7 +41,7 @@ class RepoPaths:
 
     @property
     def cache_dir(self) -> Path:
-        return self.workflow_root / "cache"
+        return self.repo_root / ".cache" / "lsar-na-rel"
 
     @property
     def results_dir(self) -> Path:

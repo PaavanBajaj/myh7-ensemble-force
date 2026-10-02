@@ -18,9 +18,9 @@
     "--reference-fasta",
     "tests/lsar_na_rel/fixtures/P12883.fasta",
     "--structure",
-    "workflows/kcat-rel/cache/8ACT.cif.gz",
+    ".cache/kcat-rel/8ACT.cif.gz",
     "--config",
-    "workflows/kcat-rel/config/kcat-rel-v0.json",
+    "results/kcat-rel/config/kcat-rel-v0.json",
     "--output-dir",
     "data/public/kcat-rel/derived"
   ],

@@ -4,13 +4,13 @@ This public workflow supports the [dated decision](../../docs/myh7-correlation-s
 
 ## Read the results
 
-Start with the [decision](../../docs/myh7-correlation-screen-decision.md), then the [data dictionary](../../data/public/myh7-correlation-screen/data-dictionary.md). The [comparison inventory](../../data/public/myh7-correlation-screen/comparison-inventory-v1.csv) was frozen before estimates; [results](../../data/public/myh7-correlation-screen/comparison-results-v1.csv), [point-level rows](../../data/public/myh7-correlation-screen/comparison-points-v1.csv), and 78 [labeled SVG plots](../../data/public/myh7-correlation-screen/plots/C001.svg) through `C078.svg` expose every eligible pair. The [sensitivity table](../../data/public/myh7-correlation-screen/sensitivity-results-v1.csv) reports shared-measurement, study, assay, and expanded-cohort checks. The full screen includes weak and null patterns rather than selecting only high correlations.
+Start with the [decision](../../docs/myh7-correlation-screen-decision.md), then the [data dictionary](../../data/public/myh7-correlation-screen/data-dictionary.md). The [comparison inventory](../../data/public/myh7-correlation-screen/comparison-inventory-v1.csv) was frozen before estimates; [results](results/screen-v1/comparison-results-v1.csv), [point-level rows](results/screen-v1/comparison-points-v1.csv), and 78 [labeled SVG plots](results/screen-v1/plots/C001.svg) through `C078.svg` expose every eligible pair. The [sensitivity table](results/screen-v1/sensitivity-results-v1.csv) reports shared-measurement, study, assay, and expanded-cohort checks. The full screen includes weak and null patterns rather than selecting only high correlations.
 
 The primary outcome counts are 17 `kcat_rel`, 16 `Na_rel`, and 15 Table 1-aligned `v_rel`; 14, 14, and 13 variants overlap across the three outcome pairs in order. Three additional human HCM velocity leads have a separate sensitivity cohort. The [velocity cohort ledger](../../data/public/myh7-correlation-screen/velocity-cohort-ledger-v1.csv) records 15 primary, 8 unresolved Table 1, 3 expanded, and one excluded LVNC control. The [kcat–Na dependence ledger](../../data/public/myh7-correlation-screen/dependence-ledger-v1.csv) and [velocity dependence ledger](../../data/public/myh7-correlation-screen/velocity-dependence-v1.csv) identify reused components and controls. The 32 selected Morck measurements are slide/channel pairs for five variants, not 32 biological variants.
 
 ## Feature selection and inputs
 
-The [selection lock](feature-selection.md) predates all association estimates. The [primary-literature review](feature-literature.md) ranks candidates and defines exactly five new WT structural annotations for velocity: ADP-to-rigor site shift, ADP adenine proximity, rigor actin proximity, relay-landmark proximity, and ELC proximity. The [feature manifest](../../data/public/myh7-correlation-screen/feature-manifest-v1.json) pins the P12883 sequence, 8ACT/8EFD/8EFE/8EFI coordinates, chain mapping, and output hashes. [Per-site mapping](../../data/public/myh7-correlation-screen/site-mapping-v1.csv) and [missing reasons](../../data/public/myh7-correlation-screen/feature-coverage-v1.csv) cover the 22-variant analysis union. Existing charge, Grantham, catalytic-motif, RSA, and IHM annotations are comparators; shared `delta_charge` was deduplicated.
+The [selection lock](../../docs/myh7-correlation-feature-selection.md) predates all association estimates. The [primary-literature review](../../docs/myh7-correlation-feature-literature.md) ranks candidates and defines exactly five new WT structural annotations for velocity: ADP-to-rigor site shift, ADP adenine proximity, rigor actin proximity, relay-landmark proximity, and ELC proximity. The [feature manifest](../../data/public/myh7-correlation-screen/feature-manifest-v1.json) pins the P12883 sequence, 8ACT/8EFD/8EFE/8EFI coordinates, chain mapping, and output hashes. [Per-site mapping](../../data/public/myh7-correlation-screen/site-mapping-v1.csv) and [missing reasons](../../data/public/myh7-correlation-screen/feature-coverage-v1.csv) cover the 22-variant analysis union. Existing charge, Grantham, catalytic-motif, RSA, and IHM annotations are comparators; shared `delta_charge` was deduplicated.
 
 [Source manifest](../../data/public/myh7-correlation-screen/source-manifest-v1.json) lists public input hashes and structural provenance. Restricted source documents and the Morck workbook are excluded; the compact derived Morck pair table and its source locations are included. The published LSAR pack in this repository supplies the canonical `Na_rel` inputs.
 
@@ -19,28 +19,28 @@ The [selection lock](feature-selection.md) predates all association estimates. T
 Run from this repository root. The `features` command needs Python with NumPy 2.5.2 and Biopython 1.88; the optional workbook extraction step needs openpyxl 3.1.5 and access to the source workbook. The checked-in Morck pair table lets readers reproduce the published screen without that workbook. Source files and downloaded coordinates must match the SHA-256 values in the manifests. Retrieve `8ACT.pdb1.gz`, `8EFD.cif`, `8EFE.cif`, and `8EFI.cif` from the exact RCSB URLs in the feature manifest; decompress the 8ACT archive into the ignored cache path below. The P12883 FASTA fixture is already in this repository.
 
 ```bash
-mkdir -p workflows/lsar-na-rel/cache workflows/myh7-correlation-screen/cache
-curl -fL https://files.rcsb.org/download/8ACT.pdb1.gz -o workflows/lsar-na-rel/cache/8ACT.pdb1.gz
-gzip -dc workflows/lsar-na-rel/cache/8ACT.pdb1.gz > workflows/lsar-na-rel/cache/8ACT-assembly1.pdb
-curl -fL https://files.rcsb.org/download/8EFD.cif -o workflows/myh7-correlation-screen/cache/8EFD.cif
-curl -fL https://files.rcsb.org/download/8EFE.cif -o workflows/myh7-correlation-screen/cache/8EFE.cif
-curl -fL https://files.rcsb.org/download/8EFI.cif -o workflows/myh7-correlation-screen/cache/8EFI.cif
+mkdir -p .cache/lsar-na-rel .cache/myh7-correlation-screen
+curl -fL https://files.rcsb.org/download/8ACT.pdb1.gz -o .cache/lsar-na-rel/8ACT.pdb1.gz
+gzip -dc .cache/lsar-na-rel/8ACT.pdb1.gz > .cache/lsar-na-rel/8ACT-assembly1.pdb
+curl -fL https://files.rcsb.org/download/8EFD.cif -o .cache/myh7-correlation-screen/8EFD.cif
+curl -fL https://files.rcsb.org/download/8EFE.cif -o .cache/myh7-correlation-screen/8EFE.cif
+curl -fL https://files.rcsb.org/download/8EFI.cif -o .cache/myh7-correlation-screen/8EFI.cif
 ```
 
 The `features` command checks every downloaded structure against the pinned
 hashes in the [feature manifest](../../data/public/myh7-correlation-screen/feature-manifest-v1.json).
 The following commands write into separate temporary directories so the
-committed data pack remains untouched. Compare their generated CSVs against
-`data/public/myh7-correlation-screen/` to verify a reproduction.
+committed data pack remains untouched. Compare generated input and plan CSVs against `data/public/myh7-correlation-screen/`
+and the final analysis CSVs against `results/myh7-correlation-screen/results/screen-v1/`.
 
 ```bash
 PYTHONPATH=src conda run -n lsar-na-rel-talk-v0 python -m myh7_correlation_screen.screen features \
   --variants data/public/myh7-correlation-screen/variant-registry-v1.csv \
   --fasta tests/lsar_na_rel/fixtures/P12883.fasta \
-  --assembly-8act workflows/lsar-na-rel/cache/8ACT-assembly1.pdb \
-  --cif-8efd workflows/myh7-correlation-screen/cache/8EFD.cif \
-  --cif-8efe workflows/myh7-correlation-screen/cache/8EFE.cif \
-  --cif-8efi workflows/myh7-correlation-screen/cache/8EFI.cif \
+  --assembly-8act .cache/lsar-na-rel/8ACT-assembly1.pdb \
+  --cif-8efd .cache/myh7-correlation-screen/8EFD.cif \
+  --cif-8efe .cache/myh7-correlation-screen/8EFE.cif \
+  --cif-8efi .cache/myh7-correlation-screen/8EFI.cif \
   --output-dir /tmp/myh7-screen-features
 
 PYTHONPATH=src python3 -m myh7_correlation_screen.screen outcomes \
@@ -58,7 +58,7 @@ PYTHONPATH=src python3 -m myh7_correlation_screen.screen plan \
   --new-features data/public/myh7-correlation-screen/features-v1.csv \
   --kcat-features data/public/kcat-rel/derived/kcat-rel-v0-no-msa-features.csv \
   --na-features data/public/lsar-na-rel/features.csv \
-  --config workflows/myh7-correlation-screen/comparison-config-v1.json \
+  --config results/myh7-correlation-screen/config/comparison-config-v1.json \
   --output-dir /tmp/myh7-screen-plan
 
 PYTHONPATH=src python3 -m myh7_correlation_screen.screen analyze \

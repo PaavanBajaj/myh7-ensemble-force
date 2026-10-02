@@ -24,7 +24,7 @@ from kcat_rel.validation import (
 )
 
 
-WORKFLOW_ROOT = Path(__file__).resolve().parents[2] / "workflows/kcat-rel"
+WORKFLOW_ROOT = Path(__file__).resolve().parents[2] / "results/kcat-rel"
 CONFIG = WORKFLOW_ROOT / "config" / "kcat-rel-v0.json"
 
 

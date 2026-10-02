@@ -8,7 +8,7 @@ from pathlib import Path
 import pytest
 
 from kcat_rel.reporting import write_diagnostic_artifacts
-from test_reporting_producers import _producer_result
+from .test_reporting_producers import _producer_result
 
 
 @pytest.mark.parametrize("side", ["audit", "manifest", "both"])

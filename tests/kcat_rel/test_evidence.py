@@ -9,7 +9,7 @@ import pytest
 from kcat_rel.evidence import EvidenceAuditError, audit_evidence, main
 
 
-WORKFLOW_ROOT = Path(__file__).resolve().parents[2] / "workflows/kcat-rel"
+WORKFLOW_ROOT = Path(__file__).resolve().parents[2] / "results/kcat-rel"
 DATA_ROOT = Path(__file__).resolve().parents[2] / "data/public/kcat-rel"
 CANONICAL_PATH = DATA_ROOT / "canonical-labels.csv"
 MEASUREMENTS_PATH = DATA_ROOT / "measurement-evidence.csv"

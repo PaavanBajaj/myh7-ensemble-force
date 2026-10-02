@@ -25,15 +25,15 @@
     "--measurement-evidence",
     "data/public/kcat-rel/measurement-evidence.csv",
     "--config",
-    "workflows/kcat-rel/config/kcat-rel-v0.json",
+    "results/kcat-rel/config/kcat-rel-v0.json",
     "--output",
-    "workflows/kcat-rel/results/diagnostic-v0"
+    "results/kcat-rel/results/diagnostic-v0"
   ],
   "fallback_reason": "msa_toolchain_and_snapshot_unavailable",
   "git_revision": "91affadb0f5bdb3fbf8f09b22209836f38ddf9c5",
   "input_sha256": {
     "canonical_labels": "26f03817cf3b3a1d268bafed9c502a986a3ef8cbbfcfd842f714065938f6d25a",
-    "feature_manifest": "527aec1ffcc2fd21d67211fbb4bcf8a1b3ee4fa9c1e0ec17ddb6802171fa272c",
+    "feature_manifest": "cb60f87c99a5ac8a0bd1f45ed4720d677aba45bb7090ba15184701963b5d2fad",
     "features_csv": "6bd0fb2dc2d20eb184bee96cb4c99dad1d16d015bf0725b53b6edb1d0893e372",
     "measurement_evidence": "865d5d1f662f36fccc1f6e260821f22f5b2f907deb074e82b9d30fb6be379835",
     "registry": "73e72e6c31da38e6f14d810190709f815e8456a22bbf8bf83be4b105301d113b"

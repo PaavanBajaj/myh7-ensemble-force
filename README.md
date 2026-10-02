@@ -33,7 +33,7 @@ or other restricted content.
 $N_{a,\mathrm{rel}}$ workflow is runnable from repository-local inputs. It
 includes outcome-free feature generation, 110 tests, an `osx-arm64` explicit
 environment lock, the registered three-run LOSO ladder, and regenerated result
-packs under `workflows/lsar-na-rel/results/`. Its best pooled out-of-fold MAE
+packs under `results/lsar-na-rel/results/`. Its best pooled out-of-fold MAE
 was 0.130886 versus 0.131202 for the training-fold mean baseline. That small
 difference does not establish useful prediction, statistical significance, or a
 mutation mechanism. The `kcat_rel` Ridge and GPR diagnostics also failed their
@@ -47,14 +47,15 @@ validation, not a causal claim.
 1. `environment.yml` and `environment-osx-arm64.lock`: direct and exact pins
 2. `docs/reproducibility.md`: stage ladder and what "reproducible" means
 3. `docs/workflows.md`: index of completed workflow trees
-4. `workflows/kcat-rel/`: ATPase method, config, and frozen negative diagnostic
-5. `workflows/myh7-correlation-screen/`: correlation method and runbook
-6. `data/public/`: published inputs, outputs, manifests, and plots for all three workflows
+4. `results/kcat-rel/`: ATPase method, config, and frozen negative diagnostic
+5. `results/myh7-correlation-screen/`: correlation method and runbook
+6. `data/public/`: published inputs and derived tables; frozen result packs and plots are under `results/`
 
 Executable code lives in `src/lsar_na_rel/`, `src/kcat_rel/`, and
 `src/myh7_correlation_screen/`. Their tests live in the matching `tests/`
-directories. Run commands from this repository's root; see each workflow
-README for its pinned inputs and reproduction steps.
+directories. Each `results/<workflow>/` contains a runbook, configuration,
+and its frozen result pack. Downloaded structures use ignored `.cache/` paths.
+Run commands from this repository's root.
 
 ## Documentation map
 

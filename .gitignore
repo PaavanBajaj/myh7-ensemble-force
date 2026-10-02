@@ -58,11 +58,7 @@ tmp_papers/
 *.bam
 *.sam
 
-# LSAR Na-rel downloaded structure cache (checksum-verified and regenerable)
-workflows/lsar-na-rel/cache/*
-!workflows/lsar-na-rel/cache/.gitkeep
-workflows/kcat-rel/cache/*
-workflows/myh7-correlation-screen/cache/*
+# Downloaded structures for all workflows live under the ignored .cache/ root.
 
 # Large / regenerable bulk
 *.npy

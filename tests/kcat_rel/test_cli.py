@@ -13,7 +13,7 @@ from kcat_rel.features import build_feature_table, write_feature_artifacts
 from kcat_rel.registry import FROZEN_PRIMARY_VARIANTS, load_registry
 
 
-WORKFLOW_ROOT = Path(__file__).resolve().parents[2] / "workflows/kcat-rel"
+WORKFLOW_ROOT = Path(__file__).resolve().parents[2] / "results/kcat-rel"
 DATA_ROOT = Path(__file__).resolve().parents[2] / "data/public/kcat-rel"
 CONFIG = WORKFLOW_ROOT / "config" / "kcat-rel-v0.json"
 

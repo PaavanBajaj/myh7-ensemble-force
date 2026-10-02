@@ -11,7 +11,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[2]
-WORKFLOW = ROOT / "workflows" / "myh7-correlation-screen"
+WORKFLOW = ROOT / "results" / "myh7-correlation-screen"
 DATA = ROOT / "data/public/myh7-correlation-screen"
 PUBLIC = ROOT / "data/public/lsar-na-rel"
 

@@ -19,7 +19,7 @@ from lsar_na_rel.validation import (
 )
 
 CONFIG = load_talk_v0_config(
-    Path(__file__).resolve().parents[2] / "workflows" / "lsar-na-rel" / "config" / "lsar-na-rel.json"
+    Path(__file__).resolve().parents[2] / "results" / "lsar-na-rel" / "config" / "lsar-na-rel.json"
 )
 SEED = CONFIG.seed
 

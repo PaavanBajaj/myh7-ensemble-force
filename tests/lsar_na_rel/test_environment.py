@@ -4,7 +4,7 @@ from pathlib import Path
 
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-WORKFLOW_ROOT = REPO_ROOT / "workflows" / "lsar-na-rel"
+WORKFLOW_ROOT = REPO_ROOT / "results" / "lsar-na-rel"
 LOCK = REPO_ROOT / "environment-osx-arm64.lock"
 
 

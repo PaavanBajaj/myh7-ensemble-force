@@ -35,8 +35,8 @@ from lsar_na_rel.structure import (
 )
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-WORKFLOW_ROOT = REPO_ROOT / "workflows" / "lsar-na-rel"
-CACHE_DIR = WORKFLOW_ROOT / "cache"
+WORKFLOW_ROOT = REPO_ROOT / "results" / "lsar-na-rel"
+CACHE_DIR = REPO_ROOT / ".cache" / "lsar-na-rel"
 
 # Frozen primary Talk-v0 labels (order matches canonical S1 primary table).
 # Kept as a local tuple so structure tests never load Na_rel / ln(Na_rel).

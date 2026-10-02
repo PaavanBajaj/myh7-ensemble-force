@@ -331,7 +331,7 @@ def generate_features(*, variants_path: Path, fasta_path: Path, assembly_path: P
         "variant_registry_sha256": sha256(variants_path),
         "sequence_accession": "P12883",
         "normalized_sequence_sha256": hashlib.sha256(sequence.encode()).hexdigest(),
-        "features": {feature: {"unit": "angstrom", "definition": "feature-literature.md"} for feature in FEATURES},
+        "features": {feature: {"unit": "angstrom", "definition": "docs/myh7-correlation-feature-literature.md"} for feature in FEATURES},
         "structures": {
             entry: {
                 "url": STRUCTURE_URLS[entry],

@@ -10,7 +10,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[2]
-WORKFLOW = ROOT / "workflows/myh7-correlation-screen"
+WORKFLOW = ROOT / "results/myh7-correlation-screen"
 DATA = ROOT / "data/public/myh7-correlation-screen"
 PUBLIC = ROOT / "data/public/lsar-na-rel"
 
@@ -22,7 +22,7 @@ def test_plan_cli_inventories_complete_pair_set_before_analysis(tmp_path: Path) 
         "--new-features", str(DATA / "features-v1.csv"),
         "--kcat-features", str(ROOT / "data/public/kcat-rel/derived/kcat-rel-v0-no-msa-features.csv"),
         "--na-features", str(PUBLIC / "features.csv"),
-        "--config", str(WORKFLOW / "comparison-config-v1.json"),
+        "--config", str(WORKFLOW / "config/comparison-config-v1.json"),
         "--output-dir", str(tmp_path),
     ]
     completed = subprocess.run(command, text=True, capture_output=True, check=False, cwd=ROOT, env={**os.environ, "PYTHONPATH": str(ROOT / "src")})

@@ -37,23 +37,23 @@
   "feature_generation_uses_outcomes": false,
   "features": {
     "adp_adenine_ca_distance_8efe_A": {
-      "definition": "feature-literature.md",
+      "definition": "docs/myh7-correlation-feature-literature.md",
       "unit": "angstrom"
     },
     "adp_rigor_ca_shift_A": {
-      "definition": "feature-literature.md",
+      "definition": "docs/myh7-correlation-feature-literature.md",
       "unit": "angstrom"
     },
     "elc_min_heavy_distance_8act_mean_ab": {
-      "definition": "feature-literature.md",
+      "definition": "docs/myh7-correlation-feature-literature.md",
       "unit": "angstrom"
     },
     "relay_landmark_min_ca_distance_8act_mean_ab": {
-      "definition": "feature-literature.md",
+      "definition": "docs/myh7-correlation-feature-literature.md",
       "unit": "angstrom"
     },
     "rigor_actin_min_heavy_distance_8efi_A": {
-      "definition": "feature-literature.md",
+      "definition": "docs/myh7-correlation-feature-literature.md",
       "unit": "angstrom"
     }
   },

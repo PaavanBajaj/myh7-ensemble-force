@@ -1,0 +1,3 @@
+# Feature-selection lock
+
+**Locked 2026-10-02 20:35 UTC, before calculation of any outcome-feature association.** The five selected numeric structural features are `adp_rigor_ca_shift_A`, `adp_adenine_ca_distance_8efe_A`, `rigor_actin_min_heavy_distance_8efi_A`, `relay_landmark_min_ca_distance_8act_mean_ab`, and `elc_min_heavy_distance_8act_mean_ab`. Their definitions, states, chains, sources, expected coverage, and limitations are in [feature literature](myh7-correlation-feature-literature.md). The ranking used prior experimental relevance and coordinate feasibility; no outcome correlations were inspected. Feature generation must accept variant identities and structure/sequence inputs only, never outcome columns.

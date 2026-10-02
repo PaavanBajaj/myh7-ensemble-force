@@ -25,20 +25,20 @@ from kcat_rel.modeling_summary import (
 from kcat_rel.registry import ACTIVE_FEATURE_COLUMNS, FROZEN_SOURCE_STUDIES
 
 
-WORKFLOW_ROOT = Path(__file__).resolve().parents[2] / "workflows/kcat-rel"
+WORKFLOW_ROOT = Path(__file__).resolve().parents[2] / "results/kcat-rel"
 DATA_ROOT = Path(__file__).resolve().parents[2] / "data/public/kcat-rel"
 
 _FROZEN_SUMMARY_ARTIFACT_SHA256 = {
     "config": "73e72e6c31da38e6f14d810190709f815e8456a22bbf8bf83be4b105301d113b",
     "features_csv": "6bd0fb2dc2d20eb184bee96cb4c99dad1d16d015bf0725b53b6edb1d0893e372",
-    "feature_manifest": "527aec1ffcc2fd21d67211fbb4bcf8a1b3ee4fa9c1e0ec17ddb6802171fa272c",
+    "feature_manifest": "cb60f87c99a5ac8a0bd1f45ed4720d677aba45bb7090ba15184701963b5d2fad",
     "model_table": "bf93b88a548d5393aebd6b1e350f5e99181dda9833beadfe68d902dfdf1cefef",
     "study_oof": "068d7b454d6d1425212e6464fd0e15a05d58c3a126fa3b0ecbc642c44e18bf5e",
     "variant_oof": "7276fa923bac3d26adeb2d3e06139012298ea1798d00b357c337c9118c0fe24d",
     "metrics": "130ae700646e311ea1b146a108d7df3867b598bc4cc71ab3cdcbb45dda15caa7",
     "sensitivity": "0b7bef3e096b48e8acc491b4623aff5d5c1f378399bf4483ae6dde77ba3e47bf",
     "tuning_records": "cdf084be72a25be32e9704cf1fc33b43f6e13ff27b480880d2bd723959446ebf",
-    "run_manifest": "a6f3b0dcadcbe03447ff03b05bc48c149a2e8cf1bbd6b73656a4b1323d1aa399",
+    "run_manifest": "d3a5618710d71c207d4bce2a748deede32a505ca8148912d3d8995b92277535a",
 }
 
 
