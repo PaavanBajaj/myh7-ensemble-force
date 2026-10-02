@@ -1,23 +1,18 @@
-# MYH7 variant biochemistry and mechanism
+# MYH7 Variant Biochemistry
 
-This repository publishes the completed LSAR / within-study
-$N_{a,\mathrm{rel}}$ workflow, the frozen `kcat_rel` diagnostic, and the MYH7
-correlation screen. The current research direction is to examine measured
-biochemical effects and validate associations with matched preparations.
-These analyses do not establish head-state occupancy, a force predictor, or a
-mutation mechanism.
-
-The original plan combined predicted ATPase turnover, unloaded velocity, and
-available myosin heads into one force estimate. It did not reach that stage:
-velocity modeling, forward prediction, and the combined calculation were not
-implemented. The 17-variant ATPase diagnostic failed its predeclared prediction
-gates. Its data, code, and negative result are now published. The subsequent
-correlation screen compares measured ATPase, LSAR-derived available-head proxy,
-unloaded velocity, and structural features without training a predictor.
-
-Research use only. This is not a diagnostic test and not clinical advice.
+This repository shares three completed MYH7 research workflows: an LSAR-derived
+proxy for available myosin heads, a `kcat_rel` ATPase diagnostic, and a screen
+of relationships among ATPase, LSAR, unloaded velocity, and structural
+features. The current focus is to describe measured effects and check promising
+relationships with matched experiments. These results do not establish a
+mutation mechanism or support clinical decisions.
 
 ## Lineage
+
+The project first aimed to estimate MYH7 ensemble force by combining predicted
+ATPase turnover, unloaded velocity, and available myosin heads. The ATPase
+diagnostic failed its prediction gates, and the velocity model and combined
+force calculation were never built. That ensemble force plan is now historical.
 
 Initial project idea archived under `hcm-mava-response` (now private). That
 workflow aimed to predict mavacamten treatment response in HCM patients with
@@ -29,18 +24,13 @@ or other restricted content.
 
 ## Current stage
 
-**Completed public workflows: LSAR, `kcat_rel`, and correlation screen.** The continuous LSAR / within-study
-$N_{a,\mathrm{rel}}$ workflow is runnable from repository-local inputs. It
-includes outcome-free feature generation, 110 tests, an `osx-arm64` explicit
-environment lock, the registered three-run LOSO ladder, and regenerated result
-packs under `results/lsar-na-rel/results/`. Its best pooled out-of-fold MAE
-was 0.130886 versus 0.131202 for the training-fold mean baseline. That small
-difference does not establish useful prediction, statistical significance, or a
-mutation mechanism. The `kcat_rel` Ridge and GPR diagnostics also failed their
-predeclared gates. The exploratory screen reports all 78 eligible comparisons;
-its strongest outcome relationship is `kcat_rel` versus unloaded velocity
-(Spearman rho +0.670, 14 paired variants), which motivates matched-measurement
-validation, not a causal claim.
+The LSAR workflow is runnable, and the completed `kcat_rel` diagnostic is
+preserved as a frozen record; neither produced a useful predictor. The
+correlation screen reports all 78 eligible comparisons; its strongest outcome
+association is between `kcat_rel` and
+unloaded velocity (Spearman rho +0.670, 14 paired variants). The next step is to
+test that relationship with matched measurements before drawing broader
+conclusions.
 
 ## Start here
 
