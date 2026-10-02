@@ -10,10 +10,10 @@ machine-specific paths from manifests and documentation.
 
 ## Double-check an exact label
 
-Open [`data/canonical-labels.csv`](data/canonical-labels.csv). Each row places
+Open [`data/public/kcat-rel/canonical-labels.csv`](../../data/public/kcat-rel/canonical-labels.csv). Each row places
 the selected WT and mutant rates beside `kcat_rel` and `ln_kcat_rel`.
 `canonical_measurement_ids` links the row to
-[`data/measurement-evidence.csv`](data/measurement-evidence.csv), where assay
+[`data/public/kcat-rel/measurement-evidence.csv`](../../data/public/kcat-rel/measurement-evidence.csv), where assay
 context, replicate identity, uncertainty, source location, DOI, and matched-WT
 identity are recorded.
 
@@ -72,12 +72,12 @@ repository. Public evidence rows cite source locations and DOIs.
 
 ## Audit
 
-From this directory, using the already provisioned Talk-v0 environment:
+From the repository root, using the pinned environment:
 
 ```bash
-conda run -n lsar-na-rel-talk-v0 python -m pytest
+conda run -n lsar-na-rel-talk-v0 pytest -q tests/kcat_rel
 PYTHONPATH=src conda run -n lsar-na-rel-talk-v0 python -m kcat_rel.evidence \
-  data/canonical-labels.csv data/measurement-evidence.csv
+  data/public/kcat-rel/canonical-labels.csv data/public/kcat-rel/measurement-evidence.csv
 ```
 
 The executable audit recomputes all ratios, log labels, and propagated
@@ -91,23 +91,23 @@ source studies.
 Only the checksum-pinned UniProt P12883 FASTA and RCSB 8ACT archive may enter
 feature generation.  The `features` command does not accept label or evidence
 inputs; audit its generated pair before the target-bearing `diagnostic` command.
-From this workflow directory, download the 8ACT archive into the ignored
+From the repository root, download the 8ACT archive into the ignored
 `cache/` directory. The feature command verifies its configured SHA-256 before
 using it.
 
 ```bash
-mkdir -p cache
-curl -L https://files.rcsb.org/download/8ACT.cif.gz -o cache/8ACT.cif.gz
+mkdir -p workflows/kcat-rel/cache
+curl -L https://files.rcsb.org/download/8ACT.cif.gz -o workflows/kcat-rel/cache/8ACT.cif.gz
 
 PYTHONPATH=src conda run -n lsar-na-rel-talk-v0 python -m kcat_rel.cli features \
-  --reference-fasta ../../tests/lsar_na_rel/fixtures/P12883.fasta \
-  --structure cache/8ACT.cif.gz \
-  --config config/kcat-rel-v0.json --output-dir /tmp/kcat-feature-check
+  --reference-fasta tests/lsar_na_rel/fixtures/P12883.fasta \
+  --structure workflows/kcat-rel/cache/8ACT.cif.gz \
+  --config workflows/kcat-rel/config/kcat-rel-v0.json --output-dir /tmp/kcat-feature-check
 
 PYTHONPATH=src conda run -n lsar-na-rel-talk-v0 python -m kcat_rel.cli audit-features \
   --features /tmp/kcat-feature-check/kcat-rel-v0-no-msa-features.csv \
   --feature-manifest /tmp/kcat-feature-check/kcat-rel-v0-no-msa-feature-manifest.json \
-  --config config/kcat-rel-v0.json
+  --config workflows/kcat-rel/config/kcat-rel-v0.json
 
 ```
 
@@ -121,11 +121,11 @@ or write to its destination:
 ```bash
 # Historical record only — do not run.
 PYTHONPATH=src conda run -n lsar-na-rel-talk-v0 python -m kcat_rel.cli diagnostic \
-  --features data/derived/kcat-rel-v0-no-msa-features.csv \
-  --feature-manifest data/derived/kcat-rel-v0-no-msa-feature-manifest.json \
-  --canonical-labels data/canonical-labels.csv \
-  --measurement-evidence data/measurement-evidence.csv \
-  --config config/kcat-rel-v0.json --output results/diagnostic-v0
+  --features data/public/kcat-rel/derived/kcat-rel-v0-no-msa-features.csv \
+  --feature-manifest data/public/kcat-rel/derived/kcat-rel-v0-no-msa-feature-manifest.json \
+  --canonical-labels data/public/kcat-rel/canonical-labels.csv \
+  --measurement-evidence data/public/kcat-rel/measurement-evidence.csv \
+  --config workflows/kcat-rel/config/kcat-rel-v0.json --output workflows/kcat-rel/results/diagnostic-v0
 ```
 
 Any new execution must use a fresh, empty destination distinct from
@@ -159,16 +159,16 @@ destination.
 MPLCONFIGDIR=/tmp/kcat-rel-mpl-cache \
 PYTHONPATH=src conda run -n lsar-na-rel-talk-v0 \
 python -m kcat_rel.modeling_summary \
-  --features data/derived/kcat-rel-v0-no-msa-features.csv \
-  --feature-manifest data/derived/kcat-rel-v0-no-msa-feature-manifest.json \
-  --model-table data/derived/kcat-rel-v0-no-msa-model-table.csv \
-  --study-oof results/diagnostic-v0/study-oof.csv \
-  --variant-oof results/diagnostic-v0/variant-oof.csv \
-  --metrics results/diagnostic-v0/metrics.json \
-  --sensitivity results/diagnostic-v0/sensitivity.json \
-  --tuning-records results/diagnostic-v0/tuning-records.csv \
-  --run-manifest results/diagnostic-v0/run-manifest.json \
-  --config config/kcat-rel-v0.json \
+  --features data/public/kcat-rel/derived/kcat-rel-v0-no-msa-features.csv \
+  --feature-manifest data/public/kcat-rel/derived/kcat-rel-v0-no-msa-feature-manifest.json \
+  --model-table data/public/kcat-rel/derived/kcat-rel-v0-no-msa-model-table.csv \
+  --study-oof workflows/kcat-rel/results/diagnostic-v0/study-oof.csv \
+  --variant-oof workflows/kcat-rel/results/diagnostic-v0/variant-oof.csv \
+  --metrics workflows/kcat-rel/results/diagnostic-v0/metrics.json \
+  --sensitivity workflows/kcat-rel/results/diagnostic-v0/sensitivity.json \
+  --tuning-records workflows/kcat-rel/results/diagnostic-v0/tuning-records.csv \
+  --run-manifest workflows/kcat-rel/results/diagnostic-v0/run-manifest.json \
+  --config workflows/kcat-rel/config/kcat-rel-v0.json \
   --output-dir /absolute/path/outside-the-repository
 ```
 

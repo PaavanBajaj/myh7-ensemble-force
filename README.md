@@ -47,9 +47,14 @@ validation, not a causal claim.
 1. `environment.yml` and `environment-osx-arm64.lock`: direct and exact pins
 2. `docs/reproducibility.md`: stage ladder and what "reproducible" means
 3. `docs/workflows.md`: index of completed workflow trees
-4. `workflows/kcat-rel/`: audited ATPase labels, code, and frozen negative diagnostic
-5. `workflows/myh7-correlation-screen/`: source audit, 78 comparisons, plots, and code
-6. `data/public/lsar-na-rel/` and `workflows/lsar-na-rel/`: LSAR data and pipeline
+4. `workflows/kcat-rel/`: ATPase method, config, and frozen negative diagnostic
+5. `workflows/myh7-correlation-screen/`: correlation method and runbook
+6. `data/public/`: published inputs, outputs, manifests, and plots for all three workflows
+
+Executable code lives in `src/lsar_na_rel/`, `src/kcat_rel/`, and
+`src/myh7_correlation_screen/`. Their tests live in the matching `tests/`
+directories. Run commands from this repository's root; see each workflow
+README for its pinned inputs and reproduction steps.
 
 ## Documentation map
 
@@ -57,5 +62,5 @@ validation, not a causal claim.
 - `docs/provenance.md`: cite-not-contain evidence account
 - `docs/reproducibility.md`: stage contract
 - `docs/workflows.md`: live slice index
-- `data/public/` and completed workflow `data/` directories: scrubbed shareable
-  derivatives and manifests only (never vault contents)
+- `data/public/`: scrubbed shareable inputs, derivatives, and manifests only
+  (never vault contents)

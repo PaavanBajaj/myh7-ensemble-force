@@ -52,7 +52,7 @@ tmp_papers/
 *.pdb
 *.pdb.gz
 *.cif
-!workflows/kcat-rel/tests/fixtures/8act-mini.cif
+!tests/kcat_rel/fixtures/8act-mini.cif
 *.fastq
 *.fastq.gz
 *.bam

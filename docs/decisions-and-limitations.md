@@ -13,6 +13,11 @@ LSAR S3 release. The exploratory correlation screen is also published, with a
 dated decision and protocol for matched-preparation measurements. These are
 negative predictive and descriptive results, respectively.
 
+The three completed workflows share one repository layout: code in `src/`,
+tests in `tests/`, public data in `data/public/`, and method/configuration and
+frozen run records in `workflows/`. See the [workflow index](workflows.md) for
+the exact directories.
+
 ## Status (S3 for `lsar-na-rel`)
 
 Promoted decisions for the continuous LSAR public pack

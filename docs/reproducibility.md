@@ -26,4 +26,12 @@ all 78 results, and CLI commands to regenerate its tables. The Morck source
 workbook and restricted literature remain outside Git; the compact derived
 pair table is included. No ensemble-force workflow was implemented.
 
+All completed workflows use the same public layout: executable modules in
+`src/`, tests in `tests/`, shareable inputs and outputs in `data/public/`, and
+methods, configurations, and frozen run records in `workflows/`. The commands
+in each workflow README run from the repository root. The historical `kcat_rel`
+diagnostic is preserved as a frozen record; its feature and evidence audits
+remain runnable, but its diagnostic should not be replayed into the frozen
+result directory.
+
 The explicit lock is currently released only for `osx-arm64`.

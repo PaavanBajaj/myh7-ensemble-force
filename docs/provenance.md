@@ -6,7 +6,7 @@ supplements, and raw working data stay in the encrypted private data vault.
 Public materials point at scrubbed identifiers, checksums, and freeze
 metadata only.
 
-## Status (S3 for `lsar-na-rel`)
+## Public packs
 
 First public provenance pack for the continuous LSAR slice:
 
@@ -18,13 +18,20 @@ First public provenance pack for the continuous LSAR slice:
 The manifest cites primary sources by DOI and, where recorded, PMID/PMCID, plus
 SHA-256 digests of the published derivative files themselves.
 
+The [`kcat-rel`](../data/public/kcat-rel/) pack includes canonical labels,
+measurement evidence, feature provenance, and the historical diagnostic
+manifest under [`workflows/kcat-rel/results/diagnostic-v0/`](../workflows/kcat-rel/results/diagnostic-v0/).
+The [correlation pack](../data/public/myh7-correlation-screen/) includes a
+source manifest, feature and outcome manifests, the locked comparison plan,
+and the analysis manifest alongside all result tables and plots.
+
 ## Rules
 
 1. Cite sources by stable IDs and checksums published in public manifests.
 2. Do not commit copyrighted full text, screenshots of papers, or vault paths
    that imply redistribution.
-3. Scrubbed shareable derivatives live under `data/public/` or the completed
-   workflow's `data/` directory after provenance review.
+3. Scrubbed shareable derivatives live under `data/public/<workflow>/` after
+   provenance review.
 4. Do not assign a new data license unless one is explicitly supplied; document
    the current licensing limitation beside the pack.
 5. Hash the public derivative files themselves; do not publish private vault

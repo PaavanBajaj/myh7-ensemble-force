@@ -33,6 +33,16 @@ diagnostic was not refit or rerun during publication. Rebuilt correlation
 manifests use public input hashes and new packaging timestamps; the scientific
 result tables remain unchanged.
 
+## Repository layout
+
+The three completed workflows now have matching top-level locations: code in
+`src/<workflow>/`, tests in `tests/<workflow>/`, and public tables and manifests
+in `data/public/<workflow>/`. Workflow directories retain their runbooks,
+configuration, ignored download caches, and frozen result records. Moving files
+changed path-bearing manifests and source-row references, so those manifests
+were rebuilt against the public paths. Frozen diagnostic metrics, correlation
+effects, sensitivity estimates, ranking values, and SVG plots were preserved.
+
 Numerical source values were not re-audited or revised in this promotion.
 The data dictionaries retain units, cohort definitions, uncertainty types,
 missingness, and study provenance. The public release adds no separate data
