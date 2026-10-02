@@ -1,7 +1,7 @@
 # Workflows
 
-Thin index of **live** workflow trees only. Later label trees are omitted until
-those slices start.
+Thin index of **live** public workflow trees. The original predictive plan's
+later label and ensemble-force trees were not implemented.
 
 | Path | Label | Status |
 | --- | --- | --- |
@@ -14,4 +14,5 @@ manifest: [`data/public/manifests/lsar-na-rel-sources.json`](../data/public/mani
 Runbook: [`workflows/lsar-na-rel/README.md`](../workflows/lsar-na-rel/README.md) ·
 results: [`workflows/lsar-na-rel/results/`](../workflows/lsar-na-rel/results/)
 
-Not created yet: `kcat-rel`, `v-rel`, `ensemble-force`.
+No public `kcat-rel`, `v-rel`, or `ensemble-force` workflow exists. The private
+ATPase diagnostic is not included in this public release.
