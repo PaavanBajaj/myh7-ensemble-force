@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="550" viewBox="0 0 1050 550" role="img" aria-label="C028  v_rel vs elc_min_heavy_distance_8act_mean_ab">
+<rect width="100%" height="100%" fill="#000"/>
+<text x="50" y="37" fill="#fff" font-family="sans-serif" font-size="20">C028  v_rel vs elc_min_heavy_distance_8act_mean_ab</text>
+<text x="50" y="60" fill="#aaa" font-family="sans-serif" font-size="14">n=15 · spearman_tie_aware=0.139285714286 · descriptive</text>
+<line x1="85" y1="475" x2="620" y2="475" stroke="#777"/>
+<line x1="85" y1="80" x2="85" y2="475" stroke="#777"/>
+<text x="352" y="530" fill="#fff" text-anchor="middle" font-family="sans-serif" font-size="14">v_rel (ratio)</text>
+<text x="18" y="278" fill="#fff" text-anchor="middle" transform="rotate(-90 18 278)" font-family="sans-serif" font-size="14">elc_min_heavy_distance_8act_mean_ab (angstrom)</text>
+<text x="85.0" y="496" fill="#aaa" text-anchor="middle" font-family="sans-serif" font-size="12">-0.025</text>
+<text x="74" y="479.0" fill="#aaa" text-anchor="end" font-family="sans-serif" font-size="12">-2.46</text>
+<text x="218.8" y="496" fill="#aaa" text-anchor="middle" font-family="sans-serif" font-size="12">0.644</text>
+<text x="74" y="380.2" fill="#aaa" text-anchor="end" font-family="sans-serif" font-size="12">14.4</text>
+<text x="352.5" y="496" fill="#aaa" text-anchor="middle" font-family="sans-serif" font-size="12">1.31</text>
+<text x="74" y="281.5" fill="#aaa" text-anchor="end" font-family="sans-serif" font-size="12">31.2</text>
+<text x="486.2" y="496" fill="#aaa" text-anchor="middle" font-family="sans-serif" font-size="12">1.98</text>
+<text x="74" y="182.8" fill="#aaa" text-anchor="end" font-family="sans-serif" font-size="12">48.1</text>
+<text x="620.0" y="496" fill="#aaa" text-anchor="middle" font-family="sans-serif" font-size="12">2.65</text>
+<text x="74" y="84.0" fill="#aaa" text-anchor="end" font-family="sans-serif" font-size="12">65</text>
+<text x="660" y="90" fill="#fff" font-family="sans-serif" font-size="14">Variant · source study</text>
+<circle cx="279.22" cy="442.08" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>A797T · morck2022 · (0.94668, 3.1568)</title></circle>
+<text x="288.22" y="433.08" fill="#fff" font-family="sans-serif" font-size="11">1</text>
+<text x="660" y="125" fill="#ddd" font-family="sans-serif" font-size="13">1. A797T · morck2022</text>
+<circle cx="478.13" cy="234.24" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>D239N · adhikari2016 · (1.9419, 38.631)</title></circle>
+<text x="487.13" y="225.24" fill="#fff" font-family="sans-serif" font-size="11">2</text>
+<text x="660" y="150" fill="#ddd" font-family="sans-serif" font-size="13">2. D239N · adhikari2016</text>
+<circle cx="381.56" cy="425.89" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>D778V · morck2022 · (1.4587, 5.9199)</title></circle>
+<text x="390.56" y="416.89" fill="#fff" font-family="sans-serif" font-size="11">3</text>
+<text x="660" y="175" fill="#ddd" font-family="sans-serif" font-size="13">3. D778V · morck2022</text>
+<circle cx="251.58" cy="328.87" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>E497D · nandwani2025 · (0.80842, 22.479)</title></circle>
+<text x="260.58" y="319.87" fill="#fff" font-family="sans-serif" font-size="11">4</text>
+<text x="660" y="200" fill="#ddd" font-family="sans-serif" font-size="13">4. E497D · nandwani2025</text>
+<circle cx="293.48" cy="289.87" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>F834L · morck2022 · (1.018, 29.137)</title></circle>
+<text x="302.48" y="280.87" fill="#fff" font-family="sans-serif" font-size="11">5</text>
+<text x="660" y="225" fill="#ddd" font-family="sans-serif" font-size="13">5. F834L · morck2022</text>
+<circle cx="129.58" cy="357.99" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>G768R · pathak2026 · (0.19804, 17.509)</title></circle>
+<text x="138.58" y="348.99" fill="#fff" font-family="sans-serif" font-size="11">6</text>
+<text x="660" y="250" fill="#ddd" font-family="sans-serif" font-size="13">6. G768R · pathak2026</text>
+<circle cx="368.90" cy="379.66" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>H251N · adhikari2016 · (1.3953, 13.811)</title></circle>
+<text x="377.90" y="370.66" fill="#fff" font-family="sans-serif" font-size="11">7</text>
+<text x="660" y="275" fill="#ddd" font-family="sans-serif" font-size="13">7. H251N · adhikari2016</text>
+<circle cx="575.42" cy="387.34" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>I457T · adhikari2019 · (2.4286, 12.5)</title></circle>
+<text x="584.42" y="378.34" fill="#fff" font-family="sans-serif" font-size="11">8</text>
+<text x="660" y="300" fill="#ddd" font-family="sans-serif" font-size="13">8. I457T · adhikari2019</text>
+<circle cx="230.74" cy="440.84" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>L781P · morck2022 · (0.70414, 3.3691)</title></circle>
+<text x="239.74" y="431.84" fill="#fff" font-family="sans-serif" font-size="11">9</text>
+<text x="660" y="325" fill="#ddd" font-family="sans-serif" font-size="13">9. L781P · morck2022</text>
+<circle cx="152.69" cy="349.99" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>P710R · vanderroest2021 · (0.31365, 18.875)</title></circle>
+<text x="161.69" y="340.99" fill="#fff" font-family="sans-serif" font-size="11">10</text>
+<text x="660" y="350" fill="#ddd" font-family="sans-serif" font-size="13">10. P710R · vanderroest2021</text>
+<circle cx="318.95" cy="112.92" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>R403Q · nag2015 · (1.1455, 59.339)</title></circle>
+<text x="327.95" y="103.92" fill="#fff" font-family="sans-serif" font-size="11">11</text>
+<text x="660" y="375" fill="#ddd" font-family="sans-serif" font-size="13">11. R403Q · nag2015</text>
+<circle cx="242.41" cy="399.88" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>R453C · sommese2013 · (0.7625, 10.361)</title></circle>
+<text x="251.41" y="390.88" fill="#fff" font-family="sans-serif" font-size="11">12</text>
+<text x="660" y="400" fill="#ddd" font-family="sans-serif" font-size="13">12. R453C · sommese2013</text>
+<circle cx="293.29" cy="335.78" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>R663H · sarkar2020 · (1.0171, 21.301)</title></circle>
+<text x="302.29" y="326.78" fill="#fff" font-family="sans-serif" font-size="11">13</text>
+<text x="660" y="425" fill="#ddd" font-family="sans-serif" font-size="13">13. R663H · sarkar2020</text>
+<circle cx="285.93" cy="433.81" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>S782N · morck2022 · (0.98025, 4.5684)</title></circle>
+<text x="294.93" y="424.81" fill="#fff" font-family="sans-serif" font-size="11">14</text>
+<text x="660" y="450" fill="#ddd" font-family="sans-serif" font-size="13">14. S782N · morck2022</text>
+<circle cx="179.87" cy="324.55" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>Y115H · nandwani2025 · (0.44961, 23.217)</title></circle>
+<text x="188.87" y="315.55" fill="#fff" font-family="sans-serif" font-size="11">15</text>
+<text x="660" y="475" fill="#ddd" font-family="sans-serif" font-size="13">15. Y115H · nandwani2025</text>
+</svg>

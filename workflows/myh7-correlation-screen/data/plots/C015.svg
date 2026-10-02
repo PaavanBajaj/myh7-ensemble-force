@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="550" viewBox="0 0 1050 550" role="img" aria-label="C015  Na_rel vs adp_adenine_ca_distance_8efe_A">
+<rect width="100%" height="100%" fill="#000"/>
+<text x="50" y="37" fill="#fff" font-family="sans-serif" font-size="20">C015  Na_rel vs adp_adenine_ca_distance_8efe_A</text>
+<text x="50" y="60" fill="#aaa" font-family="sans-serif" font-size="14">n=14 · spearman_tie_aware=-0.057268861391 · descriptive</text>
+<line x1="85" y1="475" x2="620" y2="475" stroke="#777"/>
+<line x1="85" y1="80" x2="85" y2="475" stroke="#777"/>
+<text x="352" y="530" fill="#fff" text-anchor="middle" font-family="sans-serif" font-size="14">Na_rel (ratio)</text>
+<text x="18" y="278" fill="#fff" text-anchor="middle" transform="rotate(-90 18 278)" font-family="sans-serif" font-size="14">adp_adenine_ca_distance_8efe_A (angstrom)</text>
+<text x="85.0" y="496" fill="#aaa" text-anchor="middle" font-family="sans-serif" font-size="12">0.9</text>
+<text x="74" y="479.0" fill="#aaa" text-anchor="end" font-family="sans-serif" font-size="12">6.47</text>
+<text x="218.8" y="496" fill="#aaa" text-anchor="middle" font-family="sans-serif" font-size="12">1.15</text>
+<text x="74" y="380.2" fill="#aaa" text-anchor="end" font-family="sans-serif" font-size="12">18.8</text>
+<text x="352.5" y="496" fill="#aaa" text-anchor="middle" font-family="sans-serif" font-size="12">1.39</text>
+<text x="74" y="281.5" fill="#aaa" text-anchor="end" font-family="sans-serif" font-size="12">31.2</text>
+<text x="486.2" y="496" fill="#aaa" text-anchor="middle" font-family="sans-serif" font-size="12">1.64</text>
+<text x="74" y="182.8" fill="#aaa" text-anchor="end" font-family="sans-serif" font-size="12">43.6</text>
+<text x="620.0" y="496" fill="#aaa" text-anchor="middle" font-family="sans-serif" font-size="12">1.89</text>
+<text x="74" y="84.0" fill="#aaa" text-anchor="end" font-family="sans-serif" font-size="12">56</text>
+<text x="660" y="90" fill="#fff" font-family="sans-serif" font-size="14">Variant · source study</text>
+<circle cx="395.19" cy="164.36" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>D382Y · adhikari2019 · (1.4737, 45.386)</title></circle>
+<text x="404.19" y="155.36" fill="#fff" font-family="sans-serif" font-size="11">1</text>
+<text x="660" y="125" fill="#ddd" font-family="sans-serif" font-size="13">1. D382Y · adhikari2019</text>
+<circle cx="316.35" cy="203.65" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>D778V · morck2022 · (1.3279, 40.463)</title></circle>
+<text x="325.35" y="194.65" fill="#fff" font-family="sans-serif" font-size="11">2</text>
+<text x="660" y="150" fill="#ddd" font-family="sans-serif" font-size="13">2. D778V · morck2022</text>
+<circle cx="370.79" cy="262.90" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>E497D · nandwani2025 · (1.4286, 33.041)</title></circle>
+<text x="379.79" y="253.90" fill="#fff" font-family="sans-serif" font-size="11">3</text>
+<text x="660" y="175" fill="#ddd" font-family="sans-serif" font-size="13">3. E497D · nandwani2025</text>
+<circle cx="544.59" cy="229.53" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>G768R · pathak2026 · (1.75, 37.222)</title></circle>
+<text x="553.59" y="220.53" fill="#fff" font-family="sans-serif" font-size="11">4</text>
+<text x="660" y="200" fill="#ddd" font-family="sans-serif" font-size="13">4. G768R · pathak2026</text>
+<circle cx="461.59" cy="325.73" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>H251N · adhikari2019 · (1.5965, 25.169)</title></circle>
+<text x="470.59" y="316.73" fill="#fff" font-family="sans-serif" font-size="11">5</text>
+<text x="660" y="225" fill="#ddd" font-family="sans-serif" font-size="13">5. H251N · adhikari2019</text>
+<circle cx="129.58" cy="352.33" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>I457T · adhikari2019 · (0.98246, 21.837)</title></circle>
+<text x="138.58" y="343.33" fill="#fff" font-family="sans-serif" font-size="11">6</text>
+<text x="660" y="250" fill="#ddd" font-family="sans-serif" font-size="13">6. I457T · adhikari2019</text>
+<circle cx="351.80" cy="173.64" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>L781P · morck2022 · (1.3934, 44.223)</title></circle>
+<text x="360.80" y="164.64" fill="#fff" font-family="sans-serif" font-size="11">7</text>
+<text x="660" y="275" fill="#ddd" font-family="sans-serif" font-size="13">7. L781P · morck2022</text>
+<circle cx="440.10" cy="271.15" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>P710R · vanderroest2021 · (1.5568, 32.008)</title></circle>
+<text x="449.10" y="262.15" fill="#fff" font-family="sans-serif" font-size="11">8</text>
+<text x="660" y="300" fill="#ddd" font-family="sans-serif" font-size="13">8. P710R · vanderroest2021</text>
+<circle cx="509.02" cy="358.93" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>R249Q · adhikari2019 · (1.6842, 21.011)</title></circle>
+<text x="518.02" y="349.93" fill="#fff" font-family="sans-serif" font-size="11">9</text>
+<text x="660" y="325" fill="#ddd" font-family="sans-serif" font-size="13">9. R249Q · adhikari2019</text>
+<circle cx="353.63" cy="112.92" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>R403Q · sarkar2020 · (1.3968, 51.831)</title></circle>
+<text x="362.63" y="103.92" fill="#fff" font-family="sans-serif" font-size="11">10</text>
+<text x="660" y="350" fill="#ddd" font-family="sans-serif" font-size="13">10. R403Q · sarkar2020</text>
+<circle cx="227.35" cy="300.05" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>R663H · sarkar2020 · (1.1633, 28.387)</title></circle>
+<text x="236.35" y="291.05" fill="#fff" font-family="sans-serif" font-size="11">11</text>
+<text x="660" y="375" fill="#ddd" font-family="sans-serif" font-size="13">11. R663H · sarkar2020</text>
+<circle cx="575.42" cy="178.21" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>R719W · adhikari2019 · (1.807, 43.651)</title></circle>
+<text x="584.42" y="169.21" fill="#fff" font-family="sans-serif" font-size="11">12</text>
+<text x="660" y="400" fill="#ddd" font-family="sans-serif" font-size="13">12. R719W · adhikari2019</text>
+<circle cx="316.35" cy="170.69" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>S782N · morck2022 · (1.3279, 44.593)</title></circle>
+<text x="325.35" y="161.69" fill="#fff" font-family="sans-serif" font-size="11">13</text>
+<text x="660" y="425" fill="#ddd" font-family="sans-serif" font-size="13">13. S782N · morck2022</text>
+<circle cx="370.79" cy="442.08" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>Y115H · nandwani2025 · (1.4286, 10.593)</title></circle>
+<text x="379.79" y="433.08" fill="#fff" font-family="sans-serif" font-size="11">14</text>
+<text x="660" y="450" fill="#ddd" font-family="sans-serif" font-size="13">14. Y115H · nandwani2025</text>
+</svg>

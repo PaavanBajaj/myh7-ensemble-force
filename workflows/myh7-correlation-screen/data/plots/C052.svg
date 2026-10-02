@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="635" viewBox="0 0 1050 635" role="img" aria-label="C052  rigor_actin_min_heavy_distance_8efi_A vs elc_min_heavy_distance_8act_mean_ab">
+<rect width="100%" height="100%" fill="#000"/>
+<text x="50" y="37" fill="#fff" font-family="sans-serif" font-size="20">C052  rigor_actin_min_heavy_distance_8efi_A vs elc_min_heavy_distance_8act_mean_ab</text>
+<text x="50" y="60" fill="#aaa" font-family="sans-serif" font-size="14">n=19 · spearman_tie_aware=-0.721052631579 · descriptive</text>
+<line x1="85" y1="560" x2="620" y2="560" stroke="#777"/>
+<line x1="85" y1="80" x2="85" y2="560" stroke="#777"/>
+<text x="352" y="615" fill="#fff" text-anchor="middle" font-family="sans-serif" font-size="14">rigor_actin_min_heavy_distance_8efi_A (angstrom)</text>
+<text x="18" y="320" fill="#fff" text-anchor="middle" transform="rotate(-90 18 320)" font-family="sans-serif" font-size="14">elc_min_heavy_distance_8act_mean_ab (angstrom)</text>
+<text x="85.0" y="581" fill="#aaa" text-anchor="middle" font-family="sans-serif" font-size="12">1.53</text>
+<text x="74" y="564.0" fill="#aaa" text-anchor="end" font-family="sans-serif" font-size="12">-2.23</text>
+<text x="218.8" y="581" fill="#aaa" text-anchor="middle" font-family="sans-serif" font-size="12">17.4</text>
+<text x="74" y="444.0" fill="#aaa" text-anchor="end" font-family="sans-serif" font-size="12">14.6</text>
+<text x="352.5" y="581" fill="#aaa" text-anchor="middle" font-family="sans-serif" font-size="12">33.3</text>
+<text x="74" y="324.0" fill="#aaa" text-anchor="end" font-family="sans-serif" font-size="12">31.4</text>
+<text x="486.2" y="581" fill="#aaa" text-anchor="middle" font-family="sans-serif" font-size="12">49.2</text>
+<text x="74" y="204.0" fill="#aaa" text-anchor="end" font-family="sans-serif" font-size="12">48.1</text>
+<text x="620.0" y="581" fill="#aaa" text-anchor="middle" font-family="sans-serif" font-size="12">65.1</text>
+<text x="74" y="84.0" fill="#aaa" text-anchor="end" font-family="sans-serif" font-size="12">64.9</text>
+<text x="660" y="90" fill="#fff" font-family="sans-serif" font-size="14">Variant · source study</text>
+<circle cx="367.12" cy="267.99" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>D239N · intrinsic features · (35.056, 38.631)</title></circle>
+<text x="376.12" y="258.99" fill="#fff" font-family="sans-serif" font-size="11">1</text>
+<text x="660" y="125" fill="#ddd" font-family="sans-serif" font-size="13">1. D239N · intrinsic features</text>
+<circle cx="266.92" cy="127.30" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>D382Y · intrinsic features · (23.147, 58.317)</title></circle>
+<text x="275.92" y="118.30" fill="#fff" font-family="sans-serif" font-size="11">2</text>
+<text x="660" y="150" fill="#ddd" font-family="sans-serif" font-size="13">2. D382Y · intrinsic features</text>
+<circle cx="488.00" cy="501.77" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>D778V · intrinsic features · (49.423, 5.9199)</title></circle>
+<text x="497.00" y="492.77" fill="#fff" font-family="sans-serif" font-size="11">3</text>
+<text x="660" y="175" fill="#ddd" font-family="sans-serif" font-size="13">3. D778V · intrinsic features</text>
+<circle cx="366.71" cy="383.43" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>E497D · intrinsic features · (35.007, 22.479)</title></circle>
+<text x="375.71" y="374.43" fill="#fff" font-family="sans-serif" font-size="11">4</text>
+<text x="660" y="200" fill="#ddd" font-family="sans-serif" font-size="13">4. E497D · intrinsic features</text>
+<circle cx="575.42" cy="453.26" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>G741R · intrinsic features · (59.812, 12.707)</title></circle>
+<text x="584.42" y="444.26" fill="#fff" font-family="sans-serif" font-size="11">5</text>
+<text x="660" y="225" fill="#ddd" font-family="sans-serif" font-size="13">5. G741R · intrinsic features</text>
+<circle cx="420.25" cy="418.95" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>G768R · intrinsic features · (41.371, 17.509)</title></circle>
+<text x="429.25" y="409.95" fill="#fff" font-family="sans-serif" font-size="11">6</text>
+<text x="660" y="250" fill="#ddd" font-family="sans-serif" font-size="13">6. G768R · intrinsic features</text>
+<circle cx="353.98" cy="445.37" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>H251N · intrinsic features · (33.495, 13.811)</title></circle>
+<text x="362.98" y="436.37" fill="#fff" font-family="sans-serif" font-size="11">7</text>
+<text x="660" y="275" fill="#ddd" font-family="sans-serif" font-size="13">7. H251N · intrinsic features</text>
+<circle cx="363.76" cy="454.74" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>I457T · intrinsic features · (34.657, 12.5)</title></circle>
+<text x="372.76" y="445.74" fill="#fff" font-family="sans-serif" font-size="11">8</text>
+<text x="660" y="300" fill="#ddd" font-family="sans-serif" font-size="13">8. I457T · intrinsic features</text>
+<circle cx="283.53" cy="236.31" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>I467V · intrinsic features · (25.121, 43.064)</title></circle>
+<text x="292.53" y="227.31" fill="#fff" font-family="sans-serif" font-size="11">9</text>
+<text x="660" y="325" fill="#ddd" font-family="sans-serif" font-size="13">9. I467V · intrinsic features</text>
+<circle cx="533.45" cy="520.00" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>L781P · intrinsic features · (54.825, 3.3691)</title></circle>
+<text x="542.45" y="511.00" fill="#fff" font-family="sans-serif" font-size="11">10</text>
+<text x="660" y="350" fill="#ddd" font-family="sans-serif" font-size="13">10. L781P · intrinsic features</text>
+<circle cx="333.88" cy="374.79" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>M493I · intrinsic features · (31.105, 23.688)</title></circle>
+<text x="342.88" y="365.79" fill="#fff" font-family="sans-serif" font-size="11">11</text>
+<text x="660" y="375" fill="#ddd" font-family="sans-serif" font-size="13">11. M493I · intrinsic features</text>
+<circle cx="432.64" cy="409.18" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>P710R · intrinsic features · (42.844, 18.875)</title></circle>
+<text x="441.64" y="400.18" fill="#fff" font-family="sans-serif" font-size="11">12</text>
+<text x="660" y="400" fill="#ddd" font-family="sans-serif" font-size="13">12. P710R · intrinsic features</text>
+<circle cx="320.66" cy="408.43" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>R249Q · intrinsic features · (29.535, 18.981)</title></circle>
+<text x="329.66" y="399.43" fill="#fff" font-family="sans-serif" font-size="11">13</text>
+<text x="660" y="425" fill="#ddd" font-family="sans-serif" font-size="13">13. R249Q · intrinsic features</text>
+<circle cx="129.58" cy="120.00" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>R403Q · intrinsic features · (6.8244, 59.339)</title></circle>
+<text x="138.58" y="111.00" fill="#fff" font-family="sans-serif" font-size="11">14</text>
+<text x="660" y="450" fill="#ddd" font-family="sans-serif" font-size="13">14. R403Q · intrinsic features</text>
+<circle cx="368.19" cy="470.03" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>R453C · intrinsic features · (35.183, 10.361)</title></circle>
+<text x="377.19" y="461.03" fill="#fff" font-family="sans-serif" font-size="11">15</text>
+<text x="660" y="475" fill="#ddd" font-family="sans-serif" font-size="13">15. R453C · intrinsic features</text>
+<circle cx="227.23" cy="391.85" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>R663H · intrinsic features · (18.43, 21.301)</title></circle>
+<text x="236.23" y="382.85" fill="#fff" font-family="sans-serif" font-size="11">16</text>
+<text x="660" y="500" fill="#ddd" font-family="sans-serif" font-size="13">16. R663H · intrinsic features</text>
+<circle cx="340.95" cy="359.81" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>R671C · intrinsic features · (31.946, 25.784)</title></circle>
+<text x="349.95" y="350.81" fill="#fff" font-family="sans-serif" font-size="11">17</text>
+<text x="660" y="525" fill="#ddd" font-family="sans-serif" font-size="13">17. R671C · intrinsic features</text>
+<circle cx="571.87" cy="500.83" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>R719W · intrinsic features · (59.391, 6.052)</title></circle>
+<text x="580.87" y="491.83" fill="#fff" font-family="sans-serif" font-size="11">18</text>
+<text x="660" y="550" fill="#ddd" font-family="sans-serif" font-size="13">18. R719W · intrinsic features</text>
+<circle cx="467.48" cy="378.15" r="6" fill="#fff" stroke="#000" stroke-width="1"><title>Y115H · intrinsic features · (46.984, 23.217)</title></circle>
+<text x="476.48" y="369.15" fill="#fff" font-family="sans-serif" font-size="11">19</text>
+<text x="660" y="575" fill="#ddd" font-family="sans-serif" font-size="13">19. Y115H · intrinsic features</text>
+</svg>

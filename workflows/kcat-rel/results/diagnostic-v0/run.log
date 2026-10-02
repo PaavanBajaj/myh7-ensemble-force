@@ -1,0 +1,3 @@
+diagnostic completed after evidence and feature audits
+post-execution provenance repair: no diagnostic rerun; original execution HEAD retained
+post-execution reconstruction: inner-fold-audit.json added from canonical inputs; no fit, tuning, or diagnostic rerun

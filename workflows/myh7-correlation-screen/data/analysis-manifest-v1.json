@@ -1,0 +1,22 @@
+{
+  "analyzed_at_utc": "2026-10-02T22:04:46.863577+00:00",
+  "comparison_count": 78,
+  "input_sha256": {
+    "analysis-table-v1.csv": "62e018411e9b43c21efd7177d732066b9856995d384454c9691e85083e4e259d",
+    "comparison-inventory-v1.csv": "6ff3653592352e0a427ca701ea759acecaa6da96f30f616a46a994ef0cb0d87f",
+    "dependence-ledger-v1.csv": "acf39920a1e140ec1ff4bde4fb92fdc07d939352b4d93ade0582f776ee591631",
+    "outcomes-v1.csv": "275872108abe04dc5ab08c350cc85f38eb8fc9686378e408be1720323b411ea3",
+    "velocity-alternatives-v1.csv": "2354a3b3981897ae9197ab235253e81f254a915f8ea6a3fc2537ce4ecd8f9b80"
+  },
+  "output_sha256": {
+    "comparison-points-v1.csv": "24c821306cfa4ef11320ba23755da5139e10b8dcdd35a22e17dc0ac32d7065b7",
+    "comparison-results-v1.csv": "9e1b339b087078e83acd698d1b4d223d9c75084478c90498c7befb3fa423e99c",
+    "sensitivity-results-v1.csv": "d5aa0ddf3f38f93931c23a8b9206fb5c6de447bd52c1e40e6b324fd7f439f752"
+  },
+  "plan_sha256": "bce50ce8b051632188230a8a253af5770a53011b7b6cd3ffcbca4b4ca01aef5b",
+  "plot_count": 78,
+  "point_count": 1227,
+  "policy": "descriptive exploratory estimates; no p-values, confidence intervals, predictive claims, or causal interpretation",
+  "schema_version": 1,
+  "sensitivity_count": 125
+}

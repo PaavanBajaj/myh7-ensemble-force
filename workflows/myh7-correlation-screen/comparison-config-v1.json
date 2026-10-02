@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "primary_outcome_scale": "mutant_over_matched_study_WT_ratio",
+  "primary_velocity_cohort": "table1_primary",
+  "analysis_universe": "22 registry variants; three outside-Table-1 velocity leads have no primary v_rel and enter separately as sensitivity",
+  "outcomes": ["kcat_rel", "Na_rel", "v_rel"],
+  "features": [
+    {"name": "adp_rigor_ca_shift_A", "kind": "continuous", "unit": "angstrom", "source": "new_velocity_structure"},
+    {"name": "adp_adenine_ca_distance_8efe_A", "kind": "continuous", "unit": "angstrom", "source": "new_velocity_structure"},
+    {"name": "rigor_actin_min_heavy_distance_8efi_A", "kind": "continuous", "unit": "angstrom", "source": "new_velocity_structure"},
+    {"name": "relay_landmark_min_ca_distance_8act_mean_ab", "kind": "continuous", "unit": "angstrom", "source": "new_velocity_structure"},
+    {"name": "elc_min_heavy_distance_8act_mean_ab", "kind": "continuous", "unit": "angstrom", "source": "new_velocity_structure"},
+    {"name": "delta_charge", "kind": "ordinal", "unit": "formal_charge_units", "source": "deduplicated_existing_sequence"},
+    {"name": "grantham_distance", "kind": "continuous", "unit": "Grantham_1974_score", "source": "existing_kcat_sequence"},
+    {"name": "catalytic_motif_min_ca_distance_8act_mean_ab", "kind": "continuous", "unit": "angstrom", "source": "existing_kcat_structure"},
+    {"name": "wt_site_rsa_8act_mean_ab", "kind": "continuous", "unit": "fraction_0_to_1", "source": "existing_LSAR_structure"},
+    {"name": "ihm_interface_flag_8act", "kind": "binary", "unit": "0_or_1", "source": "existing_LSAR_structure"}
+  ],
+  "statistics": {
+    "continuous_primary": "Spearman rank rho with tie-aware ranks; descriptive, no p-values",
+    "binary_primary": "median of continuous values in flag=1 minus median in flag=0; descriptive group contrast",
+    "secondary": "Pearson on natural-log outcome ratios and raw features, only when a primary continuous effect is estimable",
+    "uncertainty": "reported measurement errors retained; leave-one-variant and leave-one-study ranges; no confidence interval or multiplicity-adjusted p-value"
+  }
+}

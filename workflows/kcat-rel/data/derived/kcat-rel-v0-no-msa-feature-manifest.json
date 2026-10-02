@@ -1,0 +1,128 @@
+{
+  "active_profile": "kcat-rel-v0-no-msa",
+  "audit": {
+    "finite": true,
+    "rows": 17,
+    "schema": [
+      "variant",
+      "delta_charge",
+      "grantham_distance",
+      "catalytic_motif_min_ca_distance_8act_mean_ab"
+    ]
+  },
+  "command": [
+    "python",
+    "-m",
+    "kcat_rel.cli",
+    "features",
+    "--reference-fasta",
+    "tests/lsar_na_rel/fixtures/P12883.fasta",
+    "--structure",
+    "workflows/kcat-rel/cache/8ACT.cif.gz",
+    "--config",
+    "workflows/kcat-rel/config/kcat-rel-v0.json",
+    "--output-dir",
+    "workflows/kcat-rel/data/derived"
+  ],
+  "fallback_reason": "msa_toolchain_and_snapshot_unavailable",
+  "feature_columns": [
+    "delta_charge",
+    "grantham_distance",
+    "catalytic_motif_min_ca_distance_8act_mean_ab"
+  ],
+  "feature_definitions": {
+    "catalytic_motif_min_ca_distance_8act_mean_ab": "Mean of deposited human 8ACT author chains A and B minimum C-alpha distances from each WT variant site to P-loop 178-185, Switch I 238-246, and Switch II 461-466",
+    "delta_charge": "q(mutant) - q(WT); D/E=-1, K/R=+1, H=0, other standard residues=0",
+    "grantham_distance": "Original symmetric integer Grantham (1974) Table 2 lookup"
+  },
+  "git_revision": "91affadb0f5bdb3fbf8f09b22209836f38ddf9c5",
+  "motifs": {
+    "p_loop": [
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185
+    ],
+    "switch_i": [
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246
+    ],
+    "switch_ii": [
+      461,
+      462,
+      463,
+      464,
+      465,
+      466
+    ]
+  },
+  "output": {
+    "columns": [
+      "variant",
+      "delta_charge",
+      "grantham_distance",
+      "catalytic_motif_min_ca_distance_8act_mean_ab"
+    ],
+    "csv_filename": "kcat-rel-v0-no-msa-features.csv",
+    "csv_sha256": "6bd0fb2dc2d20eb184bee96cb4c99dad1d16d015bf0725b53b6edb1d0893e372",
+    "rows": 17
+  },
+  "reference": {
+    "accession": "P12883",
+    "entry_name": "MYH7_HUMAN",
+    "expected_normalized_sequence_sha256": "e98e5d01a359820bcd1a00c3422025d9fedf1fdbc46ab586e3f5b731f4585be6",
+    "normalized_sequence_length": 1935,
+    "normalized_sequence_sha256": "e98e5d01a359820bcd1a00c3422025d9fedf1fdbc46ab586e3f5b731f4585be6",
+    "sequence_version": 5
+  },
+  "schema_version": 1,
+  "structure": {
+    "author_chains": [
+      "A",
+      "B"
+    ],
+    "chain_aggregation": "arithmetic_mean_ab",
+    "compressed_checksum_verified": true,
+    "entry_id": "8ACT",
+    "expected_compressed_sha256": "69bc81d3b6ee01a09e300a0e9b65f5a02837bbda9394e5566b248bf612a1b5e0",
+    "input_filename": "8ACT.cif.gz",
+    "input_sha256": "69bc81d3b6ee01a09e300a0e9b65f5a02837bbda9394e5566b248bf612a1b5e0"
+  },
+  "timestamp_utc": "2026-09-17T02:10:44.639261+00:00",
+  "tool_versions": {
+    "biopython": "1.88",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "python": "3.12.13"
+  },
+  "variants": [
+    "Y115H",
+    "D239N",
+    "R249Q",
+    "H251N",
+    "R403Q",
+    "R453C",
+    "I457T",
+    "E497D",
+    "R663H",
+    "R719W",
+    "G741R",
+    "G768R",
+    "D778V",
+    "L781P",
+    "S782N",
+    "A797T",
+    "F834L"
+  ]
+}

@@ -23,9 +23,14 @@ SHA-256 digests of the published derivative files themselves.
 1. Cite sources by stable IDs and checksums published in public manifests.
 2. Do not commit copyrighted full text, screenshots of papers, or vault paths
    that imply redistribution.
-3. Scrubbed shareable derivatives live under `data/public/` only after
-   eligibility and copyright review.
+3. Scrubbed shareable derivatives live under `data/public/` or the completed
+   workflow's `data/` directory after provenance review.
 4. Do not assign a new data license unless one is explicitly supplied; document
    the current licensing limitation beside the pack.
 5. Hash the public derivative files themselves; do not publish private vault
    file hashes as if they were the public pack.
+
+The public `kcat_rel` and correlation packs contain source-linked numerical
+derivatives and executable code. Private machine paths and vault file hashes
+were removed during publication. The frozen numerical values and correlation
+estimates were preserved.

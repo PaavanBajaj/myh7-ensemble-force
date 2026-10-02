@@ -6,6 +6,8 @@ later label and ensemble-force trees were not implemented.
 | Path | Label | Status |
 | --- | --- | --- |
 | [`workflows/lsar-na-rel/`](../workflows/lsar-na-rel/) | Continuous LSAR → within-study \(N_{a,\mathrm{rel}}\) | S3 results shipped; three registered LOSO runs |
+| [`workflows/kcat-rel/`](../workflows/kcat-rel/) | Actin-activated ATPase ratio diagnostic | 17-variant evidence and frozen negative result published |
+| [`workflows/myh7-correlation-screen/`](../workflows/myh7-correlation-screen/) | Exploratory outcome and feature screen | 78 comparisons, point data, plots, and sensitivities published |
 
 Public pack: [`data/public/lsar-na-rel/`](../data/public/lsar-na-rel/) ·
 primary pipeline table: [`na-rel-primary.csv`](../data/public/lsar-na-rel/na-rel-primary.csv) ·
@@ -14,5 +16,6 @@ manifest: [`data/public/manifests/lsar-na-rel-sources.json`](../data/public/mani
 Runbook: [`workflows/lsar-na-rel/README.md`](../workflows/lsar-na-rel/README.md) ·
 results: [`workflows/lsar-na-rel/results/`](../workflows/lsar-na-rel/results/)
 
-No public `kcat-rel`, `v-rel`, or `ensemble-force` workflow exists. The private
-ATPase diagnostic is not included in this public release.
+The [correlation decision](myh7-correlation-screen-decision.md) selects a
+[matched-preparation validation question](matched-atpase-velocity-protocol.md).
+There is no velocity predictor or combined-force workflow.

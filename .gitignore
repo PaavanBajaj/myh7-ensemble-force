@@ -52,6 +52,7 @@ tmp_papers/
 *.pdb
 *.pdb.gz
 *.cif
+!workflows/kcat-rel/tests/fixtures/8act-mini.cif
 *.fastq
 *.fastq.gz
 *.bam
@@ -60,6 +61,8 @@ tmp_papers/
 # LSAR Na-rel downloaded structure cache (checksum-verified and regenerable)
 workflows/lsar-na-rel/cache/*
 !workflows/lsar-na-rel/cache/.gitkeep
+workflows/kcat-rel/cache/*
+workflows/myh7-correlation-screen/cache/*
 
 # Large / regenerable bulk
 *.npy

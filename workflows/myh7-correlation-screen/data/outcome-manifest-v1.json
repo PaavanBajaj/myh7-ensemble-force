@@ -1,0 +1,27 @@
+{
+  "cohort_counts": {
+    "Na_rel": 16,
+    "kcat_rel": 17,
+    "v_rel_expanded_sensitivity": 3,
+    "v_rel_table1_primary": 15
+  },
+  "generated_at_utc": "2026-10-02T22:04:18.329623+00:00",
+  "input_sha256": {
+    "kcat_evidence": "865d5d1f662f36fccc1f6e260821f22f5b2f907deb074e82b9d30fb6be379835",
+    "kcat_labels": "26f03817cf3b3a1d268bafed9c502a986a3ef8cbbfcfd842f714065938f6d25a",
+    "morck_pairs": "47f3c17cc2382ef3eee64f3c4989e7fc5dffb70dc2753491b6e3d12382ab7cce",
+    "na_labels": "3d026ecd80614cc9d37d687d8fbb59d982034bec1bacbab52662453c8873cf48",
+    "na_measurements": "fc51a7ae262f2d9877509f4d2892cdd9b1b0a30f82d861a471efddebedcfda79",
+    "na_primary": "856182ae22da979e521f8c4ab3aaf8089eba2c28be9b006373f9c5309b2e6682",
+    "velocity_summary": "3aa6facb8549b9904f977d58717b7a5a1b71667eef89fb0635d45b7c5be7b9ba"
+  },
+  "na_definition": "canonical LSAR_mut / LSAR_WT_study from public release",
+  "output_sha256": {
+    "na-components-v1.csv": "68d9c02d365f535e6b62f302c1e1d92aa88e9c1eb5ae2306f2dc0edf9a3cc7ca",
+    "outcomes-v1.csv": "275872108abe04dc5ab08c350cc85f38eb8fc9686378e408be1720323b411ea3"
+  },
+  "primary_scale": "unlogged_mutant_over_matched_study_WT_ratio",
+  "schema_version": 1,
+  "source_release_read_only": true,
+  "velocity_definition": "mutant_unloaded_velocity / matched_WT; Morck mean of within-slide ratios"
+}

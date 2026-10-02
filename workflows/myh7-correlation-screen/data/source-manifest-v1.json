@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "kcat_canonical_labels",
+      "path": "workflows/kcat-rel/data/canonical-labels.csv",
+      "sha256": "26f03817cf3b3a1d268bafed9c502a986a3ef8cbbfcfd842f714065938f6d25a",
+      "boundary": "published_frozen_snapshot"
+    },
+    {
+      "id": "kcat_measurement_evidence",
+      "path": "workflows/kcat-rel/data/measurement-evidence.csv",
+      "sha256": "865d5d1f662f36fccc1f6e260821f22f5b2f907deb074e82b9d30fb6be379835",
+      "boundary": "published_frozen_snapshot"
+    },
+    {
+      "id": "kcat_existing_features",
+      "path": "workflows/kcat-rel/data/derived/kcat-rel-v0-no-msa-features.csv",
+      "sha256": "6bd0fb2dc2d20eb184bee96cb4c99dad1d16d015bf0725b53b6edb1d0893e372",
+      "boundary": "published_frozen_snapshot"
+    },
+    {
+      "id": "kcat_feature_manifest",
+      "path": "workflows/kcat-rel/data/derived/kcat-rel-v0-no-msa-feature-manifest.json",
+      "sha256": "41f41b1a3a214000d351589b0cd1c2592cdc1515f3acbaa0162bf9db3c7bad1e",
+      "boundary": "published_frozen_snapshot"
+    },
+    {
+      "id": "na_primary",
+      "path": "data/public/lsar-na-rel/na-rel-primary.csv",
+      "sha256": "856182ae22da979e521f8c4ab3aaf8089eba2c28be9b006373f9c5309b2e6682",
+      "boundary": "same_repository_public_release"
+    },
+    {
+      "id": "na_labels",
+      "path": "data/public/lsar-na-rel/labels.csv",
+      "sha256": "3d026ecd80614cc9d37d687d8fbb59d982034bec1bacbab52662453c8873cf48",
+      "boundary": "same_repository_public_release"
+    },
+    {
+      "id": "na_measurements",
+      "path": "data/public/lsar-na-rel/measurements.csv",
+      "sha256": "fc51a7ae262f2d9877509f4d2892cdd9b1b0a30f82d861a471efddebedcfda79",
+      "boundary": "same_repository_public_release"
+    },
+    {
+      "id": "na_exclusions",
+      "path": "data/public/lsar-na-rel/exclusions.csv",
+      "sha256": "367755cc818c6bdee88ad931582ebbd3fa99c8c2a19503ef627fb9aca06f46f5",
+      "boundary": "same_repository_public_release"
+    },
+    {
+      "id": "na_existing_features",
+      "path": "data/public/lsar-na-rel/features.csv",
+      "sha256": "680f1ac9193b375aae3bd76d23d2ccab06382197a6aa7a06999ff5ee9094a2d7",
+      "boundary": "same_repository_public_release"
+    },
+    {
+      "id": "na_features_provenance",
+      "path": "data/public/lsar-na-rel/features-provenance.json",
+      "sha256": "e0c4199ea20fc7de91f3f749065e934481cecd95d24d4fde32d06a2bd4eed38f",
+      "boundary": "same_repository_public_release"
+    },
+    {
+      "id": "na_SHA256SUMS",
+      "path": "data/public/lsar-na-rel/SHA256SUMS",
+      "sha256": "6105379c1fd2de9b6608fe9b2320a6aa46dbeb5e48cdaa854f29d9305c24a1cc",
+      "boundary": "same_repository_public_release"
+    },
+    {
+      "id": "8efd_mmcif",
+      "path": "workflows/myh7-correlation-screen/cache/8EFD.cif",
+      "sha256": "fed8cd752b452399b8409ee72dfa8785625f3a6cd9fb5919f8e961aa94e12e58",
+      "boundary": "structure_input_ignored_cache"
+    },
+    {
+      "id": "8efe_mmcif",
+      "path": "workflows/myh7-correlation-screen/cache/8EFE.cif",
+      "sha256": "12d0d9ac570f2775fe05144d09a2e15763df5daf1478d6a9b5d3623e224a4800",
+      "boundary": "structure_input_ignored_cache"
+    },
+    {
+      "id": "8efi_mmcif",
+      "path": "workflows/myh7-correlation-screen/cache/8EFI.cif",
+      "sha256": "ffd2c42aeef49d1d27ad8e6a71826eca9b2ad95b119d375d8a5acb052ab9dfe8",
+      "boundary": "structure_input_ignored_cache"
+    },
+    {
+      "id": "p12883_fasta",
+      "path": "tests/lsar_na_rel/fixtures/P12883.fasta",
+      "sha256": "45c96586dd50e0ede770a3bb4fb0aab125d103d53b2bc0b0fed89619e07a16ad",
+      "boundary": "sequence_fixture"
+    },
+    {
+      "id": "8act_assembly_decompressed",
+      "path": "workflows/lsar-na-rel/cache/8ACT-assembly1.pdb",
+      "sha256": "ef548f824d10986e313fa41910fa10d5d3925bc04ae3350f58214a2639d3d6a9",
+      "boundary": "structure_input_ignored_cache"
+    },
+    {
+      "id": "8act_deposit_gzip",
+      "path": "workflows/lsar-na-rel/cache/8ACT.pdb1.gz",
+      "sha256": "84469940f04dd8428a98e76c553ab519c1d45aef2beda176b8813d3b120e797b",
+      "boundary": "structure_input_ignored_cache"
+    }
+  ],
+  "vault_policy": "Restricted source files and local vault identifiers are not redistributed. Published derivative tables retain study IDs, DOI/source locations, and inclusion decisions.",
+  "publication_transform": "Local vault paths and hashes were removed. The kcat feature manifest was path-scrubbed and rehashed; scientific numeric inputs and results were not altered."
+}

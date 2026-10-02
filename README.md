@@ -1,18 +1,19 @@
 # MYH7 variant biochemistry and mechanism
 
-This repository publishes the reproducible LSAR / within-study
-$N_{a,\mathrm{rel}}$ workflow from an earlier effort to predict relative
-ensemble force for MYH7 variants. The current research direction is to examine
-measured biochemical effects and evidence for variant mechanisms. The public
-LSAR analysis is a small, descriptive input to that work, not a validated
-predictor of head-state occupancy or force.
+This repository publishes the completed LSAR / within-study
+$N_{a,\mathrm{rel}}$ workflow, the frozen `kcat_rel` diagnostic, and the MYH7
+correlation screen. The current research direction is to examine measured
+biochemical effects and validate associations with matched preparations.
+These analyses do not establish head-state occupancy, a force predictor, or a
+mutation mechanism.
 
 The original plan combined predicted ATPase turnover, unloaded velocity, and
 available myosin heads into one force estimate. It did not reach that stage:
 velocity modeling, forward prediction, and the combined calculation were not
-implemented. A separate, private 17-variant ATPase diagnostic also failed its
-predeclared prediction gates. Its data and results are not published here. The
-scope and validation plan for new mechanism analyses are still being defined.
+implemented. The 17-variant ATPase diagnostic failed its predeclared prediction
+gates. Its data, code, and negative result are now published. The subsequent
+correlation screen compares measured ATPase, LSAR-derived available-head proxy,
+unloaded velocity, and structural features without training a predictor.
 
 Research use only. This is not a diagnostic test and not clinical advice.
 
@@ -28,22 +29,27 @@ or other restricted content.
 
 ## Current stage
 
-**S3 LSAR results shipped.** The continuous LSAR / within-study
+**Completed public workflows: LSAR, `kcat_rel`, and correlation screen.** The continuous LSAR / within-study
 $N_{a,\mathrm{rel}}$ workflow is runnable from repository-local inputs. It
 includes outcome-free feature generation, 110 tests, an `osx-arm64` explicit
 environment lock, the registered three-run LOSO ladder, and regenerated result
 packs under `workflows/lsar-na-rel/results/`. Its best pooled out-of-fold MAE
 was 0.130886 versus 0.131202 for the training-fold mean baseline. That small
 difference does not establish useful prediction, statistical significance, or a
-mutation mechanism. S3 describes release reproducibility, not model success.
+mutation mechanism. The `kcat_rel` Ridge and GPR diagnostics also failed their
+predeclared gates. The exploratory screen reports all 78 eligible comparisons;
+its strongest outcome relationship is `kcat_rel` versus unloaded velocity
+(Spearman rho +0.670, 14 paired variants), which motivates matched-measurement
+validation, not a causal claim.
 
 ## Start here
 
 1. `environment.yml` and `environment-osx-arm64.lock`: direct and exact pins
 2. `docs/reproducibility.md`: stage ladder and what "reproducible" means
-3. `docs/workflows.md`: index of live workflow trees
-4. `data/public/lsar-na-rel/`: labels, generated features, provenance, and audits
-5. `workflows/lsar-na-rel/`: commands, configuration, method, and results
+3. `docs/workflows.md`: index of completed workflow trees
+4. `workflows/kcat-rel/`: audited ATPase labels, code, and frozen negative diagnostic
+5. `workflows/myh7-correlation-screen/`: source audit, 78 comparisons, plots, and code
+6. `data/public/lsar-na-rel/` and `workflows/lsar-na-rel/`: LSAR data and pipeline
 
 ## Documentation map
 
@@ -51,4 +57,5 @@ mutation mechanism. S3 describes release reproducibility, not model success.
 - `docs/provenance.md`: cite-not-contain evidence account
 - `docs/reproducibility.md`: stage contract
 - `docs/workflows.md`: live slice index
-- `data/public/`: scrubbed shareable derivatives and manifests only (never vault contents)
+- `data/public/` and completed workflow `data/` directories: scrubbed shareable
+  derivatives and manifests only (never vault contents)

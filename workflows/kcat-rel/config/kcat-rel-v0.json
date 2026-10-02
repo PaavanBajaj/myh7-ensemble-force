@@ -1,0 +1,57 @@
+{
+  "name": "kcat-rel-v0",
+  "variants": [
+    "Y115H", "D239N", "R249Q", "H251N", "R403Q", "R453C", "I457T",
+    "E497D", "R663H", "R719W", "G741R", "G768R", "D778V", "L781P",
+    "S782N", "A797T", "F834L"
+  ],
+  "source_studies": [
+    "adhikari2016", "adhikari2019", "kawana2017", "morck2022", "nag2015",
+    "nandwani2025", "pathak2026", "sarkar2020", "sommese2013"
+  ],
+  "active_profile": "kcat-rel-v0-no-msa",
+  "fallback_reason": "msa_toolchain_and_snapshot_unavailable",
+  "feature_columns": [
+    "delta_charge",
+    "grantham_distance",
+    "catalytic_motif_min_ca_distance_8act_mean_ab"
+  ],
+  "reference": {
+    "accession": "P12883",
+    "entry_name": "MYH7_HUMAN",
+    "sequence_version": 5,
+    "normalized_sequence_length": 1935,
+    "normalized_sequence_sha256": "e98e5d01a359820bcd1a00c3422025d9fedf1fdbc46ab586e3f5b731f4585be6",
+    "fasta_url": "https://rest.uniprot.org/uniprotkb/P12883.fasta"
+  },
+  "structure": {
+    "entry_id": "8ACT",
+    "url": "https://files.rcsb.org/download/8ACT.cif.gz",
+    "compressed_sha256": "69bc81d3b6ee01a09e300a0e9b65f5a02837bbda9394e5566b248bf612a1b5e0",
+    "author_chains": ["A", "B"],
+    "chain_aggregation": "arithmetic_mean_ab"
+  },
+  "motifs": {
+    "p_loop": [178, 179, 180, 181, 182, 183, 184, 185],
+    "switch_i": [238, 239, 240, 241, 242, 243, 244, 245, 246],
+    "switch_ii": [461, 462, 463, 464, 465, 466]
+  },
+  "model_grids": {
+    "ridge_alphas": [0.01, 0.1, 1.0, 10.0, 100.0],
+    "gpr": {
+      "signal_amplitude": 1.0,
+      "kernel": "matern_3_2",
+      "length_scales": [0.5, 1.0, 2.0],
+      "noise_variances": [0.0025, 0.01, 0.04],
+      "optimizer": null,
+      "normalize_y": false
+    }
+  },
+  "seed": 20260916,
+  "gate_thresholds": {
+    "minimum_mae_improvement_fraction": 0.05,
+    "maximum_rmse_degradation_fraction": 0.05,
+    "winner_effective_tie_fraction": 0.02,
+    "single_study_influence_gain_strictly_positive": true
+  }
+}

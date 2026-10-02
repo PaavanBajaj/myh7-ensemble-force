@@ -1,0 +1,15 @@
+variant,kcat_label_id,kcat_measurement_ids,kcat_source_id,na_measurement_ids,na_source_id,same_paper,same_mutant_short_S,same_WT_short_S,na_risky,comparison_class,evidence_note
+Y115H,KCAT001,M001,nandwani2025,M001,nandwani2025,yes,no,no,no,same_paper_different_construct,kcat sS1 3.2/3.1 versus Na 8-hep S=4.1; each outcome shares its own study WT across other variants
+E497D,KCAT008,M008,nandwani2025,M008,nandwani2025,yes,no,no,no,same_paper_different_construct,kcat sS1 4.7/3.1 versus Na 8-hep S=6.9; Na WT LSAR shared with Y115H
+H251N,KCAT004,M004,adhikari2016,M003,adhikari2019,no,no,no,no,different_paper,kcat sS1 5.6/4.5 versus Na 2-hep S=3.31 from later paper
+R403Q,KCAT005,M005,nag2015,M006,sarkar2020,no,no,no,yes,different_paper_risky_Na,kcat sS1 7.6/6.0 versus Na 2-hep S=2.7; low biological n in Na
+R663H,KCAT009,M009,sarkar2020,M009,sarkar2020,yes,no,no,yes,same_paper_different_construct_risky_Na,kcat sS1 2.9/3.0 versus Na 2-hep S=2.8; low biological n in Na
+R719W,KCAT010,M010,kawana2017,M011,adhikari2019,no,no,no,no,different_paper,kcat sS1 5.4/5.7 versus Na 2-hep S=2.68
+G768R,KCAT012,M012,pathak2026,M012,pathak2026,yes,no,no,yes,same_paper_different_construct_risky_Na,kcat sS1 3.92/5.37 versus Na 2-hep S=3.8; publication epoch and uncertainty concerns
+R249Q,KCAT003,M003,adhikari2019,M002,adhikari2019,yes,yes,yes,no,exact_mutant_and_WT_short_S,kcat short S=1.69/2.39; Na short mutant S=1.69 and study WT S=2.39; Na long L=1.63 and WT L=1.38
+I457T,KCAT007,M007,adhikari2019,M007,adhikari2019,yes,yes,yes,no,exact_mutant_and_WT_short_S,kcat short S=4.19/2.39; Na short mutant S=4.19 and study WT S=2.39; Na long L=2.35 and WT L=1.38
+D778V,KCAT013,M013|M014,morck2022,M013|M014,morck2022,yes,yes,uncertain,no,exact_mutant_short_S_WT_context_uncertain,identical mutant 2-hep replicate S values; Na uses published pooled WT LSAR 0.61 while kcat uses same-day paired WT S
+L781P,KCAT014,M015|M016,morck2022,M015|M016,morck2022,yes,yes,uncertain,no,exact_mutant_short_S_WT_context_uncertain,identical mutant 2-hep replicate S values; Na uses published pooled WT LSAR 0.61 while kcat uses same-day paired WT S
+S782N,KCAT015,M017|M018,morck2022,M017|M018,morck2022,yes,yes,uncertain,no,exact_mutant_short_S_WT_context_uncertain,identical mutant 2-hep replicate S values; Na uses published pooled WT LSAR 0.61 while kcat uses same-day paired WT S
+A797T,KCAT016,M019|M020,morck2022,M019|M020,morck2022,yes,yes,uncertain,no,exact_mutant_short_S_WT_context_uncertain,identical mutant 2-hep replicate S values; Na uses published pooled WT LSAR 0.61 while kcat uses same-day paired WT S
+F834L,KCAT017,M021|M022,morck2022,M021|M022,morck2022,yes,yes,uncertain,no,exact_mutant_short_S_WT_context_uncertain,identical mutant 2-hep replicate S values; Na uses published pooled WT LSAR 0.61 while kcat uses same-day paired WT S

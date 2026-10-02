@@ -15,11 +15,15 @@ hold). S4 and S5 describe historical planned milestones, not current goals.
 
 ## Current stage
 
-**S3 — Label results shipped** for `lsar-na-rel`. The public tree contains
+**S3 — Label results shipped** for `lsar-na-rel` and the frozen `kcat_rel`
+diagnostic. The public tree contains
 repository-local inputs and feature provenance, tested feature/model commands,
 direct dependency pins, an exact SHA-256 `osx-arm64` lock, and regenerated
 result packs. The near-baseline LSAR prediction result does not establish a
-useful predictor. Other label and ensemble-force workflows were not published;
-the active research direction is descriptive and mechanism-focused.
+useful predictor. The published `kcat_rel` diagnostic is likewise a negative
+result. The correlation screen is a descriptive analysis with committed inputs,
+all 78 results, and CLI commands to regenerate its tables. The Morck source
+workbook and restricted literature remain outside Git; the compact derived
+pair table is included. No ensemble-force workflow was implemented.
 
 The explicit lock is currently released only for `osx-arm64`.

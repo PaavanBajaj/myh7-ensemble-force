@@ -1,0 +1,100 @@
+{
+  "active_profile": "kcat-rel-v0-no-msa",
+  "artifact_sha256": {
+    "AUDIT.md": "b55cb88bbd251b54c5cb9e3ec25d05b53cc3f51de7c6dccfd3ff96a39304cc5d",
+    "inner-fold-audit.json": "8b906915b6ebec695dfd27843d2de234307ad770c5edfa4ce01b11204c8aef03",
+    "metrics.json": "130ae700646e311ea1b146a108d7df3867b598bc4cc71ab3cdcbb45dda15caa7",
+    "model-table.csv": "bf93b88a548d5393aebd6b1e350f5e99181dda9833beadfe68d902dfdf1cefef",
+    "run.log": "dcb965a3558a85c1daec4c528d3621854324191e453e1a2783a27e74ec62d556",
+    "sensitivity.json": "0b7bef3e096b48e8acc491b4623aff5d5c1f378399bf4483ae6dde77ba3e47bf",
+    "study-oof.csv": "068d7b454d6d1425212e6464fd0e15a05d58c3a126fa3b0ecbc642c44e18bf5e",
+    "tuning-records.csv": "cdf084be72a25be32e9704cf1fc33b43f6e13ff27b480880d2bd723959446ebf",
+    "variant-oof.csv": "7276fa923bac3d26adeb2d3e06139012298ea1798d00b357c337c9118c0fe24d"
+  },
+  "command": [
+    "python",
+    "-m",
+    "kcat_rel.cli",
+    "diagnostic",
+    "--features",
+    "workflows/kcat-rel/data/derived/kcat-rel-v0-no-msa-features.csv",
+    "--feature-manifest",
+    "workflows/kcat-rel/data/derived/kcat-rel-v0-no-msa-feature-manifest.json",
+    "--canonical-labels",
+    "workflows/kcat-rel/data/canonical-labels.csv",
+    "--measurement-evidence",
+    "workflows/kcat-rel/data/measurement-evidence.csv",
+    "--config",
+    "workflows/kcat-rel/config/kcat-rel-v0.json",
+    "--output",
+    "workflows/kcat-rel/results/diagnostic-v0"
+  ],
+  "fallback_reason": "msa_toolchain_and_snapshot_unavailable",
+  "git_revision": "91affadb0f5bdb3fbf8f09b22209836f38ddf9c5",
+  "input_sha256": {
+    "canonical_labels": "26f03817cf3b3a1d268bafed9c502a986a3ef8cbbfcfd842f714065938f6d25a",
+    "feature_manifest": "41f41b1a3a214000d351589b0cd1c2592cdc1515f3acbaa0162bf9db3c7bad1e",
+    "features_csv": "6bd0fb2dc2d20eb184bee96cb4c99dad1d16d015bf0725b53b6edb1d0893e372",
+    "measurement_evidence": "865d5d1f662f36fccc1f6e260821f22f5b2f907deb074e82b9d30fb6be379835",
+    "registry": "73e72e6c31da38e6f14d810190709f815e8456a22bbf8bf83be4b105301d113b"
+  },
+  "post_execution_provenance_repair": {
+    "repair_type": "artifact_only_no_diagnostic_rerun",
+    "execution_git_head": "91affadb0f5bdb3fbf8f09b22209836f38ddf9c5",
+    "execution_worktree_state": "dirty; CLI and reporting sources were uncommitted at execution",
+    "source_snapshot_method": "post-execution content-hash reconstruction from subsequently committed equivalent files; no Task 6 commit is asserted to have existed at execution",
+    "source_sha256": {
+      "config/kcat-rel-v0.json": "73e72e6c31da38e6f14d810190709f815e8456a22bbf8bf83be4b105301d113b",
+      "src/kcat_rel/chemistry.py": "edd0d4534d7f7b7986710fc7b4a509ce21bf7743275ce48b3b121ee7df7ac882",
+      "src/kcat_rel/cli.py": "f6bbeb69dad1b030aa3477d15bf51074c129edba764dc06531c18c9f14a2132d",
+      "src/kcat_rel/evidence.py": "92c5c6c005fdfafaf4816dd2d2648b90e660bb3d9bebaed8759d2f2dc8fe2d57",
+      "src/kcat_rel/features.py": "eb189d10869329bc941bdba1463839c3ad52a41254a5a58e40598a79e90b0477",
+      "src/kcat_rel/matrix.py": "bcbb471210630396aad4fa064d1d08b0d588c2a772a8e0ebaf5336b9ea78d811",
+      "src/kcat_rel/registry.py": "2b7d5a62051b673c54b21cde080ecb63add0120f2cd7fc3aadb8f8e37fd12bd8",
+      "src/kcat_rel/reporting.py": "720debfdd7886c0d250dfcf629e8aa3f9c06843eda2765e7185f1d24e4de5a19",
+      "src/kcat_rel/sensitivity.py": "37624df9697ccc0d467dcdfd04fc989ad904460cfe6c6c5257a92ae7b5e2f3bc",
+      "src/kcat_rel/structure.py": "bdac6bb5bdfcd72bd9e53cac6833b5da3b26aa506c36199a8c2b5e6d1b259447",
+      "src/kcat_rel/validation.py": "3afed7ebde48c30d235c3ef10d6ffb36c5ea7ed54ca1cf562418440e45467f9e"
+    },
+    "inner_fold_audit": {
+      "method": "post_execution_reconstruction",
+      "original_execution_revision": "91affadb0f5bdb3fbf8f09b22209836f38ddf9c5",
+      "diagnostic_rerun": false,
+      "scientific_result_files_changed": false
+    },
+    "derived_model_table": {
+      "path": "data/derived/kcat-rel-v0-no-msa-model-table.csv",
+      "sha256": "bf93b88a548d5393aebd6b1e350f5e99181dda9833beadfe68d902dfdf1cefef",
+      "byte_identical_to": "results/diagnostic-v0/model-table.csv"
+    }
+  },
+  "schema_version": 1,
+  "seed": 20260916,
+  "timestamp_utc": "2026-09-17T02:11:28.357492+00:00",
+  "tool_versions": {
+    "biopython": "1.88",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "python": "3.12.13",
+    "scikit-learn": "1.9.0"
+  },
+  "variants": [
+    "Y115H",
+    "D239N",
+    "R249Q",
+    "H251N",
+    "R403Q",
+    "R453C",
+    "I457T",
+    "E497D",
+    "R663H",
+    "R719W",
+    "G741R",
+    "G768R",
+    "D778V",
+    "L781P",
+    "S782N",
+    "A797T",
+    "F834L"
+  ]
+}

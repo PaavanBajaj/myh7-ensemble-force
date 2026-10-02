@@ -1,0 +1,81 @@
+{
+  "models": {
+    "gpr": {
+      "baseline_views": {
+        "study": {
+          "mae": 0.2549618201708572,
+          "rmse": 0.26716472433600136
+        },
+        "variant": {
+          "mae": 0.21508854353370457,
+          "rmse": 0.27492448938266373
+        }
+      },
+      "failed_rules": [
+        "study_macro_mae",
+        "variant_mae",
+        "study_macro_rmse",
+        "variant_rmse",
+        "single_study_influence"
+      ],
+      "mae_improvement": {
+        "study": -0.07852331141669483,
+        "variant": -0.09523678164297579
+      },
+      "model_views": {
+        "study": {
+          "mae": 0.2749822665755008,
+          "rmse": 0.28369036666621
+        },
+        "variant": {
+          "mae": 0.2355728841881297,
+          "rmse": 0.29070957508186507
+        }
+      },
+      "pass_gate": false,
+      "rmse_degradation": {
+        "study": 0.06185562997241009,
+        "variant": 0.057416077173213516
+      }
+    },
+    "ridge": {
+      "baseline_views": {
+        "study": {
+          "mae": 0.2549618201708572,
+          "rmse": 0.26716472433600136
+        },
+        "variant": {
+          "mae": 0.21508854353370457,
+          "rmse": 0.27492448938266373
+        }
+      },
+      "failed_rules": [
+        "study_macro_mae",
+        "variant_mae",
+        "study_macro_rmse",
+        "variant_rmse",
+        "single_study_influence"
+      ],
+      "mae_improvement": {
+        "study": -0.1251698490902225,
+        "variant": -0.11088447712310992
+      },
+      "model_views": {
+        "study": {
+          "mae": 0.28687535272541187,
+          "rmse": 0.294527369385495
+        },
+        "variant": {
+          "mae": 0.23893852421861067,
+          "rmse": 0.2972311984698015
+        }
+      },
+      "pass_gate": false,
+      "rmse_degradation": {
+        "study": 0.10241862999503203,
+        "variant": 0.08113758485912605
+      }
+    }
+  },
+  "winner": null
+}

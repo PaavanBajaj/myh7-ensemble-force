@@ -2,17 +2,16 @@
 
 Living log for published methodology decisions and standing limitations.
 
-## Project direction (2026-10-01)
+## Project direction (2026-10-02)
 
 The active direction is descriptive analysis of measured MYH7 biochemical
 effects and investigation of possible variant mechanisms. The original
 predictive ensemble-force plan is historical. No velocity model, forward
-prediction model, or combined force calculation was implemented. A separate,
-private ATPase diagnostic failed its prediction gates; its underlying data and
-results are not part of this public release. A protocol for new cross-outcome
-and mechanism analyses remains to be specified. The LSAR S3 release and its
-registered methods remain available as reproducible negative predictive
-evidence.
+prediction model, or combined force calculation was implemented. The completed
+ATPase diagnostic failed its prediction gates and is published alongside the
+LSAR S3 release. The exploratory correlation screen is also published, with a
+dated decision and protocol for matched-preparation measurements. These are
+negative predictive and descriptive results, respectively.
 
 ## Status (S3 for `lsar-na-rel`)
 
@@ -77,5 +76,10 @@ Promoted decisions for the continuous LSAR public pack
   they are recorded as expected warnings and do not change the fitted contract.
 - Construct family, assay chemistry, study WT baseline, and low-\(n\) rows
   still need pooling review before any fitted model.
-- No public `kcat-rel`, `v-rel`, or `ensemble-force` workflow exists. These were
-  planned stages of the original predictive program, not current deliverables.
+- The public `kcat-rel` diagnostic failed its predeclared prediction gates.
+  Its historical results are published without rerunning or refitting them.
+- The exploratory correlation screen contains 78 comparisons across small,
+  heterogeneous cohorts. Its rank associations are descriptive, not causal or
+  confirmatory. The [decision](myh7-correlation-screen-decision.md) selects
+  matched-preparation ATPase and velocity validation as the next question.
+- No velocity predictor or ensemble-force workflow was implemented.
