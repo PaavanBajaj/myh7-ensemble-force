@@ -1,7 +1,8 @@
 # Reproducibility
 
-Stage ladder for the public repository. “Reproducible” means what a third
-party can do from the public tree (plus vault evidence they already hold).
+Stage ladder defined for the original predictive program. “Reproducible” means
+what a third party can do from the public tree (plus vault evidence they already
+hold). S4 and S5 describe historical planned milestones, not current goals.
 
 | Stage | Name | Required public content | “Reproducible” means |
 | --- | --- | --- | --- |
@@ -17,6 +18,8 @@ party can do from the public tree (plus vault evidence they already hold).
 **S3 — Label results shipped** for `lsar-na-rel`. The public tree contains
 repository-local inputs and feature provenance, tested feature/model commands,
 direct dependency pins, an exact SHA-256 `osx-arm64` lock, and regenerated
-result packs. Other label and ensemble-force workflows have not started.
+result packs. The near-baseline LSAR prediction result does not establish a
+useful predictor. Other label and ensemble-force workflows were not published;
+the active research direction is descriptive and mechanism-focused.
 
 The explicit lock is currently released only for `osx-arm64`.

@@ -4,7 +4,7 @@ First vertical slice. Modeled biochemical quantity: continuous LSAR
 \(\mathrm{LSAR}=k_{\mathrm{cat,long-tail}}/k_{\mathrm{cat,short-tail}}\) on paired
 two-headed human β-cardiac HMM constructs.
 
-Canonical force-facing relative-head label:
+Canonical relative-head label from the original force-modeling plan:
 
 \[
 N_{a,\mathrm{rel}} = \frac{\mathrm{LSAR}_{mut}}{\mathrm{LSAR}_{WT,\mathrm{study}}},
@@ -12,9 +12,10 @@ N_{a,\mathrm{rel}} = \frac{\mathrm{LSAR}_{mut}}{\mathrm{LSAR}_{WT,\mathrm{study}
 y = \ln(N_{a,\mathrm{rel}}).
 \]
 
-\(y\) is the intended GPR target. Global \(\mathrm{LSAR}/0.57\) and the release
-transform \(a=(\mathrm{LSAR}_{mut}-\mathrm{LSAR}_{WT})/(1-\mathrm{LSAR}_{WT})\)
-are retained only as separate derived/audit fields.
+\(y\) is the registered GPR target for this historical diagnostic. Global
+\(\mathrm{LSAR}/0.57\) and the release transform
+\(a=(\mathrm{LSAR}_{mut}-\mathrm{LSAR}_{WT})/(1-\mathrm{LSAR}_{WT})\) are
+retained only as separate derived/audit fields.
 
 ## Status (S3)
 

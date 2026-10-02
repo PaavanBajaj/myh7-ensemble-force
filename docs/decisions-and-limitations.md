@@ -1,7 +1,18 @@
 # Decisions and limitations
 
-Living log for promoted major methodology decisions and standing limitations.
-No ADR folder for v1 — updates land here after explicit promotion OK.
+Living log for published methodology decisions and standing limitations.
+
+## Project direction (2026-10-01)
+
+The active direction is descriptive analysis of measured MYH7 biochemical
+effects and investigation of possible variant mechanisms. The original
+predictive ensemble-force plan is historical. No velocity model, forward
+prediction model, or combined force calculation was implemented. A separate,
+private ATPase diagnostic failed its prediction gates; its underlying data and
+results are not part of this public release. A protocol for new cross-outcome
+and mechanism analyses remains to be specified. The LSAR S3 release and its
+registered methods remain available as reproducible negative predictive
+evidence.
 
 ## Status (S3 for `lsar-na-rel`)
 
@@ -55,10 +66,16 @@ Promoted decisions for the continuous LSAR public pack
 - Vault evidence is cite-not-contain — literature PDFs and full-text extracts
   do not live in this repository.
 - The LSAR result is a small, heterogeneous, 16-row descriptive analysis. Its
-  pooled OOF errors do not establish clinical utility, mechanism, or causality.
+  best pooled OOF MAE is 0.130886 versus 0.131202 for the training-fold mean
+  baseline. This near-baseline result does not establish useful prediction,
+  clinical utility, mechanism, or causality.
+- The 8ACT interface flag describes static WT structural proximity. It does not
+  measure blocked/free-head occupancy or pre-power-stroke stability. Biochemical
+  LSAR, structural contacts, and kinetic state readouts require separate
+  interpretation.
 - Scikit-learn may emit optimizer convergence warnings under the frozen setup;
   they are recorded as expected warnings and do not change the fitted contract.
 - Construct family, assay chemistry, study WT baseline, and low-\(n\) rows
   still need pooling review before any fitted model.
-- Later label trees (`kcat-rel`, `v-rel`, `ensemble-force`) are created only
-  when those slices start.
+- No public `kcat-rel`, `v-rel`, or `ensemble-force` workflow exists. These were
+  planned stages of the original predictive program, not current deliverables.

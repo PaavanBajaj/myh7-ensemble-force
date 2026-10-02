@@ -89,5 +89,5 @@ distance probes are intentionally excluded from the public runnable workflow.
 PYTHONPATH=src pytest -q
 ```
 
-The release suite contains 109 passing tests. Optimizer convergence warnings
+The release suite contains 110 tests. Optimizer convergence warnings
 from scikit-learn are expected under the frozen small-sample setup.
