@@ -1,0 +1,1305 @@
+{
+  "association_estimates_computed": false,
+  "comparison_count": 90,
+  "comparisons": [
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C001",
+      "pair_type": "outcome_outcome",
+      "x": "kcat_rel",
+      "x_columns": [
+        "kcat_rel"
+      ],
+      "y": "Na_rel",
+      "y_columns": [
+        "Na_rel"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C002",
+      "pair_type": "outcome_outcome",
+      "x": "kcat_rel",
+      "x_columns": [
+        "kcat_rel"
+      ],
+      "y": "v_rel",
+      "y_columns": [
+        "v_rel"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C003",
+      "pair_type": "outcome_outcome",
+      "x": "Na_rel",
+      "x_columns": [
+        "Na_rel"
+      ],
+      "y": "v_rel",
+      "y_columns": [
+        "v_rel"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C004",
+      "pair_type": "outcome_feature",
+      "x": "kcat_rel",
+      "x_columns": [
+        "kcat_rel"
+      ],
+      "y": "adp_rigor_ca_shift_A",
+      "y_columns": [
+        "adp_rigor_ca_shift_A"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C005",
+      "pair_type": "outcome_feature",
+      "x": "kcat_rel",
+      "x_columns": [
+        "kcat_rel"
+      ],
+      "y": "adp_adenine_ca_distance_8efe_A",
+      "y_columns": [
+        "adp_adenine_ca_distance_8efe_A"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C006",
+      "pair_type": "outcome_feature",
+      "x": "kcat_rel",
+      "x_columns": [
+        "kcat_rel"
+      ],
+      "y": "rigor_actin_min_heavy_distance_8efi_A",
+      "y_columns": [
+        "rigor_actin_min_heavy_distance_8efi_A"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C007",
+      "pair_type": "outcome_feature",
+      "x": "kcat_rel",
+      "x_columns": [
+        "kcat_rel"
+      ],
+      "y": "relay_landmark_min_ca_distance_8act_mean_ab",
+      "y_columns": [
+        "relay_landmark_min_ca_distance_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C008",
+      "pair_type": "outcome_feature",
+      "x": "kcat_rel",
+      "x_columns": [
+        "kcat_rel"
+      ],
+      "y": "elc_min_heavy_distance_8act_mean_ab",
+      "y_columns": [
+        "elc_min_heavy_distance_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C009",
+      "pair_type": "outcome_feature",
+      "x": "kcat_rel",
+      "x_columns": [
+        "kcat_rel"
+      ],
+      "y": "delta_charge",
+      "y_columns": [
+        "delta_charge"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C010",
+      "pair_type": "outcome_feature",
+      "x": "kcat_rel",
+      "x_columns": [
+        "kcat_rel"
+      ],
+      "y": "grantham_distance",
+      "y_columns": [
+        "grantham_distance"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C011",
+      "pair_type": "outcome_feature",
+      "x": "kcat_rel",
+      "x_columns": [
+        "kcat_rel"
+      ],
+      "y": "catalytic_motif_min_ca_distance_8act_mean_ab",
+      "y_columns": [
+        "catalytic_motif_min_ca_distance_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C012",
+      "pair_type": "outcome_feature",
+      "x": "kcat_rel",
+      "x_columns": [
+        "kcat_rel"
+      ],
+      "y": "wt_site_rsa_8act_mean_ab",
+      "y_columns": [
+        "wt_site_rsa_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C013",
+      "pair_type": "outcome_feature",
+      "x": "kcat_rel",
+      "x_columns": [
+        "kcat_rel"
+      ],
+      "y": "ihm_interface_flag_8act",
+      "y_columns": [
+        "ihm_interface_flag_8act"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C014",
+      "pair_type": "outcome_feature",
+      "x": "Na_rel",
+      "x_columns": [
+        "Na_rel"
+      ],
+      "y": "adp_rigor_ca_shift_A",
+      "y_columns": [
+        "adp_rigor_ca_shift_A"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C015",
+      "pair_type": "outcome_feature",
+      "x": "Na_rel",
+      "x_columns": [
+        "Na_rel"
+      ],
+      "y": "adp_adenine_ca_distance_8efe_A",
+      "y_columns": [
+        "adp_adenine_ca_distance_8efe_A"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C016",
+      "pair_type": "outcome_feature",
+      "x": "Na_rel",
+      "x_columns": [
+        "Na_rel"
+      ],
+      "y": "rigor_actin_min_heavy_distance_8efi_A",
+      "y_columns": [
+        "rigor_actin_min_heavy_distance_8efi_A"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C017",
+      "pair_type": "outcome_feature",
+      "x": "Na_rel",
+      "x_columns": [
+        "Na_rel"
+      ],
+      "y": "relay_landmark_min_ca_distance_8act_mean_ab",
+      "y_columns": [
+        "relay_landmark_min_ca_distance_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C018",
+      "pair_type": "outcome_feature",
+      "x": "Na_rel",
+      "x_columns": [
+        "Na_rel"
+      ],
+      "y": "elc_min_heavy_distance_8act_mean_ab",
+      "y_columns": [
+        "elc_min_heavy_distance_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C019",
+      "pair_type": "outcome_feature",
+      "x": "Na_rel",
+      "x_columns": [
+        "Na_rel"
+      ],
+      "y": "delta_charge",
+      "y_columns": [
+        "delta_charge"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C020",
+      "pair_type": "outcome_feature",
+      "x": "Na_rel",
+      "x_columns": [
+        "Na_rel"
+      ],
+      "y": "grantham_distance",
+      "y_columns": [
+        "grantham_distance"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C021",
+      "pair_type": "outcome_feature",
+      "x": "Na_rel",
+      "x_columns": [
+        "Na_rel"
+      ],
+      "y": "catalytic_motif_min_ca_distance_8act_mean_ab",
+      "y_columns": [
+        "catalytic_motif_min_ca_distance_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C022",
+      "pair_type": "outcome_feature",
+      "x": "Na_rel",
+      "x_columns": [
+        "Na_rel"
+      ],
+      "y": "wt_site_rsa_8act_mean_ab",
+      "y_columns": [
+        "wt_site_rsa_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C023",
+      "pair_type": "outcome_feature",
+      "x": "Na_rel",
+      "x_columns": [
+        "Na_rel"
+      ],
+      "y": "ihm_interface_flag_8act",
+      "y_columns": [
+        "ihm_interface_flag_8act"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C024",
+      "pair_type": "outcome_feature",
+      "x": "v_rel",
+      "x_columns": [
+        "v_rel"
+      ],
+      "y": "adp_rigor_ca_shift_A",
+      "y_columns": [
+        "adp_rigor_ca_shift_A"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C025",
+      "pair_type": "outcome_feature",
+      "x": "v_rel",
+      "x_columns": [
+        "v_rel"
+      ],
+      "y": "adp_adenine_ca_distance_8efe_A",
+      "y_columns": [
+        "adp_adenine_ca_distance_8efe_A"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C026",
+      "pair_type": "outcome_feature",
+      "x": "v_rel",
+      "x_columns": [
+        "v_rel"
+      ],
+      "y": "rigor_actin_min_heavy_distance_8efi_A",
+      "y_columns": [
+        "rigor_actin_min_heavy_distance_8efi_A"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C027",
+      "pair_type": "outcome_feature",
+      "x": "v_rel",
+      "x_columns": [
+        "v_rel"
+      ],
+      "y": "relay_landmark_min_ca_distance_8act_mean_ab",
+      "y_columns": [
+        "relay_landmark_min_ca_distance_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C028",
+      "pair_type": "outcome_feature",
+      "x": "v_rel",
+      "x_columns": [
+        "v_rel"
+      ],
+      "y": "elc_min_heavy_distance_8act_mean_ab",
+      "y_columns": [
+        "elc_min_heavy_distance_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C029",
+      "pair_type": "outcome_feature",
+      "x": "v_rel",
+      "x_columns": [
+        "v_rel"
+      ],
+      "y": "delta_charge",
+      "y_columns": [
+        "delta_charge"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C030",
+      "pair_type": "outcome_feature",
+      "x": "v_rel",
+      "x_columns": [
+        "v_rel"
+      ],
+      "y": "grantham_distance",
+      "y_columns": [
+        "grantham_distance"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C031",
+      "pair_type": "outcome_feature",
+      "x": "v_rel",
+      "x_columns": [
+        "v_rel"
+      ],
+      "y": "catalytic_motif_min_ca_distance_8act_mean_ab",
+      "y_columns": [
+        "catalytic_motif_min_ca_distance_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C032",
+      "pair_type": "outcome_feature",
+      "x": "v_rel",
+      "x_columns": [
+        "v_rel"
+      ],
+      "y": "wt_site_rsa_8act_mean_ab",
+      "y_columns": [
+        "wt_site_rsa_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C033",
+      "pair_type": "outcome_feature",
+      "x": "v_rel",
+      "x_columns": [
+        "v_rel"
+      ],
+      "y": "ihm_interface_flag_8act",
+      "y_columns": [
+        "ihm_interface_flag_8act"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C034",
+      "pair_type": "feature_feature",
+      "x": "adp_rigor_ca_shift_A",
+      "x_columns": [
+        "adp_rigor_ca_shift_A"
+      ],
+      "y": "adp_adenine_ca_distance_8efe_A",
+      "y_columns": [
+        "adp_adenine_ca_distance_8efe_A"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C035",
+      "pair_type": "feature_feature",
+      "x": "adp_rigor_ca_shift_A",
+      "x_columns": [
+        "adp_rigor_ca_shift_A"
+      ],
+      "y": "rigor_actin_min_heavy_distance_8efi_A",
+      "y_columns": [
+        "rigor_actin_min_heavy_distance_8efi_A"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C036",
+      "pair_type": "feature_feature",
+      "x": "adp_rigor_ca_shift_A",
+      "x_columns": [
+        "adp_rigor_ca_shift_A"
+      ],
+      "y": "relay_landmark_min_ca_distance_8act_mean_ab",
+      "y_columns": [
+        "relay_landmark_min_ca_distance_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C037",
+      "pair_type": "feature_feature",
+      "x": "adp_rigor_ca_shift_A",
+      "x_columns": [
+        "adp_rigor_ca_shift_A"
+      ],
+      "y": "elc_min_heavy_distance_8act_mean_ab",
+      "y_columns": [
+        "elc_min_heavy_distance_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C038",
+      "pair_type": "feature_feature",
+      "x": "adp_rigor_ca_shift_A",
+      "x_columns": [
+        "adp_rigor_ca_shift_A"
+      ],
+      "y": "delta_charge",
+      "y_columns": [
+        "delta_charge"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C039",
+      "pair_type": "feature_feature",
+      "x": "adp_rigor_ca_shift_A",
+      "x_columns": [
+        "adp_rigor_ca_shift_A"
+      ],
+      "y": "grantham_distance",
+      "y_columns": [
+        "grantham_distance"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C040",
+      "pair_type": "feature_feature",
+      "x": "adp_rigor_ca_shift_A",
+      "x_columns": [
+        "adp_rigor_ca_shift_A"
+      ],
+      "y": "catalytic_motif_min_ca_distance_8act_mean_ab",
+      "y_columns": [
+        "catalytic_motif_min_ca_distance_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C041",
+      "pair_type": "feature_feature",
+      "x": "adp_rigor_ca_shift_A",
+      "x_columns": [
+        "adp_rigor_ca_shift_A"
+      ],
+      "y": "wt_site_rsa_8act_mean_ab",
+      "y_columns": [
+        "wt_site_rsa_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C042",
+      "pair_type": "feature_feature",
+      "x": "adp_rigor_ca_shift_A",
+      "x_columns": [
+        "adp_rigor_ca_shift_A"
+      ],
+      "y": "ihm_interface_flag_8act",
+      "y_columns": [
+        "ihm_interface_flag_8act"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C043",
+      "pair_type": "feature_feature",
+      "x": "adp_adenine_ca_distance_8efe_A",
+      "x_columns": [
+        "adp_adenine_ca_distance_8efe_A"
+      ],
+      "y": "rigor_actin_min_heavy_distance_8efi_A",
+      "y_columns": [
+        "rigor_actin_min_heavy_distance_8efi_A"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C044",
+      "pair_type": "feature_feature",
+      "x": "adp_adenine_ca_distance_8efe_A",
+      "x_columns": [
+        "adp_adenine_ca_distance_8efe_A"
+      ],
+      "y": "relay_landmark_min_ca_distance_8act_mean_ab",
+      "y_columns": [
+        "relay_landmark_min_ca_distance_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C045",
+      "pair_type": "feature_feature",
+      "x": "adp_adenine_ca_distance_8efe_A",
+      "x_columns": [
+        "adp_adenine_ca_distance_8efe_A"
+      ],
+      "y": "elc_min_heavy_distance_8act_mean_ab",
+      "y_columns": [
+        "elc_min_heavy_distance_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C046",
+      "pair_type": "feature_feature",
+      "x": "adp_adenine_ca_distance_8efe_A",
+      "x_columns": [
+        "adp_adenine_ca_distance_8efe_A"
+      ],
+      "y": "delta_charge",
+      "y_columns": [
+        "delta_charge"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C047",
+      "pair_type": "feature_feature",
+      "x": "adp_adenine_ca_distance_8efe_A",
+      "x_columns": [
+        "adp_adenine_ca_distance_8efe_A"
+      ],
+      "y": "grantham_distance",
+      "y_columns": [
+        "grantham_distance"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C048",
+      "pair_type": "feature_feature",
+      "x": "adp_adenine_ca_distance_8efe_A",
+      "x_columns": [
+        "adp_adenine_ca_distance_8efe_A"
+      ],
+      "y": "catalytic_motif_min_ca_distance_8act_mean_ab",
+      "y_columns": [
+        "catalytic_motif_min_ca_distance_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C049",
+      "pair_type": "feature_feature",
+      "x": "adp_adenine_ca_distance_8efe_A",
+      "x_columns": [
+        "adp_adenine_ca_distance_8efe_A"
+      ],
+      "y": "wt_site_rsa_8act_mean_ab",
+      "y_columns": [
+        "wt_site_rsa_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C050",
+      "pair_type": "feature_feature",
+      "x": "adp_adenine_ca_distance_8efe_A",
+      "x_columns": [
+        "adp_adenine_ca_distance_8efe_A"
+      ],
+      "y": "ihm_interface_flag_8act",
+      "y_columns": [
+        "ihm_interface_flag_8act"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C051",
+      "pair_type": "feature_feature",
+      "x": "rigor_actin_min_heavy_distance_8efi_A",
+      "x_columns": [
+        "rigor_actin_min_heavy_distance_8efi_A"
+      ],
+      "y": "relay_landmark_min_ca_distance_8act_mean_ab",
+      "y_columns": [
+        "relay_landmark_min_ca_distance_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C052",
+      "pair_type": "feature_feature",
+      "x": "rigor_actin_min_heavy_distance_8efi_A",
+      "x_columns": [
+        "rigor_actin_min_heavy_distance_8efi_A"
+      ],
+      "y": "elc_min_heavy_distance_8act_mean_ab",
+      "y_columns": [
+        "elc_min_heavy_distance_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C053",
+      "pair_type": "feature_feature",
+      "x": "rigor_actin_min_heavy_distance_8efi_A",
+      "x_columns": [
+        "rigor_actin_min_heavy_distance_8efi_A"
+      ],
+      "y": "delta_charge",
+      "y_columns": [
+        "delta_charge"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C054",
+      "pair_type": "feature_feature",
+      "x": "rigor_actin_min_heavy_distance_8efi_A",
+      "x_columns": [
+        "rigor_actin_min_heavy_distance_8efi_A"
+      ],
+      "y": "grantham_distance",
+      "y_columns": [
+        "grantham_distance"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C055",
+      "pair_type": "feature_feature",
+      "x": "rigor_actin_min_heavy_distance_8efi_A",
+      "x_columns": [
+        "rigor_actin_min_heavy_distance_8efi_A"
+      ],
+      "y": "catalytic_motif_min_ca_distance_8act_mean_ab",
+      "y_columns": [
+        "catalytic_motif_min_ca_distance_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C056",
+      "pair_type": "feature_feature",
+      "x": "rigor_actin_min_heavy_distance_8efi_A",
+      "x_columns": [
+        "rigor_actin_min_heavy_distance_8efi_A"
+      ],
+      "y": "wt_site_rsa_8act_mean_ab",
+      "y_columns": [
+        "wt_site_rsa_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C057",
+      "pair_type": "feature_feature",
+      "x": "rigor_actin_min_heavy_distance_8efi_A",
+      "x_columns": [
+        "rigor_actin_min_heavy_distance_8efi_A"
+      ],
+      "y": "ihm_interface_flag_8act",
+      "y_columns": [
+        "ihm_interface_flag_8act"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C058",
+      "pair_type": "feature_feature",
+      "x": "relay_landmark_min_ca_distance_8act_mean_ab",
+      "x_columns": [
+        "relay_landmark_min_ca_distance_8act_mean_ab"
+      ],
+      "y": "elc_min_heavy_distance_8act_mean_ab",
+      "y_columns": [
+        "elc_min_heavy_distance_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C059",
+      "pair_type": "feature_feature",
+      "x": "relay_landmark_min_ca_distance_8act_mean_ab",
+      "x_columns": [
+        "relay_landmark_min_ca_distance_8act_mean_ab"
+      ],
+      "y": "delta_charge",
+      "y_columns": [
+        "delta_charge"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C060",
+      "pair_type": "feature_feature",
+      "x": "relay_landmark_min_ca_distance_8act_mean_ab",
+      "x_columns": [
+        "relay_landmark_min_ca_distance_8act_mean_ab"
+      ],
+      "y": "grantham_distance",
+      "y_columns": [
+        "grantham_distance"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C061",
+      "pair_type": "feature_feature",
+      "x": "relay_landmark_min_ca_distance_8act_mean_ab",
+      "x_columns": [
+        "relay_landmark_min_ca_distance_8act_mean_ab"
+      ],
+      "y": "catalytic_motif_min_ca_distance_8act_mean_ab",
+      "y_columns": [
+        "catalytic_motif_min_ca_distance_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C062",
+      "pair_type": "feature_feature",
+      "x": "relay_landmark_min_ca_distance_8act_mean_ab",
+      "x_columns": [
+        "relay_landmark_min_ca_distance_8act_mean_ab"
+      ],
+      "y": "wt_site_rsa_8act_mean_ab",
+      "y_columns": [
+        "wt_site_rsa_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C063",
+      "pair_type": "feature_feature",
+      "x": "relay_landmark_min_ca_distance_8act_mean_ab",
+      "x_columns": [
+        "relay_landmark_min_ca_distance_8act_mean_ab"
+      ],
+      "y": "ihm_interface_flag_8act",
+      "y_columns": [
+        "ihm_interface_flag_8act"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C064",
+      "pair_type": "feature_feature",
+      "x": "elc_min_heavy_distance_8act_mean_ab",
+      "x_columns": [
+        "elc_min_heavy_distance_8act_mean_ab"
+      ],
+      "y": "delta_charge",
+      "y_columns": [
+        "delta_charge"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C065",
+      "pair_type": "feature_feature",
+      "x": "elc_min_heavy_distance_8act_mean_ab",
+      "x_columns": [
+        "elc_min_heavy_distance_8act_mean_ab"
+      ],
+      "y": "grantham_distance",
+      "y_columns": [
+        "grantham_distance"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C066",
+      "pair_type": "feature_feature",
+      "x": "elc_min_heavy_distance_8act_mean_ab",
+      "x_columns": [
+        "elc_min_heavy_distance_8act_mean_ab"
+      ],
+      "y": "catalytic_motif_min_ca_distance_8act_mean_ab",
+      "y_columns": [
+        "catalytic_motif_min_ca_distance_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C067",
+      "pair_type": "feature_feature",
+      "x": "elc_min_heavy_distance_8act_mean_ab",
+      "x_columns": [
+        "elc_min_heavy_distance_8act_mean_ab"
+      ],
+      "y": "wt_site_rsa_8act_mean_ab",
+      "y_columns": [
+        "wt_site_rsa_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C068",
+      "pair_type": "feature_feature",
+      "x": "elc_min_heavy_distance_8act_mean_ab",
+      "x_columns": [
+        "elc_min_heavy_distance_8act_mean_ab"
+      ],
+      "y": "ihm_interface_flag_8act",
+      "y_columns": [
+        "ihm_interface_flag_8act"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C069",
+      "pair_type": "feature_feature",
+      "x": "delta_charge",
+      "x_columns": [
+        "delta_charge"
+      ],
+      "y": "grantham_distance",
+      "y_columns": [
+        "grantham_distance"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C070",
+      "pair_type": "feature_feature",
+      "x": "delta_charge",
+      "x_columns": [
+        "delta_charge"
+      ],
+      "y": "catalytic_motif_min_ca_distance_8act_mean_ab",
+      "y_columns": [
+        "catalytic_motif_min_ca_distance_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C071",
+      "pair_type": "feature_feature",
+      "x": "delta_charge",
+      "x_columns": [
+        "delta_charge"
+      ],
+      "y": "wt_site_rsa_8act_mean_ab",
+      "y_columns": [
+        "wt_site_rsa_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C072",
+      "pair_type": "feature_feature",
+      "x": "delta_charge",
+      "x_columns": [
+        "delta_charge"
+      ],
+      "y": "ihm_interface_flag_8act",
+      "y_columns": [
+        "ihm_interface_flag_8act"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C073",
+      "pair_type": "feature_feature",
+      "x": "grantham_distance",
+      "x_columns": [
+        "grantham_distance"
+      ],
+      "y": "catalytic_motif_min_ca_distance_8act_mean_ab",
+      "y_columns": [
+        "catalytic_motif_min_ca_distance_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C074",
+      "pair_type": "feature_feature",
+      "x": "grantham_distance",
+      "x_columns": [
+        "grantham_distance"
+      ],
+      "y": "wt_site_rsa_8act_mean_ab",
+      "y_columns": [
+        "wt_site_rsa_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C075",
+      "pair_type": "feature_feature",
+      "x": "grantham_distance",
+      "x_columns": [
+        "grantham_distance"
+      ],
+      "y": "ihm_interface_flag_8act",
+      "y_columns": [
+        "ihm_interface_flag_8act"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C076",
+      "pair_type": "feature_feature",
+      "x": "catalytic_motif_min_ca_distance_8act_mean_ab",
+      "x_columns": [
+        "catalytic_motif_min_ca_distance_8act_mean_ab"
+      ],
+      "y": "wt_site_rsa_8act_mean_ab",
+      "y_columns": [
+        "wt_site_rsa_8act_mean_ab"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C077",
+      "pair_type": "feature_feature",
+      "x": "catalytic_motif_min_ca_distance_8act_mean_ab",
+      "x_columns": [
+        "catalytic_motif_min_ca_distance_8act_mean_ab"
+      ],
+      "y": "ihm_interface_flag_8act",
+      "y_columns": [
+        "ihm_interface_flag_8act"
+      ]
+    },
+    {
+      "analysis_role": "historical_pair",
+      "comparison_id": "C078",
+      "pair_type": "feature_feature",
+      "x": "wt_site_rsa_8act_mean_ab",
+      "x_columns": [
+        "wt_site_rsa_8act_mean_ab"
+      ],
+      "y": "ihm_interface_flag_8act",
+      "y_columns": [
+        "ihm_interface_flag_8act"
+      ]
+    },
+    {
+      "analysis_role": "primary_block",
+      "comparison_id": "B001",
+      "pair_type": "block_outcome",
+      "x": "chemistry",
+      "x_columns": [
+        "delta_charge",
+        "grantham_distance"
+      ],
+      "y": "kcat_rel",
+      "y_columns": [
+        "kcat_rel"
+      ]
+    },
+    {
+      "analysis_role": "primary_block",
+      "comparison_id": "B002",
+      "pair_type": "block_outcome",
+      "x": "chemistry",
+      "x_columns": [
+        "delta_charge",
+        "grantham_distance"
+      ],
+      "y": "Na_rel",
+      "y_columns": [
+        "Na_rel"
+      ]
+    },
+    {
+      "analysis_role": "primary_block",
+      "comparison_id": "B003",
+      "pair_type": "block_outcome",
+      "x": "chemistry",
+      "x_columns": [
+        "delta_charge",
+        "grantham_distance"
+      ],
+      "y": "v_rel",
+      "y_columns": [
+        "v_rel"
+      ]
+    },
+    {
+      "analysis_role": "primary_block",
+      "comparison_id": "B004",
+      "pair_type": "block_outcome",
+      "x": "adp_geometry",
+      "x_columns": [
+        "adp_rigor_ca_shift_A",
+        "adp_adenine_ca_distance_8efe_A"
+      ],
+      "y": "kcat_rel",
+      "y_columns": [
+        "kcat_rel"
+      ]
+    },
+    {
+      "analysis_role": "primary_block",
+      "comparison_id": "B005",
+      "pair_type": "block_outcome",
+      "x": "adp_geometry",
+      "x_columns": [
+        "adp_rigor_ca_shift_A",
+        "adp_adenine_ca_distance_8efe_A"
+      ],
+      "y": "Na_rel",
+      "y_columns": [
+        "Na_rel"
+      ]
+    },
+    {
+      "analysis_role": "primary_block",
+      "comparison_id": "B006",
+      "pair_type": "block_outcome",
+      "x": "adp_geometry",
+      "x_columns": [
+        "adp_rigor_ca_shift_A",
+        "adp_adenine_ca_distance_8efe_A"
+      ],
+      "y": "v_rel",
+      "y_columns": [
+        "v_rel"
+      ]
+    },
+    {
+      "analysis_role": "primary_block",
+      "comparison_id": "B007",
+      "pair_type": "block_outcome",
+      "x": "motor_geometry",
+      "x_columns": [
+        "rigor_actin_min_heavy_distance_8efi_A",
+        "relay_landmark_min_ca_distance_8act_mean_ab",
+        "elc_min_heavy_distance_8act_mean_ab"
+      ],
+      "y": "kcat_rel",
+      "y_columns": [
+        "kcat_rel"
+      ]
+    },
+    {
+      "analysis_role": "primary_block",
+      "comparison_id": "B008",
+      "pair_type": "block_outcome",
+      "x": "motor_geometry",
+      "x_columns": [
+        "rigor_actin_min_heavy_distance_8efi_A",
+        "relay_landmark_min_ca_distance_8act_mean_ab",
+        "elc_min_heavy_distance_8act_mean_ab"
+      ],
+      "y": "Na_rel",
+      "y_columns": [
+        "Na_rel"
+      ]
+    },
+    {
+      "analysis_role": "primary_block",
+      "comparison_id": "B009",
+      "pair_type": "block_outcome",
+      "x": "motor_geometry",
+      "x_columns": [
+        "rigor_actin_min_heavy_distance_8efi_A",
+        "relay_landmark_min_ca_distance_8act_mean_ab",
+        "elc_min_heavy_distance_8act_mean_ab"
+      ],
+      "y": "v_rel",
+      "y_columns": [
+        "v_rel"
+      ]
+    },
+    {
+      "analysis_role": "all_feature_sensitivity",
+      "comparison_id": "B010",
+      "pair_type": "block_outcome",
+      "x": "all_features",
+      "x_columns": [
+        "adp_rigor_ca_shift_A",
+        "adp_adenine_ca_distance_8efe_A",
+        "rigor_actin_min_heavy_distance_8efi_A",
+        "relay_landmark_min_ca_distance_8act_mean_ab",
+        "elc_min_heavy_distance_8act_mean_ab",
+        "delta_charge",
+        "grantham_distance",
+        "catalytic_motif_min_ca_distance_8act_mean_ab",
+        "wt_site_rsa_8act_mean_ab",
+        "ihm_interface_flag_8act"
+      ],
+      "y": "kcat_rel",
+      "y_columns": [
+        "kcat_rel"
+      ]
+    },
+    {
+      "analysis_role": "all_feature_sensitivity",
+      "comparison_id": "B011",
+      "pair_type": "block_outcome",
+      "x": "all_features",
+      "x_columns": [
+        "adp_rigor_ca_shift_A",
+        "adp_adenine_ca_distance_8efe_A",
+        "rigor_actin_min_heavy_distance_8efi_A",
+        "relay_landmark_min_ca_distance_8act_mean_ab",
+        "elc_min_heavy_distance_8act_mean_ab",
+        "delta_charge",
+        "grantham_distance",
+        "catalytic_motif_min_ca_distance_8act_mean_ab",
+        "wt_site_rsa_8act_mean_ab",
+        "ihm_interface_flag_8act"
+      ],
+      "y": "Na_rel",
+      "y_columns": [
+        "Na_rel"
+      ]
+    },
+    {
+      "analysis_role": "all_feature_sensitivity",
+      "comparison_id": "B012",
+      "pair_type": "block_outcome",
+      "x": "all_features",
+      "x_columns": [
+        "adp_rigor_ca_shift_A",
+        "adp_adenine_ca_distance_8efe_A",
+        "rigor_actin_min_heavy_distance_8efi_A",
+        "relay_landmark_min_ca_distance_8act_mean_ab",
+        "elc_min_heavy_distance_8act_mean_ab",
+        "delta_charge",
+        "grantham_distance",
+        "catalytic_motif_min_ca_distance_8act_mean_ab",
+        "wt_site_rsa_8act_mean_ab",
+        "ihm_interface_flag_8act"
+      ],
+      "y": "v_rel",
+      "y_columns": [
+        "v_rel"
+      ]
+    }
+  ],
+  "config_sha256": "bec2bb4e091b2bb1bc14eecd140e593fe1cace428006b46ffc29c218ae40f7f9",
+  "implementation_sha256": {
+    "__init__.py": "54bc43b6676c38f96b4c689c06a7975547fd9e37af4b7b73e33eeef5309f02a4",
+    "analysis.py": "e6c2cad47f39a409802d63ced7a7e1c5af7943abab9391ad59b1808ad3db0741",
+    "screen.py": "1b16ab6d732f329ce2dd85a934c17e240684ca60b2a357f36c148ce966537acf",
+    "statistics.py": "85a5591b574fd710d2549cb4ce5fed947f7f9073d2946e8ffdbfd918e813eabd"
+  },
+  "input_sha256": {
+    "analysis-table-v1.csv": "62e018411e9b43c21efd7177d732066b9856995d384454c9691e85083e4e259d",
+    "comparison-inventory-v1.csv": "6ff3653592352e0a427ca701ea759acecaa6da96f30f616a46a994ef0cb0d87f",
+    "comparison-plan-manifest-v1.json": "fb8a044d51911ab1c2110efe8b08021fbf21191cb49ad684691a18e2f5ff31b6",
+    "comparison-results-v1.csv": "9e1b339b087078e83acd698d1b4d223d9c75084478c90498c7befb3fa423e99c",
+    "dependence-ledger-v1.csv": "acf39920a1e140ec1ff4bde4fb92fdc07d939352b4d93ade0582f776ee591631",
+    "feature-coverage-v1.csv": "2e8761daf89509458788f17db57c98f22bfe0e0e1214a9045035005f9bf19513",
+    "outcomes-v1.csv": "96c7fec44bb8a00e32401686cc2e5ef405d8ade3bc2a3ba429cb75ffff58c7b4",
+    "sensitivity-results-v1.csv": "d5aa0ddf3f38f93931c23a8b9206fb5c6de447bd52c1e40e6b324fd7f439f752",
+    "velocity-dependence-v1.csv": "69cc9f644b8fc11c14bbc083d9d41fec757191da4b4ba2f14973f25c35b381bf"
+  },
+  "method_settings": {
+    "all_feature_sensitivity": [
+      "adp_rigor_ca_shift_A",
+      "adp_adenine_ca_distance_8efe_A",
+      "rigor_actin_min_heavy_distance_8efi_A",
+      "relay_landmark_min_ca_distance_8act_mean_ab",
+      "elc_min_heavy_distance_8act_mean_ab",
+      "delta_charge",
+      "grantham_distance",
+      "catalytic_motif_min_ca_distance_8act_mean_ab",
+      "wt_site_rsa_8act_mean_ab",
+      "ihm_interface_flag_8act"
+    ],
+    "constant_dimensions": "record_and_drop; wholly_constant_side_unestimable",
+    "distance": "Euclidean",
+    "feature_scaling": "complete_case_sample_sd_ddof1_recomputed_for_each_subset",
+    "inference": "descriptive_only_no_p_values",
+    "log_sensitivity": "natural_log_of_outcomes_only",
+    "missingness": "complete_cases_no_imputation",
+    "outcome_scale": "raw_mutant_over_matched_study_WT_ratio",
+    "outcomes": [
+      "kcat_rel",
+      "Na_rel",
+      "v_rel"
+    ],
+    "post_hoc_relative_to_spearman": true,
+    "primary_blocks": {
+      "adp_geometry": [
+        "adp_rigor_ca_shift_A",
+        "adp_adenine_ca_distance_8efe_A"
+      ],
+      "chemistry": [
+        "delta_charge",
+        "grantham_distance"
+      ],
+      "motor_geometry": [
+        "rigor_actin_min_heavy_distance_8efi_A",
+        "relay_landmark_min_ca_distance_8act_mean_ab",
+        "elc_min_heavy_distance_8act_mean_ab"
+      ]
+    },
+    "rank_sensitivity": "tie_average_ranks_per_column_then_feature_sample_sd",
+    "schema_version": 1,
+    "u_min_n": 4
+  },
+  "plan_content_sha256": "a5b3455bfe1000cdce2924960204ea4f556878ec30e8b80512f98afdca6692ba",
+  "post_hoc_relative_to_historical_spearman": true,
+  "schema_version": 1,
+  "variant_ids": [
+    "A797T",
+    "D239N",
+    "D382Y",
+    "D778V",
+    "E497D",
+    "F834L",
+    "G741R",
+    "G768R",
+    "H251N",
+    "I457T",
+    "I467V",
+    "L781P",
+    "M493I",
+    "P710R",
+    "R249Q",
+    "R403Q",
+    "R453C",
+    "R663H",
+    "R671C",
+    "R719W",
+    "S782N",
+    "Y115H"
+  ]
+}

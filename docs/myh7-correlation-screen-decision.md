@@ -31,3 +31,7 @@ The static 8ACT OFF-state and 8EFD/8EFE/8EFI actomyosin structures give site geo
 After standardized paired measurements, a focused ADP-detachment or step-size experiment could investigate the observed velocity heterogeneity, using direct kinetic or optical-trap endpoints. A structural PPS/IHM comparison could follow if variants with matched phenotypes and sufficient preparation quality justify it. Recovering numeric absolutes for the eight unresolved Table 1 rows would also improve the observational screen. None is implied by the current rank associations.
 
 This decision uses the [published Morck source](https://doi.org/10.7554/eLife.76805), [Nandwani source](https://doi.org/10.1038/s41467-025-63816-1), [Adhikari 2019 source](https://doi.org/10.1038/s41467-019-10555-9), [Vander Roest source](https://doi.org/10.1073/pnas.2025030118), and the public [source manifest](../data/public/myh7-correlation-screen/source-manifest-v1.json). Restricted source files remain outside this public repository.
+
+## Nonlinear follow-up (2026-10-02)
+
+A [separate nonlinear decision](myh7-nonlinear-dependence-decision.md) reports distance scores for the same 78 historical pairs plus 12 fixed feature blocks. The three output CSVs and public rerun are linked from the [new runbook](../results/myh7-nonlinear-dependence/README.md). The original rank screen remains a frozen historical result; matched ATPase/velocity validation remains the leading follow-up.

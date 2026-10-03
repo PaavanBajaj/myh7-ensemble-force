@@ -8,6 +8,7 @@ later label and ensemble-force trees were not implemented.
 | [`lsar-na-rel`](../results/lsar-na-rel/) | [`src/lsar_na_rel`](../src/lsar_na_rel/) | [`tests/lsar_na_rel`](../tests/lsar_na_rel/) | [`data/public/lsar-na-rel`](../data/public/lsar-na-rel/) | S3 results shipped; three registered LOSO runs |
 | [`kcat-rel`](../results/kcat-rel/) | [`src/kcat_rel`](../src/kcat_rel/) | [`tests/kcat_rel`](../tests/kcat_rel/) | [`data/public/kcat-rel`](../data/public/kcat-rel/) | 17-variant evidence and frozen negative result published |
 | [`myh7-correlation-screen`](../results/myh7-correlation-screen/) | [`src/myh7_correlation_screen`](../src/myh7_correlation_screen/) | [`tests/myh7_correlation_screen`](../tests/myh7_correlation_screen/) | [`data/public/myh7-correlation-screen`](../data/public/myh7-correlation-screen/) | 78 comparisons, point data, plots, and sensitivities published |
+| [`myh7-nonlinear-dependence`](../results/myh7-nonlinear-dependence/) | [`src/myh7_nonlinear_dependence`](../src/myh7_nonlinear_dependence/) | [`tests/myh7_nonlinear_dependence`](../tests/myh7_nonlinear_dependence/) | [`data/public/myh7-nonlinear-dependence`](../data/public/myh7-nonlinear-dependence/) | 90 combined comparisons and 1,761 sensitivities published |
 
 Each `results/<workflow>/` directory holds its README runbook, `config/`, and
 frozen `results/`. `src/` holds executable code, `tests/` holds command and
@@ -25,3 +26,5 @@ results: [`results/lsar-na-rel/results/`](../results/lsar-na-rel/results/)
 The [correlation decision](myh7-correlation-screen-decision.md) selects a
 [matched-preparation validation question](matched-atpase-velocity-protocol.md).
 There is no velocity predictor or combined-force workflow.
+
+The [nonlinear decision](myh7-nonlinear-dependence-decision.md) retains that matched-assay question. The new distance scores describe dependence; they do not train a predictor or establish interactions.

@@ -29,3 +29,7 @@ Secondary checks may compare unfiltered `MVEL` with `MVEL20`, and assess whether
 ## Scope and stewardship
 
 This is a proposed experimental validation design. It does not reopen the frozen `kcat_rel` or public `Na_rel` diagnostics, generate a velocity predictor, infer combined force, or assert a structural mechanism. Raw traces, fit outputs, and literature full text stay in the appropriate private vault; a later versioned evidence table can cite them with row IDs, context, and checksums. Future raw-data releases require a separate rights and provenance review.
+
+## Follow-up after the nonlinear screen (2026-10-02)
+
+The [published extension](../results/myh7-nonlinear-dependence/README.md) retains the ATPase/velocity association: rho +0.6703, conventional distance correlation 0.7610 and normalized U-centered squared score 0.4001 in 14 variants. The fixed joint feature blocks provide no stable new lead. This descriptive extension does not change the matched-assay eligibility or experimental validation requirements in this protocol.

@@ -1,9 +1,10 @@
 # MYH7 Variant Biochemistry
 
-This repository shares three completed MYH7 research workflows: an LSAR-derived
-proxy for available myosin heads, a `kcat_rel` ATPase diagnostic, and a screen
+This repository shares four completed MYH7 research workflows: an LSAR-derived
+proxy for available myosin heads, a `kcat_rel` ATPase diagnostic, a screen
 of relationships among ATPase, LSAR, unloaded velocity, and structural
-features. The current focus is to describe measured effects and check promising
+features, and a nonlinear and joint dependence extension. The current focus
+is to describe measured effects and check promising
 relationships with matched experiments. These results do not establish a
 mutation mechanism or support clinical decisions.
 
@@ -30,7 +31,9 @@ correlation screen reports all 78 eligible comparisons; its strongest outcome
 association is between `kcat_rel` and
 unloaded velocity (Spearman rho +0.670, 14 paired variants). The next step is to
 test that relationship with matched measurements before drawing broader
-conclusions.
+conclusions. The nonlinear extension publishes 90 comparisons and 1,761
+sensitivity rows. Its fixed feature blocks do not provide a stable new lead;
+ATPase versus velocity remains the follow-up priority.
 
 ## Start here
 
@@ -39,10 +42,12 @@ conclusions.
 3. `docs/workflows.md`: index of completed workflow trees
 4. `results/kcat-rel/`: ATPase method, config, and frozen negative diagnostic
 5. `results/myh7-correlation-screen/`: correlation method and runbook
-6. `data/public/`: published inputs and derived tables; frozen result packs and plots are under `results/`
+6. `results/myh7-nonlinear-dependence/`: joint feature-block scores and combined CSV
+7. `data/public/`: published inputs and derived tables; frozen result packs and plots are under `results/`
 
-Executable code lives in `src/lsar_na_rel/`, `src/kcat_rel/`, and
-`src/myh7_correlation_screen/`. Their tests live in the matching `tests/`
+Executable code lives in `src/lsar_na_rel/`, `src/kcat_rel/`,
+`src/myh7_correlation_screen/`, and `src/myh7_nonlinear_dependence/`.
+Their tests live in the matching `tests/`
 directories. Each `results/<workflow>/` contains a runbook, configuration,
 and its frozen result pack. Downloaded structures use ignored `.cache/` paths.
 Run commands from this repository's root.

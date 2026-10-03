@@ -1,0 +1,38 @@
+{
+  "association_estimates_computed": true,
+  "comparison_count": 90,
+  "config_sha256": "bec2bb4e091b2bb1bc14eecd140e593fe1cace428006b46ffc29c218ae40f7f9",
+  "historical_pair_count": 78,
+  "implementation_sha256": {
+    "__init__.py": "54bc43b6676c38f96b4c689c06a7975547fd9e37af4b7b73e33eeef5309f02a4",
+    "analysis.py": "e6c2cad47f39a409802d63ced7a7e1c5af7943abab9391ad59b1808ad3db0741",
+    "screen.py": "1b16ab6d732f329ce2dd85a934c17e240684ca60b2a357f36c148ce966537acf",
+    "statistics.py": "85a5591b574fd710d2549cb4ce5fed947f7f9073d2946e8ffdbfd918e813eabd"
+  },
+  "inferential_p_values_computed": false,
+  "input_sha256": {
+    "analysis-table-v1.csv": "62e018411e9b43c21efd7177d732066b9856995d384454c9691e85083e4e259d",
+    "comparison-inventory-v1.csv": "6ff3653592352e0a427ca701ea759acecaa6da96f30f616a46a994ef0cb0d87f",
+    "comparison-plan-manifest-v1.json": "fb8a044d51911ab1c2110efe8b08021fbf21191cb49ad684691a18e2f5ff31b6",
+    "comparison-results-v1.csv": "9e1b339b087078e83acd698d1b4d223d9c75084478c90498c7befb3fa423e99c",
+    "dependence-ledger-v1.csv": "acf39920a1e140ec1ff4bde4fb92fdc07d939352b4d93ade0582f776ee591631",
+    "feature-coverage-v1.csv": "2e8761daf89509458788f17db57c98f22bfe0e0e1214a9045035005f9bf19513",
+    "outcomes-v1.csv": "96c7fec44bb8a00e32401686cc2e5ef405d8ade3bc2a3ba429cb75ffff58c7b4",
+    "sensitivity-results-v1.csv": "d5aa0ddf3f38f93931c23a8b9206fb5c6de447bd52c1e40e6b324fd7f439f752",
+    "velocity-dependence-v1.csv": "69cc9f644b8fc11c14bbc083d9d41fec757191da4b4ba2f14973f25c35b381bf"
+  },
+  "output_sha256": {
+    "combined-correlations-v1.csv": "95c42973e3ccd2a5316e80da8408bd651f767219ebf402a687ffed78f3b77d02",
+    "dependence-points-v1.csv": "da218860dd72baa5b3a528ac4c0a3b305afed65a59612cd051b5ba51069465f7",
+    "dependence-sensitivities-v1.csv": "c7c76e272b5d9c9330ff1a0c3677b92423452f98ee3ea8c359e8704b29ed1032"
+  },
+  "plan_content_sha256": "a5b3455bfe1000cdce2924960204ea4f556878ec30e8b80512f98afdca6692ba",
+  "plan_sha256": "d57d6e9f28c25d3046b6c8c101b89babc1f2aed290b0cb1eca4834b51bfdca33",
+  "runtime_versions": {
+    "numpy": "2.5.2",
+    "python": "3.12.13",
+    "scipy": "1.18.0"
+  },
+  "schema_version": 1,
+  "sensitivity_count": 1761
+}

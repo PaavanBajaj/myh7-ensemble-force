@@ -13,7 +13,7 @@ LSAR S3 release. The exploratory correlation screen is also published, with a
 dated decision and protocol for matched-preparation measurements. These are
 negative predictive and descriptive results, respectively.
 
-The three completed workflows share one repository layout: code in `src/`,
+The four completed workflows share one repository layout: code in `src/`,
 tests in `tests/`, public data in `data/public/`, and method/configuration and
 frozen run records in `results/`. See the [workflow index](workflows.md) for
 the exact directories.
@@ -88,3 +88,7 @@ Promoted decisions for the continuous LSAR public pack
   confirmatory. The [decision](myh7-correlation-screen-decision.md) selects
   matched-preparation ATPase and velocity validation as the next question.
 - No velocity predictor or ensemble-force workflow was implemented.
+
+## Nonlinear and joint screen (2026-10-02)
+
+Distance correlation is the first descriptive extension because it can describe curved or multivariate dependence without fitting a predictor. The 78 historical comparisons are retained alongside nine primary compact feature-block/outcome rows and three all-feature sensitivities. The normalized U-centered squared score can be negative; this does not mean inverse biology. Primary block scores range from -0.1656 to +0.0690, and every positive primary score crosses zero under study deletion. No stable new joint feature lead is established. Missingness, heterogeneous assays, exact ATPase reuse and shared WT controls remain unresolved, so no cohort p-values, confidence intervals or predictive accuracy are reported. The [decision](myh7-nonlinear-dependence-decision.md) keeps matched ATPase/velocity measurement as the next scientific step.

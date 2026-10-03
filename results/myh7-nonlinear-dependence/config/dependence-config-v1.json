@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "outcomes": ["kcat_rel", "Na_rel", "v_rel"],
+  "primary_blocks": {
+    "chemistry": ["delta_charge", "grantham_distance"],
+    "adp_geometry": ["adp_rigor_ca_shift_A", "adp_adenine_ca_distance_8efe_A"],
+    "motor_geometry": ["rigor_actin_min_heavy_distance_8efi_A", "relay_landmark_min_ca_distance_8act_mean_ab", "elc_min_heavy_distance_8act_mean_ab"]
+  },
+  "all_feature_sensitivity": ["adp_rigor_ca_shift_A", "adp_adenine_ca_distance_8efe_A", "rigor_actin_min_heavy_distance_8efi_A", "relay_landmark_min_ca_distance_8act_mean_ab", "elc_min_heavy_distance_8act_mean_ab", "delta_charge", "grantham_distance", "catalytic_motif_min_ca_distance_8act_mean_ab", "wt_site_rsa_8act_mean_ab", "ihm_interface_flag_8act"],
+  "distance": "Euclidean",
+  "feature_scaling": "complete_case_sample_sd_ddof1_recomputed_for_each_subset",
+  "outcome_scale": "raw_mutant_over_matched_study_WT_ratio",
+  "rank_sensitivity": "tie_average_ranks_per_column_then_feature_sample_sd",
+  "log_sensitivity": "natural_log_of_outcomes_only",
+  "missingness": "complete_cases_no_imputation",
+  "constant_dimensions": "record_and_drop; wholly_constant_side_unestimable",
+  "u_min_n": 4,
+  "inference": "descriptive_only_no_p_values",
+  "post_hoc_relative_to_spearman": true
+}

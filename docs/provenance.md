@@ -41,3 +41,7 @@ The public `kcat_rel` and correlation packs contain source-linked numerical
 derivatives and executable code. Private machine paths and vault file hashes
 were removed during publication. The frozen numerical values and correlation
 estimates were preserved.
+
+## Nonlinear dependence publication
+
+The [new input plan](../data/public/myh7-nonlinear-dependence/) reuses the scrubbed public outcome pack, correlation input tables and historical result tables. Its input hashes refer to these public files. The [frozen output pack](../results/myh7-nonlinear-dependence/results/screen-v1/) adds scores, deletion checks and raw comparison points without redistributing raw source evidence. See the [publication audit](nonlinear-dependence-publication-audit-2026-10-02.md).

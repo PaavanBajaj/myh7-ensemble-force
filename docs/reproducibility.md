@@ -37,3 +37,9 @@ remain runnable, but its diagnostic should not be replayed into the frozen
 result directory.
 
 The explicit lock is currently released only for `osx-arm64`.
+
+## Nonlinear dependence extension
+
+The fourth public workflow regenerates 90 combined comparisons, 1,761 sensitivity rows and point-level inputs from the published correlation derivatives. Its plan hashes all nine inputs, the fixed configuration and all four package modules. The public plan and run manifest are regenerated for this layout; all three numerical CSVs match the verified development run. Follow the [runbook](../results/myh7-nonlinear-dependence/README.md) for a fresh output directory. No private sibling repository or new network download is needed. The exact numerical runtime remains the existing osx-arm64 lock.
+
+The existing LSAR structure tests require the environment's `mkdssp` executable on `PATH` and its chemistry dictionaries to be discoverable. If its relocated runtime cannot find them, set `LIBCIFPP_DATA_DIR` to the environment's `share/libcifpp` directory. This is a local runtime lookup setting; the nonlinear screen does not invoke DSSP or regenerate structural features.
