@@ -55,3 +55,7 @@ Run commands from this repository's root.
 - `docs/workflows.md`: live slice index
 - `data/public/`: scrubbed shareable inputs, derivatives, and manifests only
   (never vault contents)
+
+## Additional Notes
+
+This repository serves as the public research home for my MYH7 project. More detailed research decisions, experimental code, intermediate analyses, and other work-in-progress materials are developed and iterated on in the private `research-workhorse` repository before being deliberately refined and published here.
